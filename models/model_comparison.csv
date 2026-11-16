@@ -1,0 +1,7 @@
+Model Architecture,Test Accuracy,95% Bootstrap CI,Macro F1,Weighted F1,Correct / 862,Beat Baseline?
+Calibrated Weighted Ensemble (DL + ML),90.49%,"[88.4%, 92.46%]",90.41%,90.49%,780 / 862,Yes
+Hard Majority Consensus Voting,88.05%,"[85.84%, 90.26%]",88.04%,88.15%,759 / 862,Yes
+Hybrid ResNet-SVM,88.17%,"[85.85%, 90.14%]",87.87%,87.93%,760 / 862,Yes
+Classical SVM (HOG Features),83.06%,"[80.63%, 85.61%]",82.95%,83.04%,716 / 862,Yes
+Hybrid VGG16 + Priors + SVM,72.39%,"[69.37%, 75.29%]",72.55%,72.80%,624 / 862,Yes
+ResNet-50 Deep CNN (Pure Softmax),62.53%,"[59.28%, 65.66%]",63.55%,62.96%,539 / 862,Yes

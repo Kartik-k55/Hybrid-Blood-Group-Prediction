@@ -1,0 +1,14 @@
+{
+  "target_image_size": [
+    224,
+    224
+  ],
+  "apply_clahe": true,
+  "clahe_clip_limit": 2.5,
+  "clahe_tile_grid_size": [
+    8,
+    8
+  ],
+  "normalization": "vgg16_imagenet_caffe_mean_subtraction",
+  "feature_extractor": "VGG16_avg_pool_512dim"
+}

@@ -1,0 +1,66 @@
+{
+    "total_scanned_files": 6321,
+    "exact_duplicates_removed": 580,
+    "corrupted_files": 0,
+    "unique_images_retained": 5741,
+    "split_ratio": "70% Train / 15% Validation / 15% Test (Stratified)",
+    "random_seed": 42,
+    "has_subject_ids": false,
+    "subject_independent_splitting_possible": false,
+    "splitting_leakage_protection": "Exact MD5 hash deduplication prior to split",
+    "train_samples": 4018,
+    "val_samples": 861,
+    "test_samples": 862,
+    "classes": [
+        "A+",
+        "A-",
+        "AB+",
+        "AB-",
+        "B+",
+        "B-",
+        "O+",
+        "O-"
+    ],
+    "class_counts_overall": {
+        "O+": 851,
+        "A-": 764,
+        "AB-": 760,
+        "B-": 741,
+        "O-": 707,
+        "AB+": 705,
+        "B+": 648,
+        "A+": 565
+    },
+    "class_counts_train": {
+        "O+": 596,
+        "A-": 535,
+        "AB-": 532,
+        "B-": 519,
+        "O-": 495,
+        "AB+": 493,
+        "B+": 453,
+        "A+": 395
+    },
+    "class_counts_val": {
+        "O+": 127,
+        "AB-": 114,
+        "A-": 114,
+        "B-": 111,
+        "O-": 106,
+        "AB+": 106,
+        "B+": 98,
+        "A+": 85
+    },
+    "class_counts_test": {
+        "O+": 128,
+        "A-": 115,
+        "AB-": 114,
+        "B-": 111,
+        "O-": 106,
+        "AB+": 106,
+        "B+": 97,
+        "A+": 85
+    },
+    "majority_class": "O+",
+    "majority_class_baseline_accuracy": 14.85
+}

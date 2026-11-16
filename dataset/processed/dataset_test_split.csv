@@ -1,0 +1,863 @@
+filepath,filename,class_name,class_idx,width,height,mode,md5
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1411.BMP,cluster_1_1411.BMP,A-,1,241,298,RGB,ffb454f66e453cd189a42e3a93af1f71
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3367.BMP,cluster_3_3367.BMP,B-,5,96,103,RGBA,20208a98d32bebc0f05e574e3df3cb84
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5330 (2).BMP,cluster_6_5330 (2).BMP,O+,6,96,103,RGBA,32496b7308a731fb7d8540c13df3ffb5
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5633 (2).BMP,cluster_6_5633 (2).BMP,O+,6,96,103,RGBA,f0743c513f6d189009b987399a26fe56
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1437.BMP,cluster_1_1437.BMP,A-,1,96,103,RGBA,46fb43612b9f6d5c8926f08648d08719
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2271.BMP,cluster_7_2271.BMP,O-,7,96,103,RGBA,3966f78d3b3e4b808ae37b0b1b8da64d
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_948.BMP,cluster_5_948.BMP,AB-,3,96,103,RGBA,06282d1b109527c5c2e015cc97dd2a29
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1109.BMP,cluster_1_1109.BMP,A-,1,96,103,RGBA,a3406ed8215271531f3fbd194a3cdc28
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3416.BMP,cluster_1_3416.BMP,A-,1,96,103,RGBA,d7c392418e70bc859cf3f68952009b61
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_235.BMP,cluster_2_235.BMP,B+,4,96,103,RGBA,a08c7c1a07dbd85924e2684bebcc59f4
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3058.BMP,cluster_1_3058.BMP,A-,1,96,103,RGBA,88e834c59105af29fa7c9a40a12c7999
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5029.BMP,cluster_5_5029.BMP,AB-,3,96,103,RGBA,5a3ee058c7e04ec5ce30ab29c9ee9de5
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5248.BMP,cluster_5_5248.BMP,AB-,3,96,103,RGBA,32fdaa00710ee3b91fb09f4e11e76b92
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1159.BMP,cluster_3_1159.BMP,B-,5,96,103,RGBA,99049b606b3fc8ac6e1f0821112d4aba
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2594.BMP,cluster_5_2594.BMP,AB-,3,96,103,RGBA,50dd6dc605459a5ccf8437ccefe80022
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5100.BMP,cluster_3_5100.BMP,B-,5,96,103,RGBA,21001ef7b15dae77844d6d7c7e5aca17
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3366.BMP,cluster_4_3366.BMP,AB+,2,96,103,RGBA,1a2cbd68c80b4af6e92bb9865300e055
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4976.BMP,cluster_4_4976.BMP,AB+,2,96,103,RGBA,ccd1d231aae38c8162820c68c10c3e3e
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4037.BMP,cluster_5_4037.BMP,AB-,3,96,103,RGBA,2b86e73b12271e016b6345bbb788797e
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1013.BMP,cluster_5_1013.BMP,AB-,3,96,103,RGBA,45eda1d83afa34f47869a41ca6204502
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_96.BMP,cluster_3_96.BMP,B-,5,96,103,RGBA,bd3b6da513ea7943a4af6c703a17b97c
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5312.BMP,cluster_2_5312.BMP,B+,4,96,103,RGBA,0bd90862814a445e30cc34cba4ce8c60
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_745.BMP,cluster_5_745.BMP,AB-,3,96,103,RGBA,62d23affdbac006cd8a9f5238bd2eaa8
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2677 (2).BMP,cluster_6_2677 (2).BMP,O+,6,96,103,RGBA,441dc1d69ae9f106c492eb49e20f9d85
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2357.BMP,cluster_1_2357.BMP,A-,1,96,103,RGBA,23a542384e1b0a71456b81003b9d3095
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2267.BMP,cluster_1_2267.BMP,A-,1,96,103,RGBA,a17689cbb0a70f35ed2da809dd21fb67
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2809.BMP,cluster_7_2809.BMP,O-,7,96,103,RGBA,e68b71bb34cda3347228ca817a79c2fd
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2149 (2).BMP,cluster_6_2149 (2).BMP,O+,6,96,103,RGBA,688f92edf4b76eee2b14a4ee2f40e47d
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2696 (2).BMP,cluster_6_2696 (2).BMP,O+,6,96,103,RGBA,c4744c59d385b7acc5bc7420050b0fd8
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_957.BMP,cluster_7_957.BMP,O-,7,96,103,RGBA,4f9d481c879a8e38d199e13cd19ae73d
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5104.BMP,cluster_4_5104.BMP,AB+,2,96,103,RGBA,b8e045d4fefed570a1aac87f1e63c682
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5619.BMP,cluster_3_5619.BMP,B-,5,96,103,RGBA,2ae41eb69e0d31c5b7c91904977ff582
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2755 (2).BMP,cluster_6_2755 (2).BMP,O+,6,96,103,RGBA,9582f0f7f58ddb3f863e3704a2c4f739
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5487 (2).BMP,cluster_6_5487 (2).BMP,O+,6,96,103,RGBA,d8d401b1e67c07e997f0cfd617c235a6
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_113.BMP,cluster_5_113.BMP,AB-,3,96,103,RGBA,dff31ea9ef05dfb0230f18c8b376613a
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3574 (2).BMP,cluster_0_3574 (2).BMP,A+,0,96,103,RGBA,7db57aad6b4ef474b5def5a7e9e5bf15
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3045.BMP,cluster_4_3045.BMP,AB+,2,96,103,RGBA,84988e252bd64b1184c2cc1b228c36b7
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1828 (2).BMP,cluster_6_1828 (2).BMP,O+,6,96,103,RGBA,c8b9a54ccd2b311e79226e863dcbb22c
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1285.BMP,cluster_4_1285.BMP,AB+,2,96,103,RGBA,b18b21319b38c9bbf653d593cb0ab76c
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5136.BMP,cluster_2_5136.BMP,B+,4,96,103,RGBA,276395f7e92cbb62d429d7b028062583
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1794.BMP,cluster_3_1794.BMP,B-,5,96,103,RGBA,cd4f08a2edcfe5b5a4ea0ff8c10f0867
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_368 (2).BMP,cluster_6_368 (2).BMP,O+,6,96,103,RGBA,5ccc0867340d1748f767d847f82bed38
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4103.BMP,cluster_3_4103.BMP,B-,5,96,103,RGBA,befcecc52fdd2bddc3bab0a6ffa09761
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5682 (2).BMP,cluster_6_5682 (2).BMP,O+,6,96,103,RGBA,9c3ff9d51e74f0db56db7dc2fc646aba
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5843.BMP,cluster_5_5843.BMP,AB-,3,96,103,RGBA,9eb5eee1f2d266f8f68417558ee178d9
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5650.BMP,cluster_3_5650.BMP,B-,5,96,103,RGBA,d09d95436f263a85b34eefef36b941d0
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3742.BMP,cluster_7_3742.BMP,O-,7,96,103,RGBA,ff36bb35722ff26c43cea215c8cad741
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1687 (2).BMP,cluster_0_1687 (2).BMP,A+,0,96,103,RGBA,157fe63e71cbdc7f5007d8f4af549034
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2715.BMP,cluster_2_2715.BMP,B+,4,96,103,RGBA,05eb718e5edb3a97bc4a49907a8d83ea
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2999.BMP,cluster_5_2999.BMP,AB-,3,96,103,RGBA,8ae9e5d37b28967911f6cd9fad96fc14
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2901.BMP,cluster_4_2901.BMP,AB+,2,96,103,RGBA,c7546f4d1aec701f142b29ed4197d85b
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1876 (2).BMP,cluster_0_1876 (2).BMP,A+,0,96,103,RGBA,9be270728ea54c8d0b4f6ea259d72904
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5670.BMP,cluster_4_5670.BMP,AB+,2,96,103,RGBA,f52321567c0b45f34fbc4f873c2be376
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2065.BMP,cluster_3_2065.BMP,B-,5,96,103,RGBA,f675e222f41071761c17e52657320916
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2009 (2).BMP,cluster_6_2009 (2).BMP,O+,6,96,103,RGBA,174888bbf7831e6bd1498f655331f062
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4249.BMP,cluster_2_4249.BMP,B+,4,96,103,RGBA,780fc06d1d5df7426381892ec194aed8
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5913 (2).BMP,cluster_0_5913 (2).BMP,A+,0,96,103,RGBA,d21da849b0f63b8fbf05c54743b57403
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4887.BMP,cluster_1_4887.BMP,A-,1,96,103,RGBA,75d4da798c1a2c55b2e63365c2bb2376
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5703.BMP,cluster_5_5703.BMP,AB-,3,96,103,RGBA,a53d88c1ce79bf82c3bc11078a89855f
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_6.BMP,cluster_2_6.BMP,B+,4,96,103,RGBA,84fac4839e9faa9316f0d2cfe6f5bef4
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1745 (2).BMP,cluster_0_1745 (2).BMP,A+,0,96,103,RGBA,9fefbc0539d4d95711164734072fd412
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4959 (2).BMP,cluster_0_4959 (2).BMP,A+,0,96,103,RGBA,50a9ff59d7b6504b964ff7b77908163e
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2813 (2).BMP,cluster_6_2813 (2).BMP,O+,6,96,103,RGBA,3c00f0fe02b826742202dd5305f17bbc
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2112 (2).BMP,cluster_6_2112 (2).BMP,O+,6,96,103,RGBA,9878747c29acf857ef7786067ee80fb7
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4589.BMP,cluster_1_4589.BMP,A-,1,96,103,RGBA,a17f82c09b6889c2574fd74251974def
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_27.BMP,cluster_4_27.BMP,AB+,2,96,103,RGBA,25545a2ffa3e5f7bcadd9e29ea94c37d
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1530 (2).BMP,cluster_6_1530 (2).BMP,O+,6,96,103,RGBA,989c6294968a43996b5188e10183b066
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_5126.BMP,cluster_1_5126.BMP,A-,1,96,103,RGBA,6a327b26d2ba51897fc2b1125f983a8e
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3777.BMP,cluster_3_3777.BMP,B-,5,96,103,RGBA,ff6448db82f253de3c02eb722a2b3282
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5470.BMP,cluster_7_5470.BMP,O-,7,96,103,RGBA,1eaccc185d317e2fc8a66ae131442838
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4557.BMP,cluster_4_4557.BMP,AB+,2,96,103,RGBA,e148330c068f8a9faf1a7043f9291f7d
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3324 (2).BMP,cluster_6_3324 (2).BMP,O+,6,96,103,RGBA,b782967a0c4854de94e318eb41f0dd5f
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1807.BMP,cluster_1_1807.BMP,A-,1,96,103,RGBA,d24de2c22a07bcdd035956a19f77ad4d
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_427 (2).BMP,cluster_6_427 (2).BMP,O+,6,96,103,RGBA,06dc6839a1ca7eaa891575e6c9405834
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1025.BMP,cluster_1_1025.BMP,A-,1,96,103,RGBA,a484356ad3b51ef6a839478a3d021eb5
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3024 (2).BMP,cluster_6_3024 (2).BMP,O+,6,96,103,RGBA,78849b6fba49920564520057b366246c
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1770.BMP,cluster_7_1770.BMP,O-,7,96,103,RGBA,461e13e77128dbc8ab1fe50ea8fd2060
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_287.BMP,cluster_2_287.BMP,B+,4,96,103,RGBA,16c2a36203cfe7f3acd8590923c37b07
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1675 (2).BMP,cluster_6_1675 (2).BMP,O+,6,96,103,RGBA,b9a806f8a80e73918db41ce25e4fa9e3
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2060.BMP,cluster_7_2060.BMP,O-,7,96,103,RGBA,bfbe6171d6f91134776e77b77ecebe19
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4627.BMP,cluster_2_4627.BMP,B+,4,96,103,RGBA,6f3251b24c2519c6592f47bd88d7259a
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3471.BMP,cluster_1_3471.BMP,A-,1,96,103,RGBA,fa99dd608207999fa0bc4af488d10ac3
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5885 (2).BMP,cluster_0_5885 (2).BMP,A+,0,96,103,RGBA,76ea45f13998ffc2350646e5929ed132
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5266.BMP,cluster_4_5266.BMP,AB+,2,96,103,RGBA,bbbec279ed7c16ff07d0166ca4ae1b51
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2395.BMP,cluster_7_2395.BMP,O-,7,96,103,RGBA,e19e5df3ad9c11a8cb8da8ebaa8bde3e
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3184 (2).BMP,cluster_6_3184 (2).BMP,O+,6,96,103,RGBA,cefe1a434f8aa8a0490989c321b8b70f
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3480.BMP,cluster_5_3480.BMP,AB-,3,96,103,RGBA,142c071a38eafd946c4c984815851e1f
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_834.BMP,cluster_3_834.BMP,B-,5,96,103,RGBA,764a78e860f25f3db98293b5c16a37cb
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5127 (2).BMP,cluster_6_5127 (2).BMP,O+,6,96,103,RGBA,6082d5c2c0b9b0ba3d3d545d46d8ae05
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4646 (2).BMP,cluster_0_4646 (2).BMP,A+,0,96,103,RGBA,299e258324cf76ee1669f33f71c0bdb7
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_236.BMP,cluster_3_236.BMP,B-,5,96,103,RGBA,7a88c99003f3e7325089d2901525b3cf
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3636.BMP,cluster_7_3636.BMP,O-,7,96,103,RGBA,624e15201ad9e34fabac1ba5af4b2f03
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3117 (2).BMP,cluster_0_3117 (2).BMP,A+,0,96,103,RGBA,d733fb9268e2327aaf6cf70ead1fa49f
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1821.BMP,cluster_7_1821.BMP,O-,7,96,103,RGBA,2cbed3a46558ea13b396fc25f73cd0cb
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1116.BMP,cluster_4_1116.BMP,AB+,2,96,103,RGBA,e851d163d0406672742a16c96295dd4c
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5651 (2).BMP,cluster_6_5651 (2).BMP,O+,6,96,103,RGBA,476a7b1c7084ce48c0b97f343e78463d
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2534.BMP,cluster_1_2534.BMP,A-,1,96,103,RGBA,9a334fcd3f5795379809ef12fc7dda57
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3154.BMP,cluster_2_3154.BMP,B+,4,96,103,RGBA,b386e0d886d6d5e180b644b20e76fced
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3091.BMP,cluster_7_3091.BMP,O-,7,96,103,RGBA,24c00f562e32c044bda4b7f3a5f9f4cc
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2284.BMP,cluster_1_2284.BMP,A-,1,96,103,RGBA,18c1b7739193ff6d210adac15ba75e02
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1541.BMP,cluster_7_1541.BMP,O-,7,96,103,RGBA,0c68add1ce9dd7d96f004a50ab3cc133
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3352.BMP,cluster_4_3352.BMP,AB+,2,96,103,RGBA,c4c3fcd9336d90b19ec6fc338c4a4b33
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2042.BMP,cluster_2_2042.BMP,B+,4,96,103,RGBA,256174a216095a6e4f9a1a65d17faa18
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_61.BMP,cluster_3_61.BMP,B-,5,96,103,RGBA,82254f5859ba79ab19a01128fb295836
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4194.BMP,cluster_2_4194.BMP,B+,4,96,103,RGBA,ec4d7b601d8207bf0bebcd5bb6813f72
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_636.BMP,cluster_7_636.BMP,O-,7,96,103,RGBA,ec7aa1a047d70adc2cf6492371754de8
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2117.BMP,cluster_5_2117.BMP,AB-,3,96,103,RGBA,603b48ae7f737214ee1c13792a86b656
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_205 (2).BMP,cluster_0_205 (2).BMP,A+,0,96,103,RGBA,efdf52270eb39b1830ef4474aeecc7c2
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2443.BMP,cluster_5_2443.BMP,AB-,3,96,103,RGBA,42d96b345695a6cdcfca00b57f4649e3
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5900.BMP,cluster_7_5900.BMP,O-,7,96,103,RGBA,535b2e03dc1f9aaba51a46ce813a94e6
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2787.BMP,cluster_4_2787.BMP,AB+,2,96,103,RGBA,62b6b32abca225c8cf7844b9c32778f9
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5799 (2).BMP,cluster_0_5799 (2).BMP,A+,0,96,103,RGBA,f063c9c1b022b7d3867907d223d4c3c1
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5951 (2).BMP,cluster_0_5951 (2).BMP,A+,0,96,103,RGBA,7b3f0fa8d3094b50822fc8839dff9390
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4834.BMP,cluster_2_4834.BMP,B+,4,96,103,RGBA,7650104785ed39a3becc8878b4a656f9
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2932.BMP,cluster_2_2932.BMP,B+,4,96,103,RGBA,1c43a7442540d1c90fb717878459fd1f
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2305.BMP,cluster_7_2305.BMP,O-,7,96,103,RGBA,4f4969393a3a167974df3b8260025419
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1623.BMP,cluster_1_1623.BMP,A-,1,96,103,RGBA,1e1b0aa0f3914cf2ad9fb4d3625d8f09
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2086.BMP,cluster_5_2086.BMP,AB-,3,96,103,RGBA,136ba3752804390f8adb64bcb2dbd625
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_2601 (2).BMP,cluster_0_2601 (2).BMP,A+,0,96,103,RGBA,9e08aac2e3363d39357de0533ddba441
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3693 (2).BMP,cluster_6_3693 (2).BMP,O+,6,96,103,RGBA,c1a1a09e64c61dc574c6ddb349ede21d
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3916.BMP,cluster_2_3916.BMP,B+,4,96,103,RGBA,4518a6bec4a760139123345ad05b6e6c
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4028.BMP,cluster_1_4028.BMP,A-,1,96,103,RGBA,f07d1c0b36e58389a7db455f3437e636
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5872 (2).BMP,cluster_6_5872 (2).BMP,O+,6,96,103,RGBA,3150bdfc4a3a9a4f66c4840f44ac052e
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3330.BMP,cluster_7_3330.BMP,O-,7,96,103,RGBA,48006ffedc14c5775476af60db9eb294
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5271.BMP,cluster_5_5271.BMP,AB-,3,96,103,RGBA,324043e5c2da9a48a7541626111a79f1
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3813.BMP,cluster_3_3813.BMP,B-,5,96,103,RGBA,61bc6916613905c48813e3a70d51e2ec
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3186.BMP,cluster_7_3186.BMP,O-,7,96,103,RGBA,4c964f982fd0facae546b872976322fd
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_587.BMP,cluster_3_587.BMP,B-,5,96,103,RGBA,12e862405f141518fd009c92957cc56a
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4030.BMP,cluster_3_4030.BMP,B-,5,96,103,RGBA,54c33ca3c91d9634677c6ad9c6c41924
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5815 (2).BMP,cluster_6_5815 (2).BMP,O+,6,96,103,RGBA,fa09cbdbbc96a6f2bcd814d826553dad
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_737.BMP,cluster_4_737.BMP,AB+,2,96,103,RGBA,df8a09ede480d4256412234a263f3796
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2705.BMP,cluster_2_2705.BMP,B+,4,96,103,RGBA,a2607ddd387110b53d3e394bef8060ef
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1089 (2).BMP,cluster_0_1089 (2).BMP,A+,0,96,103,RGBA,fc8976d0f6eeb229575ba06d93b5ccc3
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1317.BMP,cluster_1_1317.BMP,A-,1,96,103,RGBA,b0192089bf1edde4b3ba11ba41abdd38
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3030.BMP,cluster_2_3030.BMP,B+,4,96,103,RGBA,7f33419d8517ebcfadae939f3e9e666c
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2565.BMP,cluster_1_2565.BMP,A-,1,96,103,RGBA,293572d55b67d7293bc77a10df4d172b
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2203.BMP,cluster_7_2203.BMP,O-,7,96,103,RGBA,5c1f5c1c7b37f1099e336c8c3a4c67f2
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4565.BMP,cluster_7_4565.BMP,O-,7,96,103,RGBA,dc1dad8803ba16ef914732ab5b6d75d0
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_656.BMP,cluster_5_656.BMP,AB-,3,96,103,RGBA,01f162abfa639f72dcc440ca5a88e464
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1754.BMP,cluster_5_1754.BMP,AB-,3,96,103,RGBA,d15ac85a41ad2d849844a3eb78670ce7
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_715.BMP,cluster_7_715.BMP,O-,7,96,103,RGBA,e85b35e8043b8739ad4db547f5730b64
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_291 (2).BMP,cluster_0_291 (2).BMP,A+,0,96,103,RGBA,8ca8af863536ce84c9ea8160246dd7cd
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2208.BMP,cluster_4_2208.BMP,AB+,2,96,103,RGBA,2800b982e2fb10bf19b6b46c5caed0cd
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2176.BMP,cluster_1_2176.BMP,A-,1,96,103,RGBA,1d0839e9a9a51cbaebf476551240b2f3
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3516.BMP,cluster_5_3516.BMP,AB-,3,96,103,RGBA,9f821e2bea069c4a28f254a80abf7a06
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5862 (2).BMP,cluster_6_5862 (2).BMP,O+,6,96,103,RGBA,fe3d2675421e5ca95a1c9f63d188cc3b
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2318.BMP,cluster_1_2318.BMP,A-,1,96,103,RGBA,3bd2307fe6f76af0954845a1a226e232
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_90.BMP,cluster_2_90.BMP,B+,4,96,103,RGBA,83348a250cbc90eec8712117d2cc7f59
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_30 (2).BMP,cluster_6_30 (2).BMP,O+,6,96,103,RGBA,f91ffe646a904dcc0884c1a0ce8c765b
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5634 (2).BMP,cluster_6_5634 (2).BMP,O+,6,96,103,RGBA,1ddbb8c2e6fc79e186a3ed93f2b15b4f
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4186.BMP,cluster_7_4186.BMP,O-,7,96,103,RGBA,4ab03cecc58b4d30ac250a89a280a3d4
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4355.BMP,cluster_1_4355.BMP,A-,1,96,103,RGBA,4b661009b2c5785acf3cdef7e64165ab
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4233 (2).BMP,cluster_0_4233 (2).BMP,A+,0,96,103,RGBA,b3bdf78d1c16df2bb663e811dc14304c
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4857.BMP,cluster_3_4857.BMP,B-,5,96,103,RGBA,9c4fc351ae5bf248ee990d08c459f324
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2923.BMP,cluster_3_2923.BMP,B-,5,96,103,RGBA,41f9fdf68238f21b88d230c027c830a6
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_831.BMP,cluster_7_831.BMP,O-,7,96,103,RGBA,d647de00f2981b5f51e57bcfdf84f482
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5914.BMP,cluster_7_5914.BMP,O-,7,96,103,RGBA,9698af25bee468fffa1b5af6ccbeb20f
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1690 (2).BMP,cluster_6_1690 (2).BMP,O+,6,96,103,RGBA,e8d0fee6815390c036ef4993d71c5ec2
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5804.BMP,cluster_5_5804.BMP,AB-,3,96,103,RGBA,f38ed4c16db243b71939ff215e89b207
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_5.BMP,cluster_1_5.BMP,A-,1,96,103,RGBA,2f9e5601d23cc1f3d05b97a171f4bd93
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2119.BMP,cluster_5_2119.BMP,AB-,3,96,103,RGBA,cd3a7214b612292f2a3d5dfa6bc998e5
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3107.BMP,cluster_4_3107.BMP,AB+,2,96,103,RGBA,1a8925143b84b6bede422272d9ede8f2
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_870.BMP,cluster_7_870.BMP,O-,7,96,103,RGBA,0c5c65a99aed99099ae565c226519a29
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_175.BMP,cluster_5_175.BMP,AB-,3,96,103,RGBA,c72f620fd0cbbc95e061f4cfd4b0620a
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5074.BMP,cluster_2_5074.BMP,B+,4,96,103,RGBA,1bf194f51f52091d15b8ca7903229111
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2474.BMP,cluster_2_2474.BMP,B+,4,96,103,RGBA,595ccb9498c3a9d4e0637dae650e4cab
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5701.BMP,cluster_5_5701.BMP,AB-,3,96,103,RGBA,2e7ae37ea24e8e2841db663632df1799
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_843 (2).BMP,cluster_6_843 (2).BMP,O+,6,96,103,RGBA,34d4fc8db850502c9ffbc3720294770f
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1529.BMP,cluster_3_1529.BMP,B-,5,96,103,RGBA,670c128108d012f3a7d93a90ee8a6d7d
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1749.BMP,cluster_7_1749.BMP,O-,7,96,103,RGBA,155c61968de67a108f71ac45aea66f80
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2022.BMP,cluster_7_2022.BMP,O-,7,96,103,RGBA,9b3d1711fbea71d6e994edac3c6a41ef
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1262.BMP,cluster_3_1262.BMP,B-,5,96,103,RGBA,16d336add24c7a533a0b53eb26af355c
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2817 (2).BMP,cluster_6_2817 (2).BMP,O+,6,96,103,RGBA,b8f705e41ae2bb5f67189c382857ffd9
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2337.BMP,cluster_3_2337.BMP,B-,5,96,103,RGBA,6f45b06efbb8e2b45b5c3dd1d3d58e91
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5479.BMP,cluster_3_5479.BMP,B-,5,96,103,RGBA,9bbcf211fbe00e424e07f5714a1528c9
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2885.BMP,cluster_1_2885.BMP,A-,1,96,103,RGBA,3d248cc0af8eed02c30928b60b6c6eb6
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_135.BMP,cluster_2_135.BMP,B+,4,96,103,RGBA,8cb6fada4c0ac2496178a1e82bf19879
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1291.BMP,cluster_3_1291.BMP,B-,5,96,103,RGBA,11ab3d8496eae773bf022de9e30e509c
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1112.BMP,cluster_5_1112.BMP,AB-,3,96,103,RGBA,ea3d6178916cf2be4501c9fec8ef23de
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4679.BMP,cluster_4_4679.BMP,AB+,2,96,103,RGBA,185bc6b075ad242956f06f831d1e497c
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3121.BMP,cluster_4_3121.BMP,AB+,2,96,103,RGBA,43d827467210c96f757d49a4db4e2860
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5705.BMP,cluster_4_5705.BMP,AB+,2,96,103,RGBA,fe760037976593d245e00af1ea9bd4a6
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4238.BMP,cluster_5_4238.BMP,AB-,3,96,103,RGBA,ec3385531cdb47bbfdb145ad6c0101b1
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_311.BMP,cluster_7_311.BMP,O-,7,96,103,RGBA,7bf75d6c72c8529da7d47518f81355e2
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3888 (2).BMP,cluster_6_3888 (2).BMP,O+,6,96,103,RGBA,07e1224c73afaddc15788b871806217f
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3558.BMP,cluster_4_3558.BMP,AB+,2,96,103,RGBA,91af1d688f46ebec9ab43f7078b5a249
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5868.BMP,cluster_3_5868.BMP,B-,5,96,103,RGBA,09147b00cc32808feb1293076cd70f5e
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1688 (2).BMP,cluster_0_1688 (2).BMP,A+,0,96,103,RGBA,1b570555ee063b056515565f79a3f633
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3885.BMP,cluster_3_3885.BMP,B-,5,96,103,RGBA,c26122a4a018d1ae11cdc15f8ff13566
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2193.BMP,cluster_4_2193.BMP,AB+,2,96,103,RGBA,30d2d3a1ea19bab0f369573ece6892f3
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3338 (2).BMP,cluster_0_3338 (2).BMP,A+,0,96,103,RGBA,ced1c614ddb79be987b23c82519e2b46
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1901.BMP,cluster_5_1901.BMP,AB-,3,96,103,RGBA,5a779edb70694f892cf71f8e69096c81
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1226.BMP,cluster_4_1226.BMP,AB+,2,96,103,RGBA,1be7f188e310c66f8eca829b169878c4
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5051 (2).BMP,cluster_0_5051 (2).BMP,A+,0,96,103,RGBA,733cb88e7deb19906112d927f8e53da7
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4511.BMP,cluster_2_4511.BMP,B+,4,96,103,RGBA,2395ed99ab7b5382668cfd6f7bc61cd0
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4986 (2).BMP,cluster_6_4986 (2).BMP,O+,6,96,103,RGBA,69c78aa472eab288786736432f23aaa5
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_351.BMP,cluster_3_351.BMP,B-,5,96,103,RGBA,c9fa6e2fbcce4fb2a627e3ab941223d4
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_483.BMP,cluster_7_483.BMP,O-,7,96,103,RGBA,0c97c65efd36565258981c9a8be6f2ee
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5455.BMP,cluster_4_5455.BMP,AB+,2,96,103,RGBA,dee0df20c622a2788126ae093c2ae9b9
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1466.BMP,cluster_1_1466.BMP,A-,1,96,103,RGBA,d0ef8a7817e3e71ade1bc49a839e4df8
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5746.BMP,cluster_2_5746.BMP,B+,4,96,103,RGBA,ee2a4b0da91839f2b3dbe02db6a39e8a
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4653 (2).BMP,cluster_0_4653 (2).BMP,A+,0,96,103,RGBA,9dfb190e2759fea0d8857278d410dae8
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4402 (2).BMP,cluster_6_4402 (2).BMP,O+,6,96,103,RGBA,7ecc23c852babd056c3b9c3029c054f7
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4730 (2).BMP,cluster_6_4730 (2).BMP,O+,6,96,103,RGBA,f605cb02f0065e95d9ad8a1852ca3f89
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3461 (2).BMP,cluster_0_3461 (2).BMP,A+,0,96,103,RGBA,5b773bb31c4668c1b4b90984ed322ede
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_945.BMP,cluster_5_945.BMP,AB-,3,96,103,RGBA,7ab16d15e86076023c0ea2d50cb2d415
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1322 (2).BMP,cluster_6_1322 (2).BMP,O+,6,96,103,RGBA,0ebf9219cb554c7c6deb1e173b3b6a6a
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5884 (2).BMP,cluster_0_5884 (2).BMP,A+,0,96,103,RGBA,40197c1bf29ce0402215fb3509292726
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4473.BMP,cluster_7_4473.BMP,O-,7,96,103,RGBA,83d49a32c48284251c7396727f5e0850
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4071 (2).BMP,cluster_0_4071 (2).BMP,A+,0,96,103,RGBA,d0fcb40046481194c5f3da2d411b2947
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3160.BMP,cluster_1_3160.BMP,A-,1,96,103,RGBA,001ceaf9bfdb6d48ea8c8922f4eef237
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3293 (2).BMP,cluster_0_3293 (2).BMP,A+,0,96,103,RGBA,3a8b016fef8437e567fd2a327a534601
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4800.BMP,cluster_2_4800.BMP,B+,4,96,103,RGBA,59165a5dea88496a66816d1aa07e8a26
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5146.BMP,cluster_3_5146.BMP,B-,5,96,103,RGBA,55d0ffe7e590fad5f3aab61e516d3a52
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_760.BMP,cluster_4_760.BMP,AB+,2,96,103,RGBA,2cc2dce7f9f265e05624b62d9848b589
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4878.BMP,cluster_1_4878.BMP,A-,1,96,103,RGBA,1896c28cc056f05b77ab42b89aeacffe
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5494.BMP,cluster_7_5494.BMP,O-,7,96,103,RGBA,32dc09f1e915240a180e492467a9163e
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5963.BMP,cluster_2_5963.BMP,B+,4,96,103,RGBA,b558ae61e459092c0d294253e9894308
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3415 (2).BMP,cluster_6_3415 (2).BMP,O+,6,241,298,RGB,5bc9f955f6aca66e01eacca978785712
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2303.BMP,cluster_1_2303.BMP,A-,1,96,103,RGBA,b3dbf319c5fff1fd4f0d11d8ed086c65
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3201.BMP,cluster_3_3201.BMP,B-,5,96,103,RGBA,56e8cf14e7e9c6e53b176e088ce6e59b
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4576.BMP,cluster_2_4576.BMP,B+,4,96,103,RGBA,15f8410f15b2fa5a3855643e9119d638
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2116.BMP,cluster_5_2116.BMP,AB-,3,96,103,RGBA,09efd1e110bc60b8041c48d1f2c23d8a
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4620.BMP,cluster_7_4620.BMP,O-,7,96,103,RGBA,01e50af3b683bac13a95e5ed5332e0f4
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2900.BMP,cluster_4_2900.BMP,AB+,2,96,103,RGBA,a1bedaba3948b0b6757d4468e9ba170c
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5158.BMP,cluster_5_5158.BMP,AB-,3,96,103,RGBA,cc3f14305238949c36f28e15465f6c79
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1768 (2).BMP,cluster_6_1768 (2).BMP,O+,6,96,103,RGBA,a36da33d63971b14dba70f61be8493e1
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5107.BMP,cluster_2_5107.BMP,B+,4,96,103,RGBA,2d2d53174714170edde703a3f3564241
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4994.BMP,cluster_3_4994.BMP,B-,5,96,103,RGBA,6450f163dbb80cd81eecd6e27e0aabba
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3264.BMP,cluster_4_3264.BMP,AB+,2,96,103,RGBA,3d8ee1e6c0e4ccab5d97c92c0b3e447a
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_851.BMP,cluster_3_851.BMP,B-,5,96,103,RGBA,465cedeb17d15cbdd623b515bf1040fc
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1885.BMP,cluster_1_1885.BMP,A-,1,96,103,RGBA,327556b897240cdb4449bdb0e1de9fc5
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3113.BMP,cluster_3_3113.BMP,B-,5,96,103,RGBA,3369f67eb001f9515f594a370b510b42
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_381 (2).BMP,cluster_0_381 (2).BMP,A+,0,96,103,RGBA,c01d102afbeb25e7ce6b4aa80a39d69c
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3893.BMP,cluster_5_3893.BMP,AB-,3,96,103,RGBA,754f3425154f2d959bf395f4166e473e
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1447.BMP,cluster_3_1447.BMP,B-,5,96,103,RGBA,a2b6e50662a7dbfb2aa64351c42b18a5
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4258.BMP,cluster_5_4258.BMP,AB-,3,96,103,RGBA,a61a559768aaa3ed43e28473ddfc8e64
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_610.BMP,cluster_7_610.BMP,O-,7,96,103,RGBA,175b67b76f5931eb4eb5940067e3f154
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4745.BMP,cluster_1_4745.BMP,A-,1,96,103,RGBA,8b85a874b2021b535dbd70fbd966a784
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2261.BMP,cluster_1_2261.BMP,A-,1,96,103,RGBA,09284b0be1d21f093a26919ff62502c9
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3920.BMP,cluster_4_3920.BMP,AB+,2,96,103,RGBA,0e52bf419c9547a2e0b475f798c683d3
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_430.BMP,cluster_7_430.BMP,O-,7,96,103,RGBA,2dd56553b6aa39a09fa864f69aba908e
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2699.BMP,cluster_4_2699.BMP,AB+,2,96,103,RGBA,692f2aa6e5ecfe4a2d1537924467544f
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2192.BMP,cluster_1_2192.BMP,A-,1,96,103,RGBA,d3e5ba1741a87a95fd1814ab2a440025
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1011.BMP,cluster_1_1011.BMP,A-,1,96,103,RGBA,9857a7ef1c1307cf826af3caef0bc28b
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3752.BMP,cluster_1_3752.BMP,A-,1,96,103,RGBA,b3e385db3e43a89dd41900c5e8adebc5
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4891.BMP,cluster_3_4891.BMP,B-,5,96,103,RGBA,0771f5f84c40fd0e2561e8642cfdbfe8
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2562.BMP,cluster_2_2562.BMP,B+,4,96,103,RGBA,44bd34cf42cfe0758e74c10171a6099b
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2361 (2).BMP,cluster_6_2361 (2).BMP,O+,6,96,103,RGBA,8cb61b16ff68a75432e70a342a612bc8
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3450 (2).BMP,cluster_0_3450 (2).BMP,A+,0,96,103,RGBA,55bcb250be83b6113c465e5f7e138bdd
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_920.BMP,cluster_5_920.BMP,AB-,3,96,103,RGBA,f8f2b6b1fdeea4e317362ca4ebe2fbe0
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1118 (2).BMP,cluster_0_1118 (2).BMP,A+,0,96,103,RGBA,ced7c9ce8836d763c8469708de0f7164
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4446.BMP,cluster_2_4446.BMP,B+,4,96,103,RGBA,03669299c2badc55deba87317a15d293
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5606 (2).BMP,cluster_0_5606 (2).BMP,A+,0,96,103,RGBA,cba90a9ba707092be947e9f8d7baad15
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_494.BMP,cluster_1_494.BMP,A-,1,96,103,RGBA,d7dcf9f731c5cdb8c943a6a98699c783
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1970.BMP,cluster_5_1970.BMP,AB-,3,96,103,RGBA,4b120a1de8844606c046ac8755e136df
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2263.BMP,cluster_1_2263.BMP,A-,1,96,103,RGBA,39f5055102721bbd16cbba0cbe105de8
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4909 (2).BMP,cluster_6_4909 (2).BMP,O+,6,96,103,RGBA,2a29a944ad9642ac2bbfaf0546a7aed6
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1930.BMP,cluster_1_1930.BMP,A-,1,96,103,RGBA,352ecedf322b69a300ab2a6a8a8b4e99
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2173.BMP,cluster_2_2173.BMP,B+,4,96,103,RGBA,e62d94a9eb9419e64b922f949ff6b4bb
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4429.BMP,cluster_4_4429.BMP,AB+,2,96,103,RGBA,f9375dd69d8fe6c11e11fa8110591d4e
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2517.BMP,cluster_2_2517.BMP,B+,4,96,103,RGBA,397da9373f39049ebfb2f5e38d840e39
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2013.BMP,cluster_1_2013.BMP,A-,1,96,103,RGBA,13af465db1bf449730077fbafd356822
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_977.BMP,cluster_7_977.BMP,O-,7,96,103,RGBA,97bad18f6bac4dfcd62decdf5a9925ac
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5905.BMP,cluster_4_5905.BMP,AB+,2,96,103,RGBA,4b2eea2266afaf41f7413c3092e2af28
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_1150.BMP,cluster_2_1150.BMP,B+,4,96,103,RGBA,aebfd471415f822636116df35e55d69a
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1546.BMP,cluster_7_1546.BMP,O-,7,96,103,RGBA,1504990511c66c678e093e9b743d96c4
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1841.BMP,cluster_7_1841.BMP,O-,7,96,103,RGBA,3cea64c3f7cd76010ad885d2f5085694
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_136.BMP,cluster_1_136.BMP,A-,1,96,103,RGBA,3451057916e3ff5e4084639de975d397
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1953.BMP,cluster_1_1953.BMP,A-,1,96,103,RGBA,479ebf0a942df40244542197382aa045
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3157.BMP,cluster_5_3157.BMP,AB-,3,96,103,RGBA,7d84e9f21180098238fd60a04c5b6447
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3811.BMP,cluster_2_3811.BMP,B+,4,96,103,RGBA,3c5c20c3ac66f8f4abe1a54975d766f8
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2436.BMP,cluster_4_2436.BMP,AB+,2,96,103,RGBA,c414c818d427a2d7dcc45cf1bfa51262
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2799.BMP,cluster_1_2799.BMP,A-,1,96,103,RGBA,f9d3360771bcfed445d4dd3aa79b9c0d
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4346.BMP,cluster_7_4346.BMP,O-,7,96,103,RGBA,f60fbac874816046122e5cf25b0ff0a5
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4153.BMP,cluster_5_4153.BMP,AB-,3,96,103,RGBA,d3599af003c79069d8cf0928af45bbce
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_940 (2).BMP,cluster_0_940 (2).BMP,A+,0,96,103,RGBA,08e7877c62eba50d2ff4c15088d636c8
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5677.BMP,cluster_3_5677.BMP,B-,5,96,103,RGBA,5a2273feedb9b2453fe09ffca3dcabf5
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3069.BMP,cluster_1_3069.BMP,A-,1,96,103,RGBA,e7085f6772fb0d386dbbce4d8bbbc8da
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4089.BMP,cluster_5_4089.BMP,AB-,3,96,103,RGBA,00fdef3ab071634bd94c097df9937034
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4527.BMP,cluster_2_4527.BMP,B+,4,96,103,RGBA,458cc6b9b2894314df9a9e6b107fd8b2
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1696 (2).BMP,cluster_0_1696 (2).BMP,A+,0,96,103,RGBA,3474522a7daa86fb762842e39c176e9f
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2572.BMP,cluster_7_2572.BMP,O-,7,96,103,RGBA,eeb922e3ff0b966f62a26633928bfc9a
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5640.BMP,cluster_4_5640.BMP,AB+,2,96,103,RGBA,a4952c0743b5974eaa634a35aaf56fe1
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_505.BMP,cluster_2_505.BMP,B+,4,96,103,RGBA,548380ca327cc67a9eb28f31cc621a11
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2047.BMP,cluster_7_2047.BMP,O-,7,96,103,RGBA,00d609c440a77e149f24786022bb4070
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4010.BMP,cluster_4_4010.BMP,AB+,2,96,103,RGBA,4818468ebd78acbe1d84b3fa58d523b3
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4836.BMP,cluster_7_4836.BMP,O-,7,96,103,RGBA,29a5fbf86fc108155c3a5ad162fbeb32
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_304.BMP,cluster_4_304.BMP,AB+,2,96,103,RGBA,810ccbb52cc4bf3e6a8bc8c8294efdb8
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2177 (2).BMP,cluster_6_2177 (2).BMP,O+,6,96,103,RGBA,cdaa975368fb156c5ad3049feb908857
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_2038 (2).BMP,cluster_0_2038 (2).BMP,A+,0,96,103,RGBA,b3f617e0191a309d60b3564cd2bfde0b
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5472.BMP,cluster_4_5472.BMP,AB+,2,96,103,RGBA,c4ce8f09af7acf30527acb7022cc45ff
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5623.BMP,cluster_3_5623.BMP,B-,5,96,103,RGBA,e1ee9019e18386c54980f2ae1d42468e
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2213.BMP,cluster_2_2213.BMP,B+,4,96,103,RGBA,db468eedf08c5e86aa64cd2175773124
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5188.BMP,cluster_2_5188.BMP,B+,4,96,103,RGBA,9415795fb65e40ffb7a97b43c0b59452
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3127 (2).BMP,cluster_0_3127 (2).BMP,A+,0,96,103,RGBA,fedf29aa134c445b99250fbdd412f1e4
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4569.BMP,cluster_2_4569.BMP,B+,4,96,103,RGBA,437ae0dab4986c75ec9cb28e215d01d5
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4469 (2).BMP,cluster_6_4469 (2).BMP,O+,6,96,103,RGBA,8cd40f25c103551f050c395fee8407eb
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_182.BMP,cluster_4_182.BMP,AB+,2,96,103,RGBA,1a640ab7e45c9a0efb48ccddc578e782
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_176.BMP,cluster_1_176.BMP,A-,1,96,103,RGBA,1c24b626527c27bd5a60ddd5028c5f3e
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3891.BMP,cluster_5_3891.BMP,AB-,3,96,103,RGBA,2998c3fee38ba830c9c8641aa26bfe14
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_804 (2).BMP,cluster_6_804 (2).BMP,O+,6,96,103,RGBA,a46f181ee3ecd9e580105f209be376be
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_299.BMP,cluster_5_299.BMP,AB-,3,96,103,RGBA,5e50c613db608674051c81e62db8d468
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2171.BMP,cluster_1_2171.BMP,A-,1,96,103,RGBA,e07abb7f64a53df26cb0b2c378c1481c
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4217 (2).BMP,cluster_0_4217 (2).BMP,A+,0,96,103,RGBA,dcee16075979f631b973554241fc1e2a
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3694.BMP,cluster_4_3694.BMP,AB+,2,96,103,RGBA,954e072bab4e7651a774afec4fea8450
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2541.BMP,cluster_3_2541.BMP,B-,5,96,103,RGBA,f37f724262cec7aa8197586a6d067e08
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4659.BMP,cluster_2_4659.BMP,B+,4,96,103,RGBA,2fafe0e1699641de54ae7e15e42b8c22
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1538.BMP,cluster_5_1538.BMP,AB-,3,96,103,RGBA,02c66e415406e61c0305fb13d8ae4389
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2701.BMP,cluster_7_2701.BMP,O-,7,96,103,RGBA,c2ea86d209c3d78076ad5fe914d2b18e
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4554 (2).BMP,cluster_6_4554 (2).BMP,O+,6,96,103,RGBA,2e2a72d819beec88a2e085f4bd8c4951
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5471.BMP,cluster_5_5471.BMP,AB-,3,96,103,RGBA,0cb6d9977343903e4f99db4739534d39
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5936 (2).BMP,cluster_6_5936 (2).BMP,O+,6,96,103,RGBA,a168c491ad0fcbce93fa932ea5afc255
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5959.BMP,cluster_7_5959.BMP,O-,7,96,103,RGBA,40ea9f0c9bb5f2007615356360767208
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3242.BMP,cluster_1_3242.BMP,A-,1,96,103,RGBA,d324ccb2d0d2747951871f63326edbe8
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3497.BMP,cluster_5_3497.BMP,AB-,3,96,103,RGBA,ba0450f9bccf70bbafed70ca626cd4ad
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_864.BMP,cluster_3_864.BMP,B-,5,96,103,RGBA,fbd22d028c323c26fb3bec89ce9692db
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5627.BMP,cluster_2_5627.BMP,B+,4,96,103,RGBA,f0de0278e6a1a75b2c3da5031418ce8e
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3696.BMP,cluster_5_3696.BMP,AB-,3,96,103,RGBA,86c420df6822ae0032668e520c0fe361
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3376.BMP,cluster_2_3376.BMP,B+,4,96,103,RGBA,f3643984275c4140d1cc076e948ed602
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4063.BMP,cluster_5_4063.BMP,AB-,3,96,103,RGBA,d9f74eaf1559781a53bf63b1ee6cd320
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4504.BMP,cluster_1_4504.BMP,A-,1,96,103,RGBA,cf280c109ab0d4f1be67c16afec424b8
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1779.BMP,cluster_3_1779.BMP,B-,5,96,103,RGBA,4e9d1b80ce0b98c1c42ef8c9fb3330f5
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4801.BMP,cluster_1_4801.BMP,A-,1,96,103,RGBA,24c8c3c4351b5556927ef89a71106bcd
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5449.BMP,cluster_5_5449.BMP,AB-,3,96,103,RGBA,e5a24c9cbd50a955b6bfe92b843cb609
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4182.BMP,cluster_5_4182.BMP,AB-,3,96,103,RGBA,a0a27636fac1a7914550a02c06eca5ff
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3556 (2).BMP,cluster_0_3556 (2).BMP,A+,0,96,103,RGBA,ba52c0e9baaadd4b82c621583edd91db
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_1260.BMP,cluster_2_1260.BMP,B+,4,96,103,RGBA,963511ba70a30c60ab491986331ff983
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_251.BMP,cluster_4_251.BMP,AB+,2,96,103,RGBA,ea06efe39897a62ae4af700e7a7fb93b
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5526 (2).BMP,cluster_6_5526 (2).BMP,O+,6,96,103,RGBA,072751e34bc6fa0ec771b3dae100d1ca
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_129.BMP,cluster_1_129.BMP,A-,1,96,103,RGBA,2b1a67980ad355a9cebf1cafb4d79242
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3857.BMP,cluster_4_3857.BMP,AB+,2,96,103,RGBA,285df9fcb27da8bf0177ab44f54ffdcb
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_1362.BMP,cluster_2_1362.BMP,B+,4,96,103,RGBA,86e650b1bad12b6594e6b6d9cb4a89d8
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_693.BMP,cluster_2_693.BMP,B+,4,96,103,RGBA,ff49cd113729912b949a06677682ef44
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3846.BMP,cluster_1_3846.BMP,A-,1,96,103,RGBA,9e32ab2d1186d8b3ab84b93a265f14fa
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4146 (2).BMP,cluster_0_4146 (2).BMP,A+,0,96,103,RGBA,c4e7db1111bf97945cf7818c969883b6
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1047.BMP,cluster_7_1047.BMP,O-,7,96,103,RGBA,2e1f74b3546376fb8ec261a693c9c1d8
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_438.BMP,cluster_4_438.BMP,AB+,2,96,103,RGBA,3e5162a0474a4db802571df87cc2c587
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_169.BMP,cluster_2_169.BMP,B+,4,96,103,RGBA,a87e238013b143e2cf3f5ee922bbc139
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3958.BMP,cluster_2_3958.BMP,B+,4,96,103,RGBA,3ca3aad1714fe28552080c0322bc405a
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2756.BMP,cluster_3_2756.BMP,B-,5,96,103,RGBA,eff63ebbfd5bdf73407856cdf3bed005
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_134.BMP,cluster_2_134.BMP,B+,4,96,103,RGBA,3ce502468e6360ddc423ff095d4a96c9
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1471 (2).BMP,cluster_0_1471 (2).BMP,A+,0,96,103,RGBA,9946e63d72340e362c98badf8c3e0422
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1229.BMP,cluster_5_1229.BMP,AB-,3,96,103,RGBA,0f9df1c531bb257813a2c84c65cdc959
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3890 (2).BMP,cluster_6_3890 (2).BMP,O+,6,96,103,RGBA,25b6d49fb6e9976410f64a11fc4ce310
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1511.BMP,cluster_1_1511.BMP,A-,1,96,103,RGBA,8bbaca8436e26df337834a9129894de3
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_2642 (2).BMP,cluster_0_2642 (2).BMP,A+,0,96,103,RGBA,8ea7accff274420dffa0444eb076964a
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4492.BMP,cluster_3_4492.BMP,B-,5,96,103,RGBA,76a357fc65961bf363db270bfdc56ddb
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5598.BMP,cluster_5_5598.BMP,AB-,3,96,103,RGBA,ee60aafd42043ead61a32c0a7d21d9c3
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1621.BMP,cluster_1_1621.BMP,A-,1,96,103,RGBA,cc71aae88cdd117beaba6b82140905e2
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1290 (2).BMP,cluster_6_1290 (2).BMP,O+,6,96,103,RGBA,e231a2000b878da2c6317cc29803bb51
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3429 (2).BMP,cluster_6_3429 (2).BMP,O+,6,96,103,RGBA,89c23fc72c90f30de3be329eda1e090d
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_2335 (2).BMP,cluster_0_2335 (2).BMP,A+,0,96,103,RGBA,047cc7321ebe5574f9fdb1304a6922da
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1146.BMP,cluster_3_1146.BMP,B-,5,96,103,RGBA,f232c7c5633589942f0e4ef54030402d
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2836.BMP,cluster_1_2836.BMP,A-,1,96,103,RGBA,8459456bce06be93d6643d1a73f32517
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1959.BMP,cluster_4_1959.BMP,AB+,2,96,103,RGBA,cb599a63cb0acfd5c841e936e03b1f50
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4815.BMP,cluster_4_4815.BMP,AB+,2,96,103,RGBA,46c5d2b56df0a636921cea3e19cf72f3
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_800.BMP,cluster_3_800.BMP,B-,5,96,103,RGBA,a692b53cd23388d144ef392c49dc0d01
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5151.BMP,cluster_4_5151.BMP,AB+,2,96,103,RGBA,5faa44ba57ad2eac111c48ae7334d64b
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3643.BMP,cluster_1_3643.BMP,A-,1,96,103,RGBA,2937185278a494b47a7b0a8f387452e7
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2722.BMP,cluster_2_2722.BMP,B+,4,96,103,RGBA,8b88803119283667854169549a933d5f
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_823.BMP,cluster_4_823.BMP,AB+,2,96,103,RGBA,21d65e17ed7a729ad3de500da221f345
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3721.BMP,cluster_5_3721.BMP,AB-,3,96,103,RGBA,d10eb910bcd31b8a1bb142839e36633d
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5565.BMP,cluster_4_5565.BMP,AB+,2,96,103,RGBA,b57705089fdc27c1d435c901f6e3b1b7
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3333.BMP,cluster_5_3333.BMP,AB-,3,96,103,RGBA,ffd0a0e13941ad8d1026b315fbd42b51
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_842.BMP,cluster_7_842.BMP,O-,7,96,103,RGBA,306f3184859705dbe6f40cef89b60026
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5558.BMP,cluster_7_5558.BMP,O-,7,96,103,RGBA,2f4b64e64f19ca3d5810f100496b4e38
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4203.BMP,cluster_7_4203.BMP,O-,7,96,103,RGBA,524c71eacf599e4d1d035bc8d3edf31f
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4779 (2).BMP,cluster_6_4779 (2).BMP,O+,6,96,103,RGBA,1850aef4fc86d042e9b5668a46ebf27a
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5728.BMP,cluster_3_5728.BMP,B-,5,96,103,RGBA,b8db3e187a5ec9ff795e2323ba5106dc
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5572.BMP,cluster_7_5572.BMP,O-,7,96,103,RGBA,6ce5c67e7aaf2df1b00a7790b14cb7c0
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5547.BMP,cluster_2_5547.BMP,B+,4,96,103,RGBA,669a9c18ff95067dfb09bd1263a3d8ad
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2870.BMP,cluster_7_2870.BMP,O-,7,96,103,RGBA,31976f9919d2d4974b45ed44e2022428
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3435.BMP,cluster_1_3435.BMP,A-,1,96,103,RGBA,0c60f3cb11f429f7cf322847ee780019
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3994.BMP,cluster_3_3994.BMP,B-,5,96,103,RGBA,3ffb06635ada360935e1dd91bf57444b
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1340 (2).BMP,cluster_6_1340 (2).BMP,O+,6,96,103,RGBA,510241debec5320dfe1baa8f3e967e27
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_2679 (2).BMP,cluster_0_2679 (2).BMP,A+,0,96,103,RGBA,41473772e41ded32d518c7e9a6f608e4
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_26 (2).BMP,cluster_0_26 (2).BMP,A+,0,96,103,RGBA,bbdb6df92768df43bdf7d80c19ee81bf
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_17.BMP,cluster_1_17.BMP,A-,1,96,103,RGBA,e370d58106b2c0506e9e8c99f988427f
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4727 (2).BMP,cluster_6_4727 (2).BMP,O+,6,96,103,RGBA,390fc066555d310c2803b4c4afa8bcda
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5292.BMP,cluster_5_5292.BMP,AB-,3,96,103,RGBA,c8fbf58a5501334440f65dbb5a0d0730
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_832.BMP,cluster_2_832.BMP,B+,4,96,103,RGBA,f2ead7ca787aab94ea3904d21e3fbfc0
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_644 (2).BMP,cluster_0_644 (2).BMP,A+,0,96,103,RGBA,e32c98f55fcaa2b2a44a35b56ecd29b7
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1433 (2).BMP,cluster_6_1433 (2).BMP,O+,6,96,103,RGBA,8df5c38984c7eafbd8de7fd286506b22
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1771.BMP,cluster_3_1771.BMP,B-,5,96,103,RGBA,1e60a0eaa1a661989821a2b5c3c3b4c7
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_365.BMP,cluster_4_365.BMP,AB+,2,96,103,RGBA,f0f9e649c979575df221182b27e9373d
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4147.BMP,cluster_2_4147.BMP,B+,4,96,103,RGBA,517c236f0b38998b54671431bab1ca22
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3843.BMP,cluster_2_3843.BMP,B+,4,96,103,RGBA,57cef14df5e7ac01cedf1b73f65adfda
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3180.BMP,cluster_2_3180.BMP,B+,4,96,103,RGBA,063c1050e8051769e990558b8013f5f7
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5736.BMP,cluster_3_5736.BMP,B-,5,96,103,RGBA,fe6b0301c495fa41e20072faacba250c
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4292.BMP,cluster_4_4292.BMP,AB+,2,96,103,RGBA,02bb319c1e142f24f8da5e6db32354a5
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2750.BMP,cluster_3_2750.BMP,B-,5,96,103,RGBA,04d2eaedb5736f153430614313f03ffd
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2911.BMP,cluster_4_2911.BMP,AB+,2,96,103,RGBA,6f124f94b5bb763e533d7c6559eac34d
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2773.BMP,cluster_3_2773.BMP,B-,5,96,103,RGBA,87616fb749784d38a058425a9897d89b
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_398.BMP,cluster_5_398.BMP,AB-,3,96,103,RGBA,ff3fbfa2c390d72d78f5da88da10c242
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_663.BMP,cluster_4_663.BMP,AB+,2,96,103,RGBA,ddc94ce2d96fe51425445ae8171e9b47
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4324.BMP,cluster_7_4324.BMP,O-,7,96,103,RGBA,60feb911e80a54ec59c08270ad08a4fa
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_464.BMP,cluster_1_464.BMP,A-,1,96,103,RGBA,866f7ad513dda867b60b84ac766b02bc
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4289 (2).BMP,cluster_6_4289 (2).BMP,O+,6,96,103,RGBA,e7a7c9486f472d0750d62e2082776ba6
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2123 (2).BMP,cluster_6_2123 (2).BMP,O+,6,96,103,RGBA,dfa9f147852fde7e94ba1a1db8fdece2
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3010 (2).BMP,cluster_6_3010 (2).BMP,O+,6,96,103,RGBA,409bcb54b98b90d5ac17c2326f9aac83
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3729.BMP,cluster_1_3729.BMP,A-,1,96,103,RGBA,c0637c4af093bce07bf047b055dae32f
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_672.BMP,cluster_3_672.BMP,B-,5,96,103,RGBA,77b325db8e808893850c3890acb347fc
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2740.BMP,cluster_2_2740.BMP,B+,4,96,103,RGBA,e0940cf0a6e296cb5ff53a50a2eb8964
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3103.BMP,cluster_4_3103.BMP,AB+,2,96,103,RGBA,a40812f906616689ef4ff18e5bf24bf0
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3 (2).BMP,cluster_6_3 (2).BMP,O+,6,96,103,RGBA,86f97f63c58f4bdf2a684d895533f51e
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2388.BMP,cluster_3_2388.BMP,B-,5,96,103,RGBA,d5f4c2e79aca6317b8376bb40f6734a3
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_907.BMP,cluster_5_907.BMP,AB-,3,96,103,RGBA,89aa91c6c847c6209586365c4950c588
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5429.BMP,cluster_7_5429.BMP,O-,7,96,103,RGBA,c87b34acb3bfa4f4b9a52b306673a364
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_551 (2).BMP,cluster_0_551 (2).BMP,A+,0,96,103,RGBA,23f7877d9cd9171b2db3c379936f0e2d
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5305 (2).BMP,cluster_0_5305 (2).BMP,A+,0,96,103,RGBA,40f350ef0b9198183c9af496e3463cab
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4165.BMP,cluster_1_4165.BMP,A-,1,96,103,RGBA,89435b1c7749b00d3de3edfd45b7382c
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4592.BMP,cluster_3_4592.BMP,B-,5,96,103,RGBA,71327905b24004fe2472cc653aca39ef
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_114.BMP,cluster_7_114.BMP,O-,7,96,103,RGBA,b7a8e948c8e782217ec39f71e7b8fce3
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1798.BMP,cluster_4_1798.BMP,AB+,2,96,103,RGBA,168395c8ad444591f1c5965c87ce65ab
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3077.BMP,cluster_4_3077.BMP,AB+,2,96,103,RGBA,df1437b34992e46d51a657dd894a42da
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2095.BMP,cluster_1_2095.BMP,A-,1,96,103,RGBA,a910280f67b5dff6e88da07e980a2e52
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_256.BMP,cluster_7_256.BMP,O-,7,96,103,RGBA,4dacaeb10d2ebe23297b035c804e201b
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3210.BMP,cluster_4_3210.BMP,AB+,2,96,103,RGBA,581caaa73e827ceee15cde043cf7cd3c
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_59 (2).BMP,cluster_6_59 (2).BMP,O+,6,96,103,RGBA,d7b2e249a9822cf0dbd97a54c6636bba
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3309.BMP,cluster_3_3309.BMP,B-,5,96,103,RGBA,7a2ed19582a069013836cd6bc901b5ad
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_302.BMP,cluster_7_302.BMP,O-,7,96,103,RGBA,1efd48d8554110b476f75fb8ee956b79
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5031.BMP,cluster_4_5031.BMP,AB+,2,96,103,RGBA,8985a5cea204026fb1a96bcdf8561d58
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4061.BMP,cluster_7_4061.BMP,O-,7,96,103,RGBA,7a89c2ec22a46bd3aed68d88127ef41e
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_334 (2).BMP,cluster_6_334 (2).BMP,O+,6,96,103,RGBA,5d0f49dded17541510d13be562cf1f9a
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1184.BMP,cluster_3_1184.BMP,B-,5,96,103,RGBA,40cf1e97aa67834e1c4bbae4f30b263c
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4859.BMP,cluster_2_4859.BMP,B+,4,96,103,RGBA,194786b8626743b493fc79f7151eadce
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2811 (2).BMP,cluster_6_2811 (2).BMP,O+,6,96,103,RGBA,5c06b0547563d0471694649c5b33bda8
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4306.BMP,cluster_2_4306.BMP,B+,4,96,103,RGBA,55392f44ea094f6df3c94cff1ad80c3c
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2957 (2).BMP,cluster_6_2957 (2).BMP,O+,6,96,103,RGBA,39f0ad8f495266c05fbbb52ff126cfe4
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1279 (2).BMP,cluster_6_1279 (2).BMP,O+,6,96,103,RGBA,de0a654d666949d8fc7eaa188954b622
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1817.BMP,cluster_1_1817.BMP,A-,1,96,103,RGBA,f94d80aa7abf8ae04bb6767e82985676
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3488.BMP,cluster_5_3488.BMP,AB-,3,96,103,RGBA,6d708be9108529a9f14a4f25bdda0cac
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1898.BMP,cluster_4_1898.BMP,AB+,2,96,103,RGBA,b642fb0def7ea9bf188130bab5587716
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4553.BMP,cluster_1_4553.BMP,A-,1,96,103,RGBA,2a814c2ac08f882d31bdf490f047da6d
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4247.BMP,cluster_3_4247.BMP,B-,5,96,103,RGBA,05e5d353935108e8e378168e8b12ded1
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_5072.BMP,cluster_1_5072.BMP,A-,1,96,103,RGBA,d062b410e446aab242b3cb480fef1e92
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3214.BMP,cluster_7_3214.BMP,O-,7,96,103,RGBA,0f6c378cb7c397f2e0e476877678d903
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_145.BMP,cluster_3_145.BMP,B-,5,96,103,RGBA,1eddb2ee9695cce9a937ec8af8799997
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4674 (2).BMP,cluster_6_4674 (2).BMP,O+,6,96,103,RGBA,28127dda8dee3f0f8a9e019a1670a6e5
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3538.BMP,cluster_5_3538.BMP,AB-,3,96,103,RGBA,aa443eed0e5b221d3905989ece4fa323
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1714 (2).BMP,cluster_6_1714 (2).BMP,O+,6,96,103,RGBA,35d37dfe8b093f5194807334ab5f6655
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5814.BMP,cluster_3_5814.BMP,B-,5,96,103,RGBA,f623029f6e5949c350d889b71b4eb184
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3894.BMP,cluster_7_3894.BMP,O-,7,96,103,RGBA,319b257e8af111f28351fc5955c28456
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1649.BMP,cluster_3_1649.BMP,B-,5,96,103,RGBA,7a7317c62cbbd49ccde1f99bcc924240
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4970 (2).BMP,cluster_0_4970 (2).BMP,A+,0,96,103,RGBA,f600ca003718630967a34721f8f3e7ad
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2563.BMP,cluster_5_2563.BMP,AB-,3,96,103,RGBA,bbb609e25351cc0f9d20066bb2e34f11
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_827.BMP,cluster_2_827.BMP,B+,4,96,103,RGBA,cf504aa0fb9cfbaee975c92e663c7212
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5546 (2).BMP,cluster_6_5546 (2).BMP,O+,6,96,103,RGBA,f42339054b39d2599d1f85037ceb352a
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1878.BMP,cluster_4_1878.BMP,AB+,2,96,103,RGBA,b274dfb3b64a51517345849000f99f89
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_535 (2).BMP,cluster_0_535 (2).BMP,A+,0,96,103,RGBA,d9c17e599f59e3fc2320ae420515b67b
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4301.BMP,cluster_7_4301.BMP,O-,7,96,103,RGBA,d44519d56dc3e9ff295271f76955064a
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3467.BMP,cluster_1_3467.BMP,A-,1,96,103,RGBA,87c30734196ad99bdc56e09308500fb6
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1760.BMP,cluster_5_1760.BMP,AB-,3,96,103,RGBA,0daf279288a428c674d5f369cb5159e5
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5694.BMP,cluster_2_5694.BMP,B+,4,96,103,RGBA,8d4df07a92f47196044ece9bdc6834fe
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1528 (2).BMP,cluster_6_1528 (2).BMP,O+,6,96,103,RGBA,82f93c50c97a40e9e7fa7d6d4cb58dfc
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4788.BMP,cluster_4_4788.BMP,AB+,2,96,103,RGBA,a398987d659747c019cbc0f2fd01a95f
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_428.BMP,cluster_1_428.BMP,A-,1,96,103,RGBA,9c0e2a96360fa7c5628d1948c9f282cd
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3125.BMP,cluster_3_3125.BMP,B-,5,96,103,RGBA,3b529d08a81d327ef6715ea4c8b96bf2
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3684.BMP,cluster_2_3684.BMP,B+,4,96,103,RGBA,557159607b0d4f97c877df000facd1c5
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_305 (2).BMP,cluster_6_305 (2).BMP,O+,6,96,103,RGBA,5f49fa467dd89e19c4b43f211ac15d45
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3526 (2).BMP,cluster_0_3526 (2).BMP,A+,0,96,103,RGBA,8b7d52ab3fae90ba40cee73b7637829d
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2918 (2).BMP,cluster_6_2918 (2).BMP,O+,6,96,103,RGBA,1b711d78ad9f1e56d9a9b9cd4202e8bc
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4689 (2).BMP,cluster_0_4689 (2).BMP,A+,0,96,103,RGBA,9012351011d0c304b0c9f325d20095d4
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5172.BMP,cluster_5_5172.BMP,AB-,3,96,103,RGBA,17d765f48992d78e5d944d73efa18229
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4168.BMP,cluster_3_4168.BMP,B-,5,96,103,RGBA,c8126119ece1e53ff570c13ce0e28b91
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_903.BMP,cluster_5_903.BMP,AB-,3,96,103,RGBA,d4445575cb6511824f51f2ca85e58fe0
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2631 (2).BMP,cluster_6_2631 (2).BMP,O+,6,96,103,RGBA,6bf8b16c98117b6a1c815e329b55a02b
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1310 (2).BMP,cluster_6_1310 (2).BMP,O+,6,96,103,RGBA,97ab92a1ceec7a2e87ec0d93b60ed68f
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3128.BMP,cluster_3_3128.BMP,B-,5,96,103,RGBA,3cb6e2bc2951acae5045bade9ca9cd8c
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3563.BMP,cluster_4_3563.BMP,AB+,2,96,103,RGBA,de1fc85ba4f7d854b79b1087a10c55e1
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4925.BMP,cluster_4_4925.BMP,AB+,2,96,103,RGBA,8ad1d7ca5377b439e76814f69fbf6397
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3135.BMP,cluster_5_3135.BMP,AB-,3,96,103,RGBA,565a1d421d0a9213cff35ce97e9c466b
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5879.BMP,cluster_7_5879.BMP,O-,7,96,103,RGBA,40c2e21d9e93bb565fd4b9a02e25b054
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3023.BMP,cluster_3_3023.BMP,B-,5,96,103,RGBA,ea4b950c21b107a8ed860a6e41056125
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1673 (2).BMP,cluster_6_1673 (2).BMP,O+,6,96,103,RGBA,25d38936bac37dca1bc48af911893773
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3319.BMP,cluster_1_3319.BMP,A-,1,96,103,RGBA,f40602e3af8c72183d1b96fb8505acde
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4054.BMP,cluster_1_4054.BMP,A-,1,96,103,RGBA,49c059757db49c448e2ee056ffde792b
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4373.BMP,cluster_5_4373.BMP,AB-,3,96,103,RGBA,593f850ec9936a1093e742f0014fb9bd
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2024.BMP,cluster_5_2024.BMP,AB-,3,96,103,RGBA,89ee126c487b8d1d6d71478508b86263
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4155 (2).BMP,cluster_6_4155 (2).BMP,O+,6,96,103,RGBA,bc92d365c7c0501fc080eb618c4fbf3b
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3930 (2).BMP,cluster_6_3930 (2).BMP,O+,6,96,103,RGBA,ea48666ccef96a26214e133e7d46f186
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_39 (2).BMP,cluster_6_39 (2).BMP,O+,6,96,103,RGBA,0532968cff14f8f8a06c10481b1c7391
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4237 (2).BMP,cluster_6_4237 (2).BMP,O+,6,96,103,RGBA,d3e59d576278b16b895c60a282405f73
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3247.BMP,cluster_5_3247.BMP,AB-,3,96,103,RGBA,e226331d785cb02a848c2db4101d485a
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1966 (2).BMP,cluster_0_1966 (2).BMP,A+,0,96,103,RGBA,abe6b63f9d671e39376cb561c9a0370c
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5231.BMP,cluster_5_5231.BMP,AB-,3,96,103,RGBA,64dc3635795c94834b111b07197a1ea1
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2341.BMP,cluster_1_2341.BMP,A-,1,96,103,RGBA,b1d2e4e1118e4a4b9421b4a1e5547498
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_283.BMP,cluster_7_283.BMP,O-,7,96,103,RGBA,d3b4aef8d97e77af4832e52c77fca8ba
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5525.BMP,cluster_4_5525.BMP,AB+,2,96,103,RGBA,c9e5cf783777768286b0a333115e600a
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4246.BMP,cluster_5_4246.BMP,AB-,3,96,103,RGBA,5385a10401ba67f7521520fffcf44c2c
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5213.BMP,cluster_5_5213.BMP,AB-,3,96,103,RGBA,1902519935d5982ecefc766598d220b1
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_102 (2).BMP,cluster_6_102 (2).BMP,O+,6,96,103,RGBA,50c3b42a91c12b1b03d4ed5ff7103c3a
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1510.BMP,cluster_4_1510.BMP,AB+,2,96,103,RGBA,bae5dd6f9993659f02b4dca380a627ac
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1949.BMP,cluster_5_1949.BMP,AB-,3,96,103,RGBA,83889d80bb7478c8c7d13f8702ca8d52
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3120.BMP,cluster_3_3120.BMP,B-,5,96,103,RGBA,967a1373390e1379a089f849bcdc1498
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4705.BMP,cluster_2_4705.BMP,B+,4,96,103,RGBA,bcf2ee06d867da5b2fd960383b0cfaea
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_1021.BMP,cluster_2_1021.BMP,B+,4,96,103,RGBA,cff911e0e32c868a956be882c9161c89
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2539.BMP,cluster_5_2539.BMP,AB-,3,96,103,RGBA,6f7f2c15c7aef3fe377783f834bbc034
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1834 (2).BMP,cluster_0_1834 (2).BMP,A+,0,96,103,RGBA,d1b7659c78a4384c2352deaa1881686b
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2237.BMP,cluster_4_2237.BMP,AB+,2,96,103,RGBA,e7a41595ca53bdccae1b94f69f3e38c4
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_799 (2).BMP,cluster_6_799 (2).BMP,O+,6,96,103,RGBA,ea6c322015c2531d303eb5ddeb055240
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4715.BMP,cluster_7_4715.BMP,O-,7,96,103,RGBA,93a5de6de67105dcdb29856cdf776b99
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1991 (2).BMP,cluster_6_1991 (2).BMP,O+,6,96,103,RGBA,5dead99cd57ce5de2000e7c2e8f835cb
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5370.BMP,cluster_3_5370.BMP,B-,5,96,103,RGBA,bde09e47339d608558e1cf85218f3ebc
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1852.BMP,cluster_7_1852.BMP,O-,7,96,103,RGBA,1c753329a95076f33049db3a8c757093
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_163 (2).BMP,cluster_6_163 (2).BMP,O+,6,96,103,RGBA,0fe841626b59c86fdfa7f54330d5e9e7
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2760.BMP,cluster_7_2760.BMP,O-,7,96,103,RGBA,7d13c0d12d205af3bc84b55169c06e2b
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_2603 (2).BMP,cluster_0_2603 (2).BMP,A+,0,96,103,RGBA,7e8102c52d81e754dce3835cd09c616e
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3931 (2).BMP,cluster_0_3931 (2).BMP,A+,0,241,298,RGB,a38892f335f602d33cf85ca77877acda
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_500.BMP,cluster_2_500.BMP,B+,4,96,103,RGBA,6b1b0d39d714603714f5e026750f888d
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2950.BMP,cluster_1_2950.BMP,A-,1,96,103,RGBA,a443e790eb47b1aba70d68395496cf22
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5026.BMP,cluster_4_5026.BMP,AB+,2,96,103,RGBA,d48555546d94549deb4f46336ad16782
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_978 (2).BMP,cluster_6_978 (2).BMP,O+,6,96,103,RGBA,9b9760b99a2a81eb945a4104bb0f5511
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5999.BMP,cluster_2_5999.BMP,B+,4,96,103,RGBA,b385cfec5dfd2e3356a5f12e3a85be36
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3403 (2).BMP,cluster_0_3403 (2).BMP,A+,0,96,103,RGBA,af8af3e218707455cf14d61094d40b5f
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_477.BMP,cluster_4_477.BMP,AB+,2,96,103,RGBA,683ff0cc9bc03ceaddd3c36347055c73
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_28.BMP,cluster_2_28.BMP,B+,4,96,103,RGBA,bf78dbae13637d271fdb2d26bde50d49
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4841.BMP,cluster_5_4841.BMP,AB-,3,96,103,RGBA,8ae1b4153c0f7354fbe81c3daa522b12
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5680.BMP,cluster_2_5680.BMP,B+,4,96,103,RGBA,63f86c2cedbb88b2bbc2eaf6a5dbff5b
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_232.BMP,cluster_3_232.BMP,B-,5,96,103,RGBA,a4765a2b6194225cdcc7560a242e9b05
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1219.BMP,cluster_5_1219.BMP,AB-,3,96,103,RGBA,930aeaa861af456a3cffad6cc15f2889
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1961.BMP,cluster_7_1961.BMP,O-,7,96,103,RGBA,f2808c49edc515df5e5ee86779aae5a2
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2404 (2).BMP,cluster_6_2404 (2).BMP,O+,6,96,103,RGBA,cb42b3992e4e9c705464985ec10f28ef
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1020.BMP,cluster_1_1020.BMP,A-,1,96,103,RGBA,ddd557b48f600e37807faf815500ab34
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_275.BMP,cluster_7_275.BMP,O-,7,96,103,RGBA,3de17c407355c9f877584ce18f034b1f
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3863 (2).BMP,cluster_6_3863 (2).BMP,O+,6,96,103,RGBA,187a1c5d02e4179b4cad23e8250c77eb
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3099.BMP,cluster_3_3099.BMP,B-,5,96,103,RGBA,29180bb4f3ab957e4950f9c571cb7258
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3336.BMP,cluster_2_3336.BMP,B+,4,96,103,RGBA,4e0143bf2326396ba4a113623768fb74
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_714 (2).BMP,cluster_0_714 (2).BMP,A+,0,96,103,RGBA,3532c629be618cf4d43af8f01babfd91
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3528 (2).BMP,cluster_0_3528 (2).BMP,A+,0,96,103,RGBA,92e8795435cf268ac2d0102a1b03e8d0
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4726 (2).BMP,cluster_6_4726 (2).BMP,O+,6,96,103,RGBA,517717a6bda2fbb9f8bdd288f6ff1d12
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_127 (2).BMP,cluster_0_127 (2).BMP,A+,0,96,103,RGBA,b7c423af57286fe77b719879773eda53
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1091.BMP,cluster_7_1091.BMP,O-,7,96,103,RGBA,49a85d6e441a23fe6ff7a672d86c467a
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1158.BMP,cluster_5_1158.BMP,AB-,3,96,103,RGBA,4a120632b9fac81c5befe64dcb7b8dcc
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_628.BMP,cluster_4_628.BMP,AB+,2,96,103,RGBA,9f5b0ed129d65e2d10adb274d67c73b3
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4821 (2).BMP,cluster_0_4821 (2).BMP,A+,0,96,103,RGBA,3332c5c4fe69641dcb2e3e807c362e0d
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5513.BMP,cluster_5_5513.BMP,AB-,3,96,103,RGBA,de03b6b2b3b1c1b48bc744398e9ec0ef
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4870 (2).BMP,cluster_6_4870 (2).BMP,O+,6,96,103,RGBA,109731d7e3d496b1fac00256d7eb5f88
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1209.BMP,cluster_3_1209.BMP,B-,5,96,103,RGBA,ac95381d144a6e674ba32a495ba45421
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1992.BMP,cluster_4_1992.BMP,AB+,2,96,103,RGBA,ca359053176185ea8ec1ba8839debb0f
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5618.BMP,cluster_5_5618.BMP,AB-,3,96,103,RGBA,6ce7ca5f426f641c565eaf0787cd23a7
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1196 (2).BMP,cluster_0_1196 (2).BMP,A+,0,96,103,RGBA,8862dc1977290214b9263287eee313ee
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2104.BMP,cluster_4_2104.BMP,AB+,2,96,103,RGBA,960096a109b625ca599d524738561a4d
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5988.BMP,cluster_4_5988.BMP,AB+,2,96,103,RGBA,f9c347dc2af66ad17808fd0371e550e0
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4759.BMP,cluster_5_4759.BMP,AB-,3,96,103,RGBA,e2bfc4db5b9c19ed06886fdb7b279437
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_5015.BMP,cluster_1_5015.BMP,A-,1,96,103,RGBA,27b0479e54cc97a3c47bf18734dcfa16
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1805.BMP,cluster_7_1805.BMP,O-,7,96,103,RGBA,1407874d9c78cfc3c5eee9200104bb2e
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3094.BMP,cluster_1_3094.BMP,A-,1,96,103,RGBA,3544b0030516b3d70d65152c02f6cbee
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4688.BMP,cluster_1_4688.BMP,A-,1,96,103,RGBA,e98d88112b8b4caaf397ff18ae2bbfad
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4795 (2).BMP,cluster_6_4795 (2).BMP,O+,6,96,103,RGBA,31a4c351eb1e5bb12adae3bd127a3e0d
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3406.BMP,cluster_7_3406.BMP,O-,7,96,103,RGBA,69f5307037c3f8b5f5de773cb4fa037f
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5966 (2).BMP,cluster_6_5966 (2).BMP,O+,6,96,103,RGBA,edd91e18d0801edf89164c6ef6b0f609
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3750 (2).BMP,cluster_0_3750 (2).BMP,A+,0,96,103,RGBA,26b1dbbb081e0642db0f031ce1735e63
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2232.BMP,cluster_2_2232.BMP,B+,4,96,103,RGBA,eba7498ca67c9f76c636c9c3ba687a1f
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2978.BMP,cluster_2_2978.BMP,B+,4,96,103,RGBA,ff7cdd631421c26da93483d754e80a2e
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4506 (2).BMP,cluster_6_4506 (2).BMP,O+,6,96,103,RGBA,ac947e9af12326f2ec9beb38147d09cf
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3246.BMP,cluster_2_3246.BMP,B+,4,96,103,RGBA,42a14c55e63d25f7157b6807d17b17a2
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2947.BMP,cluster_3_2947.BMP,B-,5,96,103,RGBA,b26dda79abef2be53b552582902fc1ba
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4184.BMP,cluster_1_4184.BMP,A-,1,96,103,RGBA,c4d1e70d2918ef1fb0998fa172d302d0
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2939.BMP,cluster_2_2939.BMP,B+,4,96,103,RGBA,76de2f0f16339ad105db2c1a6e76b0a9
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4396 (2).BMP,cluster_0_4396 (2).BMP,A+,0,96,103,RGBA,5012060e996fb81e131926e5079e7d64
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1668 (2).BMP,cluster_0_1668 (2).BMP,A+,0,96,103,RGBA,5980bcba04d4af2ce8d526c1394e0794
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2571.BMP,cluster_5_2571.BMP,AB-,3,96,103,RGBA,6b48d68423008648bbb66bf4dedb2c31
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4515.BMP,cluster_4_4515.BMP,AB+,2,96,103,RGBA,8a30be63f807604f3c217a1e9a646740
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_898.BMP,cluster_5_898.BMP,AB-,3,96,103,RGBA,140c6d86b7f0a2b71d4c64c66cfdd3a9
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4992.BMP,cluster_2_4992.BMP,B+,4,96,103,RGBA,bad4880c8dc39bdd048fa47905df1046
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1371.BMP,cluster_1_1371.BMP,A-,1,96,103,RGBA,50202ffb1a88897ea76bde860d0dabcc
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5304.BMP,cluster_7_5304.BMP,O-,7,96,103,RGBA,5701b7888af9a55198cd648a6e1027a1
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_1920.BMP,cluster_2_1920.BMP,B+,4,96,103,RGBA,dcd72b72cb0ff3c7fab6ffc3499516cc
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3183.BMP,cluster_2_3183.BMP,B+,4,96,103,RGBA,533cddcf236f64f3232bbcdf5cc44a53
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2777.BMP,cluster_5_2777.BMP,AB-,3,96,103,RGBA,200cf01b2c28946e9d9b7dfbba7a74df
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1831.BMP,cluster_5_1831.BMP,AB-,3,96,103,RGBA,ff70ad1eb9f410d89976602959f735d6
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5832.BMP,cluster_4_5832.BMP,AB+,2,96,103,RGBA,55508f93feeec07ab6f2d0fe43666813
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1519.BMP,cluster_1_1519.BMP,A-,1,96,103,RGBA,cdccb61b54929412ccef31d9f4630d9b
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1328 (2).BMP,cluster_0_1328 (2).BMP,A+,0,96,103,RGBA,af5fd2e456911bdc7b446cef67815f17
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5875 (2).BMP,cluster_0_5875 (2).BMP,A+,0,96,103,RGBA,18744536bb8e1a8ed8bdffda1705ef45
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_70 (2).BMP,cluster_6_70 (2).BMP,O+,6,96,103,RGBA,9c7b7419204a41192893cc99f6551388
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3477.BMP,cluster_1_3477.BMP,A-,1,96,103,RGBA,844a264242d007ecba0c7caea8cd5de1
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4938.BMP,cluster_3_4938.BMP,B-,5,96,103,RGBA,eb277fc3981de09ec968170119bdeaca
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2915.BMP,cluster_1_2915.BMP,A-,1,96,103,RGBA,9ec9e70c6eb5175a56f72e5361dc7d28
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_928.BMP,cluster_2_928.BMP,B+,4,96,103,RGBA,f0ccb4b3937e5861cea028778695bb27
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3521 (2).BMP,cluster_6_3521 (2).BMP,O+,6,96,103,RGBA,4bc3a4556515737a90d571cc65edb140
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2045.BMP,cluster_1_2045.BMP,A-,1,96,103,RGBA,a9087d5555bfc4581a19bd9e2924ada1
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5363.BMP,cluster_2_5363.BMP,B+,4,96,103,RGBA,47a77bc9a3e2461ff804199c0eda8310
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1998.BMP,cluster_1_1998.BMP,A-,1,96,103,RGBA,a75a695c040d129f9433e6e5af8eb766
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5829.BMP,cluster_7_5829.BMP,O-,7,96,103,RGBA,c1e7b3be288b01b658ece4ec280717d0
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4719.BMP,cluster_7_4719.BMP,O-,7,96,103,RGBA,14e1c8a44651601c5636a3b24a106817
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5948 (2).BMP,cluster_6_5948 (2).BMP,O+,6,96,103,RGBA,b16000328f9a1a8e0ad5bad22f8cc7e7
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4616.BMP,cluster_3_4616.BMP,B-,5,96,103,RGBA,037ad952120951549772a229ebaa8763
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2279.BMP,cluster_1_2279.BMP,A-,1,96,103,RGBA,e430cb3e3b6571f59d1a9cd92adcdb32
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4763.BMP,cluster_3_4763.BMP,B-,5,96,103,RGBA,4596782bd83dd56aba956a029914e317
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3854.BMP,cluster_2_3854.BMP,B+,4,96,103,RGBA,e2556ae1718b9fb75054ce323ae7d312
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3237.BMP,cluster_4_3237.BMP,AB+,2,96,103,RGBA,2e42017a363c3455c9cef23acbce4bb0
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4733.BMP,cluster_4_4733.BMP,AB+,2,96,103,RGBA,cb8daf0f1b7721936ce6277c2ecd6894
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4877.BMP,cluster_3_4877.BMP,B-,5,96,103,RGBA,d537664989cd43ab23c44d376c907e0b
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3142.BMP,cluster_3_3142.BMP,B-,5,96,103,RGBA,c2366fcb8210fa0c5f258e9fefa92ee5
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1419.BMP,cluster_4_1419.BMP,AB+,2,96,103,RGBA,0bdfc2515f85b97bf7af6a12ecd6433e
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1507.BMP,cluster_3_1507.BMP,B-,5,96,103,RGBA,0ba5932e39cb65b28b32bead9df2b0e1
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4532 (2).BMP,cluster_6_4532 (2).BMP,O+,6,96,103,RGBA,d7c9869bac85b4a31c7b66c791ee8f3d
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4066.BMP,cluster_4_4066.BMP,AB+,2,96,103,RGBA,821897326e7b5011b8b19ece4ecef2d0
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5810.BMP,cluster_3_5810.BMP,B-,5,96,103,RGBA,3b57c71129c961dd55680017f4dd080c
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2554.BMP,cluster_1_2554.BMP,A-,1,96,103,RGBA,71a5e8d91f237a165d80934517455332
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_816.BMP,cluster_7_816.BMP,O-,7,96,103,RGBA,d3f5f3bae605ef69a2db8536c714db30
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4259.BMP,cluster_5_4259.BMP,AB-,3,96,103,RGBA,d50079ecb5ae590862cf5a88fb0c5806
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3953.BMP,cluster_7_3953.BMP,O-,7,96,103,RGBA,9d5871e6cf3d04beeb3d6c00e03c405c
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3911.BMP,cluster_5_3911.BMP,AB-,3,96,103,RGBA,5b786f312a336ef63a583d2a7dace221
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5148.BMP,cluster_3_5148.BMP,B-,5,96,103,RGBA,fc306bfb151391bc5a892a50badd4882
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_514.BMP,cluster_3_514.BMP,B-,5,96,103,RGBA,eaad443f5301bd10016d1acec953a1f8
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4241.BMP,cluster_3_4241.BMP,B-,5,96,103,RGBA,2674597ce2ea8f79549ea77e330dd352
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_207.BMP,cluster_3_207.BMP,B-,5,96,103,RGBA,28bec68ff7eae373380c93a36f532d80
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1441.BMP,cluster_7_1441.BMP,O-,7,96,103,RGBA,79b69a98c5ab5983ffd9594d9096c9b5
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5503.BMP,cluster_5_5503.BMP,AB-,3,96,103,RGBA,59278bfa22c80267de61fd1a8f9aca0c
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_40.BMP,cluster_1_40.BMP,A-,1,96,103,RGBA,cb83b6803800e2675cf54f385899436c
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4518.BMP,cluster_3_4518.BMP,B-,5,96,103,RGBA,c8b30d8e23f7a4bc34c6a811d20c6553
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5011.BMP,cluster_5_5011.BMP,AB-,3,96,103,RGBA,c996549a285a7a9bd9739de50c9324ae
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3505.BMP,cluster_4_3505.BMP,AB+,2,96,103,RGBA,dc464ac0413e5a3b16419e3abbd9c2ae
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_501 (2).BMP,cluster_6_501 (2).BMP,O+,6,96,103,RGBA,d4a97c0ac817e2a9aa8717832a7c472e
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5167 (2).BMP,cluster_6_5167 (2).BMP,O+,6,96,103,RGBA,7610b481f222b6c0a2ee486b0f52cf20
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4418.BMP,cluster_3_4418.BMP,B-,5,96,103,RGBA,972bc40e41a14752f314927e4f4d85e1
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4577.BMP,cluster_5_4577.BMP,AB-,3,96,103,RGBA,894ce3f0fde94f1d34941bbd56eb08f0
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1039 (2).BMP,cluster_6_1039 (2).BMP,O+,6,96,103,RGBA,189ec7508f955d8a1ef613a48bdb6721
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_2598 (2).BMP,cluster_0_2598 (2).BMP,A+,0,96,103,RGBA,384d6d96cb40f357549ef379f6fcfb0b
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1361 (2).BMP,cluster_0_1361 (2).BMP,A+,0,96,103,RGBA,1a3588ddc8b866388c486b125cb83694
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_253.BMP,cluster_5_253.BMP,AB-,3,96,103,RGBA,528bcef0d81cab5022c55cea662f8105
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4466.BMP,cluster_3_4466.BMP,B-,5,96,103,RGBA,8fdc8806c4db8aa4ba59551fdb61357e
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_336 (2).BMP,cluster_6_336 (2).BMP,O+,6,96,103,RGBA,eda294ccc0843c1b94f50e0617f70df1
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3218.BMP,cluster_3_3218.BMP,B-,5,96,103,RGBA,f34c21d651a8a9d2a1a307a5113f98c7
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_692.BMP,cluster_2_692.BMP,B+,4,96,103,RGBA,a6a3df36a89ccca69f8f0b72831536e1
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_906.BMP,cluster_3_906.BMP,B-,5,96,103,RGBA,b4d0aad12f5d695fc0a9c617ef374b05
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4445.BMP,cluster_7_4445.BMP,O-,7,96,103,RGBA,edf7eabb265d0dc074894923b502b068
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2864.BMP,cluster_4_2864.BMP,AB+,2,96,103,RGBA,dd48bd05e600d9ec3ca0e1a0cd08df98
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2150.BMP,cluster_3_2150.BMP,B-,5,96,103,RGBA,c61680873f6db6ec13343261b857d6d3
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4224.BMP,cluster_3_4224.BMP,B-,5,96,103,RGBA,ac196fc5ccd66b2016efd6aeac22b2b3
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5461 (2).BMP,cluster_0_5461 (2).BMP,A+,0,96,103,RGBA,f064c16c12e5a3de913047c4c1e18e10
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1624.BMP,cluster_1_1624.BMP,A-,1,96,103,RGBA,c53afb1b6e9289dce1d18ed0ae461ca6
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2628.BMP,cluster_3_2628.BMP,B-,5,96,103,RGBA,ffc3e30d698ec3a1fec7cf521a72e934
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5352 (2).BMP,cluster_6_5352 (2).BMP,O+,6,96,103,RGBA,0af8021c5b364dd4e71b1323fb064935
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_1500.BMP,cluster_2_1500.BMP,B+,4,96,103,RGBA,0fb55675ac7ecb78a79d29738dcb3417
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1575.BMP,cluster_5_1575.BMP,AB-,3,96,103,RGBA,3c3ac85fdecaf50f895cc68b3487e171
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2360 (2).BMP,cluster_6_2360 (2).BMP,O+,6,96,103,RGBA,c7b83ff76610c070c19bcffd92c2b48d
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_278.BMP,cluster_1_278.BMP,A-,1,96,103,RGBA,d30902743e0ec75b887b880c1f99a288
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3647 (2).BMP,cluster_0_3647 (2).BMP,A+,0,96,103,RGBA,c119cd646058af8be00d27b59ef60835
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2332.BMP,cluster_7_2332.BMP,O-,7,96,103,RGBA,f1ac5d4c682fb2c1755ea6dcc3f2b586
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1183 (2).BMP,cluster_0_1183 (2).BMP,A+,0,96,103,RGBA,e7c7522175c62aaa24e97d66c3d26218
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4222.BMP,cluster_3_4222.BMP,B-,5,96,103,RGBA,ddd1da54852b48725c76f54de821f150
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_449.BMP,cluster_5_449.BMP,AB-,3,96,103,RGBA,4f1ee6888d2181e14fc7ff0b55a574c2
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3785 (2).BMP,cluster_0_3785 (2).BMP,A+,0,96,103,RGBA,c427f65c176ddaf9d2ec20958423b5e9
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_435.BMP,cluster_4_435.BMP,AB+,2,96,103,RGBA,0054f611be004408f24a6a8e1b574a2e
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2124.BMP,cluster_1_2124.BMP,A-,1,96,103,RGBA,ed2bee3dbaba30e89cd752248f4b6023
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_281.BMP,cluster_5_281.BMP,AB-,3,96,103,RGBA,05c48f22bb3c2983a23f25a136cd55fa
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2378.BMP,cluster_1_2378.BMP,A-,1,96,103,RGBA,67f2ec1a09324faefe8a3d0e1043fe36
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1163.BMP,cluster_1_1163.BMP,A-,1,96,103,RGBA,6f5f9344f560a4c61dd9292ff94249f7
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5865.BMP,cluster_4_5865.BMP,AB+,2,96,103,RGBA,f388d3f7ea1e4ca783af6059636a8d47
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_2390.BMP,cluster_2_2390.BMP,B+,4,96,103,RGBA,bfe47c6e2077f0445a4a28a642c87ed4
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5889.BMP,cluster_7_5889.BMP,O-,7,96,103,RGBA,968ba9f598ff646957d0ab6cd22577b2
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4208.BMP,cluster_3_4208.BMP,B-,5,96,103,RGBA,eef7f2cec69486d551c22dadb2e0c2b3
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1905.BMP,cluster_1_1905.BMP,A-,1,96,103,RGBA,e9b8dd832a8ed23ae1f9b9076f67851b
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_785.BMP,cluster_2_785.BMP,B+,4,96,103,RGBA,32bd4b971ec059a50a6b72978bdc33bc
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2991.BMP,cluster_7_2991.BMP,O-,7,96,103,RGBA,7d3f91e1e49b217a2effb873fd5fcac7
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5242.BMP,cluster_7_5242.BMP,O-,7,96,103,RGBA,7e05b2005e0af5ed93465e841c59dee0
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2774.BMP,cluster_7_2774.BMP,O-,7,96,103,RGBA,006012b40160051cecdc78642fe07eed
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5097.BMP,cluster_5_5097.BMP,AB-,3,96,103,RGBA,17257c43388c9e52cc89c2b301553677
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5277.BMP,cluster_2_5277.BMP,B+,4,96,103,RGBA,0f336ea80ecb87014fcdfe963a8eb2a1
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1759.BMP,cluster_7_1759.BMP,O-,7,96,103,RGBA,1275fc5e0f8f65d8782e02c10985818f
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1934.BMP,cluster_1_1934.BMP,A-,1,96,103,RGBA,b0a349f0a9606a94340bb5a0a0708d1b
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2526 (2).BMP,cluster_6_2526 (2).BMP,O+,6,96,103,RGBA,bf33612f92725bdc3eb601062b150ec0
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_375.BMP,cluster_3_375.BMP,B-,5,96,103,RGBA,909c2f043f865c6efaf9d694bfb7ad4f
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3599 (2).BMP,cluster_0_3599 (2).BMP,A+,0,96,103,RGBA,77bf39718c3fa3b9e04c82efe18344c3
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1532.BMP,cluster_1_1532.BMP,A-,1,96,103,RGBA,ad6d87b6eb679c21c424d8c0fceb8792
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_504 (2).BMP,cluster_6_504 (2).BMP,O+,6,96,103,RGBA,f8e074471e651f4c913efd7cf202972f
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4371.BMP,cluster_5_4371.BMP,AB-,3,96,103,RGBA,bb926e168458d5344f4820bc7cd5b235
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1784 (2).BMP,cluster_6_1784 (2).BMP,O+,6,96,103,RGBA,21c172be1bccf799a5273f506c1dbb9a
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4962.BMP,cluster_5_4962.BMP,AB-,3,96,103,RGBA,b800f473e14dce604a7226f6d644a8c8
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_539 (2).BMP,cluster_0_539 (2).BMP,A+,0,96,103,RGBA,937fa24c2288c20c8d929cba2619f14d
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4558 (2).BMP,cluster_6_4558 (2).BMP,O+,6,96,103,RGBA,ee58c97c0f15d19a347ed3b0a90c3b69
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2103.BMP,cluster_1_2103.BMP,A-,1,96,103,RGBA,cb6f43bbdd47e3cbd213854725b138e2
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3576.BMP,cluster_3_3576.BMP,B-,5,96,103,RGBA,6c53bdfac5458a52f0192cfaf9dca8d5
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1915 (2).BMP,cluster_6_1915 (2).BMP,O+,6,96,103,RGBA,514d2c9b57d41ecb2908112159f1e7c0
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1165.BMP,cluster_1_1165.BMP,A-,1,96,103,RGBA,e0e37391aeb5bf39e29fbb6d2fd7e8da
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1962.BMP,cluster_7_1962.BMP,O-,7,96,103,RGBA,838ca8d25d221b14a59d7324b7cea7de
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3137.BMP,cluster_7_3137.BMP,O-,7,96,103,RGBA,3177aad9442a9113c1137bb556c8597f
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_1434 (2).BMP,cluster_0_1434 (2).BMP,A+,0,96,103,RGBA,2c0193dbc5b0548d55b839f33d3e202f
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5510.BMP,cluster_5_5510.BMP,AB-,3,96,103,RGBA,96122b9ba5427e40e30581b6d30909c1
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1616 (2).BMP,cluster_6_1616 (2).BMP,O+,6,96,103,RGBA,3194bff7b659cf2ccfb571386d1d3719
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_909.BMP,cluster_3_909.BMP,B-,5,96,103,RGBA,44899e80e66cb57cefdd11490deb347b
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1195.BMP,cluster_4_1195.BMP,AB+,2,96,103,RGBA,f0bb79e4d1121b38c6b57826918f4ee6
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3462.BMP,cluster_2_3462.BMP,B+,4,96,103,RGBA,dfd83fd703c0a00f5a8cf275111648c4
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3917.BMP,cluster_3_3917.BMP,B-,5,96,103,RGBA,c6b7bc0831e01457ecde58a41f7845e3
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1978.BMP,cluster_7_1978.BMP,O-,7,96,103,RGBA,240350019c2c21ec43afb2c4f02e677d
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_443.BMP,cluster_7_443.BMP,O-,7,96,103,RGBA,22ca069c70f8a92c33d639d0f94ca3d8
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1319 (2).BMP,cluster_6_1319 (2).BMP,O+,6,96,103,RGBA,504da508176af408a0922d9313926f1e
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_2927 (2).BMP,cluster_0_2927 (2).BMP,A+,0,96,103,RGBA,9f7027f66018fb8ce5408505c669c6b0
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3778.BMP,cluster_1_3778.BMP,A-,1,96,103,RGBA,66f3ef300e8e3f94d1885e68a33d5230
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_2239 (2).BMP,cluster_0_2239 (2).BMP,A+,0,96,103,RGBA,b9014262235518e0cebd7dfaec4328b9
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3248.BMP,cluster_4_3248.BMP,AB+,2,96,103,RGBA,251d4881104e1ebeb22a42257141ded0
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4231 (2).BMP,cluster_6_4231 (2).BMP,O+,6,96,103,RGBA,43998b0065db0c905d4651b21e6650c5
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5798.BMP,cluster_2_5798.BMP,B+,4,96,103,RGBA,dbcf109f733b3eb2c503a9b3658035db
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1364.BMP,cluster_1_1364.BMP,A-,1,96,103,RGBA,3e18ff467f9f50e568aa2a6ea61fc339
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5009.BMP,cluster_4_5009.BMP,AB+,2,96,103,RGBA,0389a718ae1b7e6fca22c4fb671711fa
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_651.BMP,cluster_3_651.BMP,B-,5,96,103,RGBA,1faabcf2e050fa619c5d0df59c5b17e1
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4519 (2).BMP,cluster_6_4519 (2).BMP,O+,6,96,103,RGBA,dd433ed24c832185a539c7de3c677861
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_181 (2).BMP,cluster_6_181 (2).BMP,O+,6,96,103,RGBA,9bcaa69caefd7edbb0758d1ae69543b7
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5892.BMP,cluster_5_5892.BMP,AB-,3,96,103,RGBA,1cde60c5b1a1356daa9997cfcdc34b12
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3342.BMP,cluster_3_3342.BMP,B-,5,96,103,RGBA,37ec327c0069f96a54129ed90e4fdd9e
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_45.BMP,cluster_1_45.BMP,A-,1,96,103,RGBA,3208f979e301517871370253c09df3c4
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2851 (2).BMP,cluster_6_2851 (2).BMP,O+,6,96,103,RGBA,2b05b3d0be9cf73e4fbb6dbf39d7cc6e
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1068.BMP,cluster_1_1068.BMP,A-,1,96,103,RGBA,bf7baa7ddf8929ce629db62d50f1f7cb
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2498.BMP,cluster_4_2498.BMP,AB+,2,96,103,RGBA,d962b9caf81274a7958d3aceff408c37
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_2008 (2).BMP,cluster_0_2008 (2).BMP,A+,0,96,103,RGBA,528aa0857149c3bf46f5b6b78e7d70e6
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5571.BMP,cluster_3_5571.BMP,B-,5,96,103,RGBA,afebef3fe261d25c0da7e5b992798d89
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5860 (2).BMP,cluster_0_5860 (2).BMP,A+,0,96,103,RGBA,9f90e8cdf9c7a5904712be063cead83b
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3051.BMP,cluster_5_3051.BMP,AB-,3,96,103,RGBA,83e019eba418faaf64dae3c72cbd6840
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_3307.BMP,cluster_2_3307.BMP,B+,4,96,103,RGBA,3f4e88994de128c1c172dd2563b6f1cb
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3401.BMP,cluster_5_3401.BMP,AB-,3,96,103,RGBA,3f199616e9bb73cc630beb06e1920ef7
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2644 (2).BMP,cluster_6_2644 (2).BMP,O+,6,96,103,RGBA,1b386a7ff3863573881aeae43c9852bc
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4692 (2).BMP,cluster_0_4692 (2).BMP,A+,0,96,103,RGBA,44c6be3d4fdf11c290f1bbcf04e85100
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_879.BMP,cluster_4_879.BMP,AB+,2,96,103,RGBA,d3e23e71caca5c5c4249f18e75fbe004
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_3334 (2).BMP,cluster_0_3334 (2).BMP,A+,0,96,103,RGBA,a797465f489d75c73fae8f982fca8b81
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_4271.BMP,cluster_3_4271.BMP,B-,5,96,103,RGBA,b1a6b3cdf5cb99ae55f0fe2899331eac
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4276.BMP,cluster_5_4276.BMP,AB-,3,96,103,RGBA,6beb45fb099a8643d41b401cda90026c
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3065.BMP,cluster_3_3065.BMP,B-,5,96,103,RGBA,ed88e1cd03db99236caad4fd5df9eb67
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2512.BMP,cluster_4_2512.BMP,AB+,2,96,103,RGBA,1b22357b4c82341637e5560c7b4c5bae
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_407.BMP,cluster_7_407.BMP,O-,7,96,103,RGBA,0e20221f12de6255ca18cec0eec7765c
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5566.BMP,cluster_2_5566.BMP,B+,4,96,103,RGBA,fbae5887e1e4980f9b9076a7c4857ffb
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5692.BMP,cluster_5_5692.BMP,AB-,3,96,103,RGBA,86d67a0b9bc9679b1f26b2f407b9e7d3
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4693 (2).BMP,cluster_0_4693 (2).BMP,A+,0,96,103,RGBA,a37019fab6466e08dd1c53a517f75e04
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1971.BMP,cluster_1_1971.BMP,A-,1,96,103,RGBA,71dc8ac628e2c66b103a39131e804019
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5197 (2).BMP,cluster_0_5197 (2).BMP,A+,0,96,103,RGBA,f2a0ff3019881b729cc38bdb1c81010a
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2141.BMP,cluster_4_2141.BMP,AB+,2,96,103,RGBA,c26c2c0c22b21e5b58e278f49f617641
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2529.BMP,cluster_7_2529.BMP,O-,7,96,103,RGBA,98f21dc1a7d5044578b244537c97e95e
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_901.BMP,cluster_5_901.BMP,AB-,3,96,103,RGBA,4ce785664a7c8c2c2317076f7b009a8d
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_826 (2).BMP,cluster_0_826 (2).BMP,A+,0,96,103,RGBA,b27b698192e63b4ad82c3952ede1a5aa
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_1545.BMP,cluster_2_1545.BMP,B+,4,96,103,RGBA,63f89e622c2e70d18a5313900f06e346
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_1755.BMP,cluster_2_1755.BMP,B+,4,96,103,RGBA,15f4effa18ca846d4993c5edde089117
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1332.BMP,cluster_4_1332.BMP,AB+,2,96,103,RGBA,91bec0d68fa232696c804fbc98f600da
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_1108.BMP,cluster_2_1108.BMP,B+,4,96,103,RGBA,fca7d1a4af0c36404203be80a70c0e5e
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2188.BMP,cluster_1_2188.BMP,A-,1,96,103,RGBA,3ea450a5302632bb911cb8c09e3f23c4
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_756.BMP,cluster_2_756.BMP,B+,4,96,103,RGBA,3275f5bc91d05ca660e0bb11278232db
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3014.BMP,cluster_7_3014.BMP,O-,7,96,103,RGBA,884e454fd3a4f61ce0e03c592cc48811
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1154.BMP,cluster_4_1154.BMP,AB+,2,96,103,RGBA,275b51a685337f86ad7ba5bf028db3e2
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_5085.BMP,cluster_1_5085.BMP,A-,1,96,103,RGBA,cfb5df5f5761a12ff5e924e1e635b895
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5194.BMP,cluster_3_5194.BMP,B-,5,96,103,RGBA,040aa72259df9ca46480784e18dfc116
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1122 (2).BMP,cluster_6_1122 (2).BMP,O+,6,96,103,RGBA,2b197f8781dbe05d874b573eddbbf68a
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1095.BMP,cluster_1_1095.BMP,A-,1,96,103,RGBA,1945eab3f31d7e920d38c476de8d3d2e
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2036.BMP,cluster_5_2036.BMP,AB-,3,96,103,RGBA,f89d871df0f43c52e73f672e655f1a57
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2109.BMP,cluster_1_2109.BMP,A-,1,96,103,RGBA,dc7c57101852c39b29e35f74b65a1b5b
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3329.BMP,cluster_1_3329.BMP,A-,1,96,103,RGBA,8c91fc8d301a905a4b58d7b09d70f0ba
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_103.BMP,cluster_4_103.BMP,AB+,2,96,103,RGBA,6d95e6979c3d80861636f1db26dd97fd
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2148.BMP,cluster_1_2148.BMP,A-,1,96,103,RGBA,e7f3cde73ef7b170f5a4603d87008a00
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5668.BMP,cluster_4_5668.BMP,AB+,2,96,103,RGBA,a69491ab8544c3ac2906e760b8f3807c
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2082.BMP,cluster_5_2082.BMP,AB-,3,96,103,RGBA,1214750001ae7ec90c7bdb404d2e38f8
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_389.BMP,cluster_1_389.BMP,A-,1,96,103,RGBA,525cad428e014d99e120180323b548c1
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5493 (2).BMP,cluster_0_5493 (2).BMP,A+,0,96,103,RGBA,db5fec2dd3c054cde9d4c88a401658a7
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2925.BMP,cluster_5_2925.BMP,AB-,3,96,103,RGBA,94912bc9cf31d00470bab137b4637a6e
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4050 (2).BMP,cluster_0_4050 (2).BMP,A+,0,96,103,RGBA,0e02ee244302dc30714ed40d01a4a647
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4187 (2).BMP,cluster_0_4187 (2).BMP,A+,0,96,103,RGBA,9d18315b75926d63743593ac7adf168d
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_345 (2).BMP,cluster_6_345 (2).BMP,O+,6,96,103,RGBA,06c34bfaa859a8bc2dd0f89e11477cc9
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3511 (2).BMP,cluster_6_3511 (2).BMP,O+,6,96,103,RGBA,da6d32bb082e96d05ba49bce0d83376e
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_1928.BMP,cluster_2_1928.BMP,B+,4,96,103,RGBA,7e2f1d1a4020e5c6a20ea4399fc4fcc7
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3084 (2).BMP,cluster_6_3084 (2).BMP,O+,6,96,103,RGBA,d6d1b154439e6cb63743b2d4c33e973b
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1354.BMP,cluster_5_1354.BMP,AB-,3,96,103,RGBA,3ef35faaada16cce1a701a4b91eb1ea8
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_941 (2).BMP,cluster_6_941 (2).BMP,O+,6,96,103,RGBA,1966cd6c9b134fa71d8a6cf0ee1d1785
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5645.BMP,cluster_2_5645.BMP,B+,4,96,103,RGBA,64549629d0a1df5a63c16880c2c767e9
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2945 (2).BMP,cluster_6_2945 (2).BMP,O+,6,96,103,RGBA,a74f252ada79b6029ebe232d6eb36892
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2607.BMP,cluster_4_2607.BMP,AB+,2,96,103,RGBA,c9423f0701bca8e9c0087d168394ad54
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_419.BMP,cluster_2_419.BMP,B+,4,96,103,RGBA,ac669abbf08334508b0c905cc0c531f8
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_4562 (2).BMP,cluster_0_4562 (2).BMP,A+,0,96,103,RGBA,8d2a5db6a0b9c16c6d4c7d8024fe8251
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1804.BMP,cluster_1_1804.BMP,A-,1,96,103,RGBA,4ea564c826d3ae62fb7edb99017a6f92
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2830.BMP,cluster_5_2830.BMP,AB-,3,96,103,RGBA,df789c9c169e00c53c2a536bafafa15b
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5034.BMP,cluster_7_5034.BMP,O-,7,96,103,RGBA,f875c673e82e2c7dd18902001adbc68c
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3770.BMP,cluster_3_3770.BMP,B-,5,96,103,RGBA,0781782b9cf64b5fd4abb01e77c09a6a
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2568.BMP,cluster_3_2568.BMP,B-,5,96,103,RGBA,afd9e1dbaab312692c6df283f86cb649
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3216.BMP,cluster_4_3216.BMP,AB+,2,96,103,RGBA,a8b67c0cc48b3ab66b3e21a116920aa9
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_4496.BMP,cluster_2_4496.BMP,B+,4,96,103,RGBA,2f4f20320bd6e30eb95f7d0d6c754c91
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3792.BMP,cluster_7_3792.BMP,O-,7,96,103,RGBA,c5dcaf5930ff34f4ddb528cd1f232d36
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4127.BMP,cluster_4_4127.BMP,AB+,2,96,103,RGBA,669152f7422ba31a27a5d071d8ddada9
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5211.BMP,cluster_3_5211.BMP,B-,5,96,103,RGBA,966e77d17230cd6f0f674023b79b2ed7
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_378.BMP,cluster_7_378.BMP,O-,7,96,103,RGBA,2bbeb66fee628efaced9209d1d327c04
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_1786.BMP,cluster_2_1786.BMP,B+,4,96,103,RGBA,402508a08c00e359fbb8a46cc7d9ac8d
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3033.BMP,cluster_7_3033.BMP,O-,7,96,103,RGBA,ece437e66a189912e08cb4320b1f0849
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_259.BMP,cluster_3_259.BMP,B-,5,96,103,RGBA,33e44f0cfef5b69e3f5b3d834cfd1362
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_44.BMP,cluster_5_44.BMP,AB-,3,96,103,RGBA,12c69af598ad0a4d88e652cda0d1384c
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2162.BMP,cluster_4_2162.BMP,AB+,2,96,103,RGBA,c47b40e3f2444b722f9bdeee08cdc2cd
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2431 (2).BMP,cluster_6_2431 (2).BMP,O+,6,96,103,RGBA,ac31dba818c5fdbcabb8fba324512263
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5671.BMP,cluster_3_5671.BMP,B-,5,96,103,RGBA,2637ffcc021ff2a4ad85b6f9f0803a11
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_2019.BMP,cluster_4_2019.BMP,AB+,2,96,103,RGBA,c4adb1bd91fa73d5005e5a3f759eef4d
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_474.BMP,cluster_4_474.BMP,AB+,2,96,103,RGBA,6eb2264c8b1568a54061ae223616b5d9
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4250 (2).BMP,cluster_6_4250 (2).BMP,O+,6,96,103,RGBA,2a869b9a0df187175080bc51a0b401c2
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3691.BMP,cluster_4_3691.BMP,AB+,2,96,103,RGBA,f5655631a1edc857b17a5a558accdef5
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_64 (2).BMP,cluster_6_64 (2).BMP,O+,6,96,103,RGBA,93c0ce79969b50b0affcee680a1364ac
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_771 (2).BMP,cluster_6_771 (2).BMP,O+,6,96,103,RGBA,48febf0cac3cde87e0d2f62a682db2a9
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5200.BMP,cluster_4_5200.BMP,AB+,2,96,103,RGBA,d2345593ef96417b89b0bc99fb009789
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5584.BMP,cluster_7_5584.BMP,O-,7,96,103,RGBA,af07a14a8a37d1374b83eec487f3c9f6
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5145.BMP,cluster_4_5145.BMP,AB+,2,96,103,RGBA,5eaa600716c656bd24938c599511dbb7
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1476 (2).BMP,cluster_6_1476 (2).BMP,O+,6,96,103,RGBA,3969c71c020fdc4e5ca5f9f548905f10
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_2735 (2).BMP,cluster_6_2735 (2).BMP,O+,6,96,103,RGBA,07828cdc81127be138d46d5e4cb86c17
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5125.BMP,cluster_5_5125.BMP,AB-,3,96,103,RGBA,e1fc2191106ccace956bf168555dad0a
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4131.BMP,cluster_7_4131.BMP,O-,7,96,103,RGBA,ebaef09a40a0c23f88cea79ae70c525a
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_2723.BMP,cluster_3_2723.BMP,B-,5,96,103,RGBA,cd54e656625160877c713fee88ccf1c3
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_5495.BMP,cluster_4_5495.BMP,AB+,2,96,103,RGBA,67655574460c2b6ace76f99b50c02719
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4710.BMP,cluster_7_4710.BMP,O-,7,96,103,RGBA,5f6ab38cd6483b3de33db90bf9412973
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_988.BMP,cluster_2_988.BMP,B+,4,96,103,RGBA,4c02160657af76857c7adaf8cd5161b4
+dataset/Fingerprint Dataset for Blood Group Classification/A+/cluster_0_5343 (2).BMP,cluster_0_5343 (2).BMP,A+,0,96,103,RGBA,80cfe45301aa3a08b6c8e89172b77995
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_5042 (2).BMP,cluster_6_5042 (2).BMP,O+,6,96,103,RGBA,f48e9f9f387dee40f50ae1c2f37e7c3c
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_1379.BMP,cluster_4_1379.BMP,AB+,2,96,103,RGBA,29471eb1127ee2eb9e9b111f942f2c90
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_1470.BMP,cluster_3_1470.BMP,B-,5,96,103,RGBA,8dfe972f6e1fe97235181ea577abb6ac
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2011.BMP,cluster_1_2011.BMP,A-,1,96,103,RGBA,a1a50aa75fef988bfb251722bd57ef81
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1403.BMP,cluster_1_1403.BMP,A-,1,96,103,RGBA,dcc4aabb30b5519b1fcceb0fb8192fbc
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_3377 (2).BMP,cluster_6_3377 (2).BMP,O+,6,96,103,RGBA,6837a16696b6e8eda314ba4557b19bbf
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_5394.BMP,cluster_2_5394.BMP,B+,4,96,103,RGBA,b3cbc7cd36dd38201f4944091ac9d1d6
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4436.BMP,cluster_7_4436.BMP,O-,7,96,103,RGBA,8b977edd0a5822c2444a464e6fb4a699
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4713.BMP,cluster_1_4713.BMP,A-,1,96,103,RGBA,f300bb9a95d1f84deca041aa310064f6
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4595 (2).BMP,cluster_6_4595 (2).BMP,O+,6,96,103,RGBA,f3975b27b863f9634a5e8de553b2e63b
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3982.BMP,cluster_5_3982.BMP,AB-,3,96,103,RGBA,eb5f5e2d4b84c97f52ab27cebcf28176
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5311.BMP,cluster_7_5311.BMP,O-,7,96,103,RGBA,97aa86f46b57fc8b459b02f1d960df25
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5053.BMP,cluster_3_5053.BMP,B-,5,96,103,RGBA,e8ece404ca92af0d9795afbae7bb61f4
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1239.BMP,cluster_1_1239.BMP,A-,1,96,103,RGBA,4aed85f1110ddbd50e385a8b927d5521
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_712.BMP,cluster_7_712.BMP,O-,7,96,103,RGBA,3ed7c89f137fa0cdd94698c353efbe55
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4942 (2).BMP,cluster_6_4942 (2).BMP,O+,6,96,103,RGBA,4fc8d21bbb4ca1974bb191d29bfadb6e
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_4326.BMP,cluster_1_4326.BMP,A-,1,96,103,RGBA,61cc439dcd1b45be6206ccce5c150e19
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5432.BMP,cluster_5_5432.BMP,AB-,3,96,103,RGBA,fb1e66f9a4189aa547d25328c62d41ab
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3864.BMP,cluster_4_3864.BMP,AB+,2,96,103,RGBA,55799462159ab54978dde938004d20c7
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2275.BMP,cluster_7_2275.BMP,O-,7,96,103,RGBA,264020fdc71ac52c35aa767c603a95a6
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_5852.BMP,cluster_3_5852.BMP,B-,5,96,103,RGBA,bc7230ff8da05682d9ab20c37ab883fc
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_60.BMP,cluster_3_60.BMP,B-,5,96,103,RGBA,9d467cb91f761be2ddff8f0aa4b76d60
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_347.BMP,cluster_4_347.BMP,AB+,2,96,103,RGBA,67aa78006e314bcf40f37c7853b35e3d
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_4348.BMP,cluster_7_4348.BMP,O-,7,96,103,RGBA,35a565bc293fbb9a0a30343d752a26df
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4829.BMP,cluster_4_4829.BMP,AB+,2,96,103,RGBA,029118665ba1a7658275fb14754078d6
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4581.BMP,cluster_5_4581.BMP,AB-,3,96,103,RGBA,8d8d2be9f5c0e547dd01c3d4bdedee78
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3661.BMP,cluster_1_3661.BMP,A-,1,96,103,RGBA,9d92e3e042c665d964537d61d4bb99c1
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_4540 (2).BMP,cluster_6_4540 (2).BMP,O+,6,96,103,RGBA,7ccf80f6d6f4f3241233773044962605
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1453.BMP,cluster_7_1453.BMP,O-,7,96,103,RGBA,e01180b9751e035caa903c45535091e5
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_5722.BMP,cluster_5_5722.BMP,AB-,3,96,103,RGBA,54260542257af89aa165447447197036
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3602.BMP,cluster_7_3602.BMP,O-,7,96,103,RGBA,ceeb03b76e92f355ce4c006ada4fbb7d
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_617.BMP,cluster_2_617.BMP,B+,4,96,103,RGBA,30dbb9d8a409f9ddaee1edc1dca61d72
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_546 (2).BMP,cluster_6_546 (2).BMP,O+,6,96,103,RGBA,100ce2d40e07a8b5ce1e3959dd3196dd
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1156 (2).BMP,cluster_6_1156 (2).BMP,O+,6,96,103,RGBA,3935789e8d02c41f86f77b882473b2b1
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2439.BMP,cluster_1_2439.BMP,A-,1,96,103,RGBA,563bb19ad242a4d23e86bd51bfcd4d80
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5855.BMP,cluster_7_5855.BMP,O-,7,96,103,RGBA,430522913a582e3172953ed0583c3329
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_3627.BMP,cluster_5_3627.BMP,AB-,3,96,103,RGBA,98f2fc9b15076ce594813a7667da000a
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_1520.BMP,cluster_7_1520.BMP,O-,7,96,103,RGBA,78996985c935fd7e8074ed74bf0c23ee
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_3088.BMP,cluster_1_3088.BMP,A-,1,96,103,RGBA,230fe34d37476e97735130037f290ad0
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_2099.BMP,cluster_1_2099.BMP,A-,1,96,103,RGBA,4fa77b5a4b1485101ce069f20d35aac3
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_609.BMP,cluster_5_609.BMP,AB-,3,96,103,RGBA,a9ca0a37759ed33295522f028b3161f5
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4845.BMP,cluster_4_4845.BMP,AB+,2,96,103,RGBA,b44f1b710619b10350f7ba06a14ab9a5
+dataset/Fingerprint Dataset for Blood Group Classification/A-/cluster_1_1892.BMP,cluster_1_1892.BMP,A-,1,96,103,RGBA,d2f7516c117fa09f94c71a0f806580af
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_479.BMP,cluster_3_479.BMP,B-,5,96,103,RGBA,f43aa0f1b0f8f28910b9b2cf48c02f93
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3354.BMP,cluster_3_3354.BMP,B-,5,96,103,RGBA,26bad3a93c8099f23a4f0a959569cf85
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_5154.BMP,cluster_7_5154.BMP,O-,7,96,103,RGBA,85c7d45f1b6d8086d1a1670da053857e
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4152.BMP,cluster_5_4152.BMP,AB-,3,96,103,RGBA,6ef633e5358c10aceb3507b1e4408bf1
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_3133.BMP,cluster_7_3133.BMP,O-,7,96,103,RGBA,af68d97e962f3b2ea7103036f0d1b3e5
+dataset/Fingerprint Dataset for Blood Group Classification/B-/cluster_3_3795.BMP,cluster_3_3795.BMP,B-,5,96,103,RGBA,128065255670e8044203115662b9cb2d
+dataset/Fingerprint Dataset for Blood Group Classification/B+/cluster_2_634.BMP,cluster_2_634.BMP,B+,4,96,103,RGBA,db858a77c78381d5a99fc77c71f3761b
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_2993.BMP,cluster_5_2993.BMP,AB-,3,96,103,RGBA,de4e4e20d703ec65d1cf39a6881fda55
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_853.BMP,cluster_5_853.BMP,AB-,3,96,103,RGBA,15489b28ed86805e1d6c29115076d43c
+dataset/Fingerprint Dataset for Blood Group Classification/O-/cluster_7_2632.BMP,cluster_7_2632.BMP,O-,7,96,103,RGBA,5eb1a08b346a5e15c5bbd94d9b195552
+dataset/Fingerprint Dataset for Blood Group Classification/O+/cluster_6_1501 (2).BMP,cluster_6_1501 (2).BMP,O+,6,96,103,RGBA,f057b215e82b520dd16648d6f7a085de
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_3998.BMP,cluster_4_3998.BMP,AB+,2,96,103,RGBA,dc5533cd4362b5c847a6d990f5203545
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_1845.BMP,cluster_5_1845.BMP,AB-,3,96,103,RGBA,1f5d14a6dca40f25780836c4252ecf56
+dataset/Fingerprint Dataset for Blood Group Classification/AB+/cluster_4_4961.BMP,cluster_4_4961.BMP,AB+,2,96,103,RGBA,094d4453ebfc9e739b9ae13734a6d188
+dataset/Fingerprint Dataset for Blood Group Classification/AB-/cluster_5_4880.BMP,cluster_5_4880.BMP,AB-,3,96,103,RGBA,dff6d360c89a15c705de11a721fe78ab

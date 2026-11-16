@@ -1,0 +1,35 @@
+{
+  "evaluated_samples": 862,
+  "classes": [
+    "A+",
+    "A-",
+    "AB+",
+    "AB-",
+    "B+",
+    "B-",
+    "O+",
+    "O-"
+  ],
+  "models": {
+    "calibrated_weighted_ensemble": {
+      "test_accuracy": 0.9048723897911833,
+      "correct": 780
+    },
+    "hard_majority_consensus": {
+      "test_accuracy": 0.8805104408352669
+    },
+    "hybrid_resnet_svm": {
+      "test_accuracy": 0.8816705336426914
+    },
+    "classical_svm_hog": {
+      "test_accuracy": 0.8306264501160093
+    },
+    "hybrid_vgg16_svm": {
+      "test_accuracy": 0.7238979118329466
+    },
+    "resnet50_cnn": {
+      "test_accuracy": 0.6252900232018561
+    }
+  },
+  "status": "ALL_MODELS_TRAINED_AND_EVALUATED_SUCCESSFULLY"
+}

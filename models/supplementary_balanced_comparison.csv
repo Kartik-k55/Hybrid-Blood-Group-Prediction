@@ -1,0 +1,7 @@
+Model ID,Model Architecture,Balanced Test Acc (%),95% CI (Accuracy),Macro F1 (%),Weighted F1 (%),Correct / Total,Incorrect
+weighted_ensemble,Calibrated Weighted Ensemble (DL + ML),92.5,"[89.2%, 95.8%]",92.47,92.47,222 / 240,18
+hard_voting_consensus,Hard Majority Consensus Voting,90.0,"[86.2%, 93.8%]",89.99,89.99,216 / 240,24
+hybrid_resnet,Hybrid ResNet-SVM,87.5,"[83.3%, 91.7%]",87.34,87.34,210 / 240,30
+classical_svm,Classical SVM (HOG),87.5,"[83.7%, 91.7%]",87.48,87.48,210 / 240,30
+hybrid_vgg16,Hybrid VGG16 + Priors + SVM,78.33,"[73.3%, 83.8%]",78.57,78.57,188 / 240,52
+resnet_cnn,ResNet-50 Deep CNN,60.83,"[55.0%, 66.7%]",61.17,61.17,146 / 240,94

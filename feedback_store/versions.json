@@ -1,0 +1,26 @@
+[
+  {
+    "version_id": "v1.0.0",
+    "name": "Base Audited Model",
+    "timestamp": 1792333511,
+    "train_samples": 4018,
+    "val_samples": 861,
+    "val_accuracy": 76.7,
+    "val_macro_f1": 76.5,
+    "feedback_samples": 0,
+    "is_active": false,
+    "path": "test\\model_blood_group_detection_svm.pkl"
+  },
+  {
+    "version_id": "v1.0.1",
+    "name": "Retrained Model (3 feedback additions)",
+    "timestamp": 1792996452,
+    "train_samples": 4021,
+    "val_samples": 861,
+    "val_accuracy": 81.53,
+    "val_macro_f1": 81.6,
+    "feedback_samples": 3,
+    "is_active": true,
+    "path": "C:\\Users\\Kartik\\Downloads\\fingerprint-based-blood-group-detection\\feedback_store\\models\\model_blood_group_detection_svm_v1.0.1.pkl"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "corrections": [
+    {
+      "id": "corr_1792399039_d17215",
+      "timestamp": 1792399039,
+      "datetime_str": "2026-10-19 14:07:19",
+      "md5": "b044040f20565948726edd36045601c4",
+      "content_hash": "98a516d0e71e686e6fc1e327f084605a",
+      "predicted_label": "A+",
+      "correct_label": "O+",
+      "status": "approved",
+      "is_known_dataset_image": false,
+      "encrypted_image_path": "feedback_store\\images\\corr_1792399039_d17215.enc",
+      "reviewed_at": 1792399105
+    },
+    {
+      "id": "corr_1792399076_1e9cbd",
+      "timestamp": 1792399076,
+      "datetime_str": "2026-10-19 14:07:56",
+      "md5": "6319d5a66cc6a0f9092fe37a6e8a3198",
+      "content_hash": "f4d60f25ed3d26b06d6505082ad715e1",
+      "predicted_label": "A+",
+      "correct_label": "O+",
+      "status": "approved",
+      "is_known_dataset_image": false,
+      "encrypted_image_path": "feedback_store\\images\\corr_1792399076_1e9cbd.enc",
+      "reviewed_at": 1792399095
+    },
+    {
+      "id": "corr_1792996447_6adf55",
+      "timestamp": 1792996447,
+      "datetime_str": "2026-10-26 12:04:07",
+      "md5": "6fa09f5a4d3e0dd337ebe48277618636",
+      "content_hash": "83ceb09c7246d60a0ca68ddc3a51b733",
+      "predicted_label": "A+",
+      "correct_label": "AB+",
+      "status": "approved",
+      "is_known_dataset_image": true,
+      "encrypted_image_path": "feedback_store\\images\\corr_1792996447_6adf55.enc",
+      "reviewed_at": 1792996447
+    }
+  ]
+}

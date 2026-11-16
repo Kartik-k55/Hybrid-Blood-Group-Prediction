@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakta Mitra - Fingerprint Blood Group Detector</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="sage-theme">
+    <!-- Background Animated Blobs -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar glass">
+        <div class="logo-container">
+            <div class="logo-icon">
+                <i class="fa-solid fa-fingerprint"></i>
+                <div class="blood-drop-badge"><i class="fa-solid fa-droplet"></i></div>
+            </div>
+            <div class="logo-text">
+                <span class="brand-title">Rakta Mitra</span>
+                <span class="brand-sub">Blood Group Detection from Fingerprints</span>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <button class="nav-btn active" data-tab="scanner-tab">
+                <i class="fa-solid fa-expand-alt"></i> Scanner & Predictor
+            </button>
+            <button class="nav-btn" id="nav-btn-lab" onclick="document.getElementById('explainability-lab-section').scrollIntoView({ behavior: 'smooth' })">
+                <i class="fa-solid fa-microscope"></i> Explainability Lab
+            </button>
+            <button class="nav-btn" data-tab="benchmark-tab">
+                <i class="fa-solid fa-chart-line"></i> Model Benchmarks
+            </button>
+            <button class="nav-btn" data-tab="dataset-tab">
+                <i class="fa-solid fa-database"></i> Dataset & Insights
+            </button>
+            <a href="/feedback/admin" class="nav-btn" style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
+                <i class="fa-solid fa-shield-halved"></i> Admin & Retrain
+            </a>
+        </nav>
+        <div class="header-actions">
+            <span class="status-indicator online" id="header-status-indicator">
+                <span class="pulse-dot"></span> <span id="header-status-text">Hybrid VGG16-SVM Active</span>
+            </span>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- Mandatory Scientific & Clinical Disclaimer Banner -->
+        <div class="disclaimer-banner" style="margin: 0 auto 20px auto; max-width: 1240px; padding: 14px 20px; border-left: 5px solid #294936; background: #FFFFFF; color: #222222; font-size: 0.88rem; border-radius: 12px; line-height: 1.5; border: 1.5px solid #888888;">
+            <strong style="color: #294936; display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+                <i class="fa-solid fa-triangle-exclamation"></i> Mandatory Scientific & Clinical Disclaimer
+            </strong>
+            Machine learning models trained on fingerprint datasets are statistical research estimates. 
+            There is no established, peer-reviewed biological mechanism connecting dermatoglyphic ridge formation to erythrocyte ABO carbohydrate antigens or Rh(D) protein expression. 
+            <strong>Must never be used for blood transfusions, emergency typing, or clinical diagnosis.</strong> Standard serological agglutination testing is mandatory.
+        </div>
+
+        <!-- HERO SECTION: Interactive 3D Fingerprint Biometrics & Floating Erythrocytes -->
+        <section class="hero-section reveal-on-scroll" id="hero-section">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>Medical Deep Learning Research</span>
+                </div>
+                <h1 class="hero-title">AI-Powered Blood Group Prediction</h1>
+                <p class="hero-subtitle">
+                    Explore a hybrid deep learning approach for fingerprint-based blood group prediction.
+                </p>
+                <div class="hero-features">
+                    <div class="hero-feat-item">
+                        <i class="fa-solid fa-fingerprint"></i>
+                        <span>Dermatoglyphic Ridges</span>
+                    </div>
+                    <div class="hero-feat-item">
+                        <i class="fa-solid fa-atom"></i>
+                        <span>VGG16 + Bayesian SVM</span>
+                    </div>
+                    <div class="hero-feat-item">
+                        <i class="fa-solid fa-dna"></i>
+                        <span>8-Class Biometric Matrix</span>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <button class="btn btn-hero" id="hero-cta-btn" onclick="document.getElementById('dropzone').scrollIntoView({ behavior: 'smooth' })">
+                        <i class="fa-solid fa-microscope"></i> Analyze Fingerprint
+                    </button>
+                    <a href="#pipeline-section" class="btn btn-hero-secondary">
+                        <i class="fa-solid fa-diagram-project"></i> View AI Pipeline
+                    </a>
+                </div>
+                <p class="hero-disclaimer-note">
+                    <i class="fa-solid fa-circle-info"></i> Statistical research model. Serological agglutination laboratory testing is clinically mandatory.
+                </p>
+            </div>
+
+            <div class="hero-visual">
+                <div id="hero-3d-canvas-container" class="hero-canvas-wrapper" title="Interactive 3D Biometric Visual - Move cursor to orbit">
+                    <!-- Three.js 3D Fingerprint + Floating Red Blood Cells injects here -->
+                    <div class="hero-fallback-graphic">
+                        <i class="fa-solid fa-fingerprint fallback-icon"></i>
+                    </div>
+                </div>
+                <div class="hero-floating-badge badge-top-right">
+                    <i class="fa-solid fa-microchip"></i> <span>512-D Latent Embeddings</span>
+                </div>
+                <div class="hero-floating-badge badge-bottom-left">
+                    <i class="fa-solid fa-heart-pulse"></i> <span>Erythrocyte ABO & Rh</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ANIMATED AI PROCESSING PIPELINE -->
+        <section class="pipeline-section reveal-on-scroll" id="pipeline-section">
+            <div class="section-heading-wrap">
+                <div class="section-tag"><i class="fa-solid fa-diagram-project"></i> Deep Learning Workflow</div>
+                <h2>Automated Hybrid Biometric Processing Pipeline</h2>
+                <p class="subtitle">Real-time progressive inference pipeline from raw biometric capture to calibrated blood group classification</p>
+            </div>
+
+            <div class="pipeline-track" id="pipeline-track">
+                <!-- Stage 1 -->
+                <div class="pipeline-card" data-stage="1" id="pipeline-stage-1">
+                    <div class="pipeline-card-badge">01</div>
+                    <div class="pipeline-icon-box"><i class="fa-solid fa-fingerprint"></i></div>
+                    <h3>Fingerprint Input</h3>
+                    <p class="pipeline-desc">Biometric ridge pattern acquisition (BMP/PNG/JPG) with resolution and channel verification.</p>
+                    <div class="pipeline-meta">512×512 Raw Capture</div>
+                    <div class="pipeline-status-indicator" id="stage-status-1">Standby</div>
+                </div>
+
+                <div class="pipeline-connector">
+                    <div class="pipeline-line"></div>
+                    <div class="pipeline-particle"></div>
+                </div>
+
+                <!-- Stage 2 -->
+                <div class="pipeline-card" data-stage="2" id="pipeline-stage-2">
+                    <div class="pipeline-card-badge">02</div>
+                    <div class="pipeline-icon-box"><i class="fa-solid fa-sliders"></i></div>
+                    <h3>Image Preprocessing</h3>
+                    <p class="pipeline-desc">Grayscale conversion, CLAHE adaptive histogram equalization, and 224×224 tensor normalization.</p>
+                    <div class="pipeline-meta">CLAHE + Resizing</div>
+                    <div class="pipeline-status-indicator" id="stage-status-2">Standby</div>
+                </div>
+
+                <div class="pipeline-connector">
+                    <div class="pipeline-line"></div>
+                    <div class="pipeline-particle"></div>
+                </div>
+
+                <!-- Stage 3 -->
+                <div class="pipeline-card" data-stage="3" id="pipeline-stage-3">
+                    <div class="pipeline-card-badge">03</div>
+                    <div class="pipeline-icon-box"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3>VGG16 Feature Extraction</h3>
+                    <p class="pipeline-desc">Deep convolutional backbone extracting 512-dimensional bottleneck representations.</p>
+                    <div class="pipeline-meta">512-D Latent Vector</div>
+                    <div class="pipeline-status-indicator" id="stage-status-3">Standby</div>
+                </div>
+
+                <div class="pipeline-connector">
+                    <div class="pipeline-line"></div>
+                    <div class="pipeline-particle"></div>
+                </div>
+
+                <!-- Stage 4 -->
+                <div class="pipeline-card" data-stage="4" id="pipeline-stage-4">
+                    <div class="pipeline-card-badge">04</div>
+                    <div class="pipeline-icon-box"><i class="fa-solid fa-chart-diagram"></i></div>
+                    <h3>SVM Classification</h3>
+                    <p class="pipeline-desc">Maximum-margin RBF kernel hyperplanes weighted with empirical Bayesian ridge priors.</p>
+                    <div class="pipeline-meta">RBF Kernel + Bayes</div>
+                    <div class="pipeline-status-indicator" id="stage-status-4">Standby</div>
+                </div>
+
+                <div class="pipeline-connector">
+                    <div class="pipeline-line"></div>
+                    <div class="pipeline-particle"></div>
+                </div>
+
+                <!-- Stage 5 -->
+                <div class="pipeline-card" data-stage="5" id="pipeline-stage-5">
+                    <div class="pipeline-card-badge">05</div>
+                    <div class="pipeline-icon-box"><i class="fa-solid fa-square-poll-vertical"></i></div>
+                    <h3>Prediction Output</h3>
+                    <p class="pipeline-desc">Calibrated class probability distribution, primary blood group classification, and donor compatibility.</p>
+                    <div class="pipeline-meta">8-Class Probability</div>
+                    <div class="pipeline-status-indicator" id="stage-status-5">Standby</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 1: SCANNER & PREDICTOR -->
+        <section id="scanner-tab" class="tab-content active">
+            <div class="grid-layout">
+                <!-- Left Column: Image Input & Processing -->
+                <div class="card glass shadow-lg input-card">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-fingerprint icon-crimson"></i> Fingerprint Image Input</h2>
+                        <p class="subtitle">Upload a biometric image, pick a test sample, or scan live via USB</p>
+                    </div>
+
+                    <!-- Input Mode Tabs: Upload vs Live USB Scanner -->
+                    <div class="input-mode-tabs" role="tablist">
+                        <button type="button" class="input-mode-btn active" id="mode-upload-btn" data-mode="upload">
+                            <i class="fa-solid fa-cloud-arrow-up"></i> Upload / Sample Image
+                        </button>
+                        <button type="button" class="input-mode-btn" id="mode-scanner-btn" data-mode="scanner">
+                            <i class="fa-solid fa-fingerprint"></i> Live USB Scanner
+                            <span class="scanner-status-dot online" id="scanner-tab-dot"></span>
+                        </button>
+                    </div>
+
+                    <!-- Live USB Scanner Panel -->
+                    <div class="scanner-panel hidden" id="scanner-panel">
+                        <!-- Scanner Selection Header -->
+                        <div class="scanner-select-header">
+                            <div class="scanner-select-group">
+                                <label for="scanner-select" class="scanner-select-label">
+                                    <i class="fa-solid fa-microchip icon-crimson"></i> Select Scanner Device:
+                                </label>
+                                <div class="scanner-select-wrapper">
+                                    <select id="scanner-select" class="scanner-select-dropdown">
+                                        <option value="simulated">Demo / Simulated Scanner (Virtual Test Mode)</option>
+                                        <option value="scanner_1">Scanner 1 (Primary USB Slot)</option>
+                                        <option value="scanner_2">Scanner 2 (Secondary USB Slot)</option>
+                                    </select>
+                                    <button type="button" class="btn btn-sm btn-refresh-scanners" id="refresh-scanners-btn" title="Re-scan USB Bus for Connected Hardware">
+                                        <i class="fa-solid fa-arrows-rotate"></i> Refresh
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Active Device Hardware Telemetry Card -->
+                        <div class="scanner-telemetry-card glass-inner" id="scanner-telemetry-card">
+                            <div class="telemetry-header">
+                                <div class="telemetry-title-wrap">
+                                    <span class="telemetry-device-name" id="telemetry-device-name">Demo / Simulated Scanner (Virtual Test Mode)</span>
+                                    <span class="telemetry-status-badge badge-ready" id="telemetry-status-badge">Demo Mode (Virtual)</span>
+                                </div>
+                                <span class="telemetry-slot-badge" id="telemetry-slot-badge">Mode: Simulated</span>
+                            </div>
+
+                            <!-- Hardware Detail Grid -->
+                            <div class="telemetry-grid">
+                                <div class="telemetry-item">
+                                    <span class="tel-label"><i class="fa-solid fa-industry"></i> Vendor</span>
+                                    <span class="tel-value" id="tel-vendor">Virtual Biometrics</span>
+                                </div>
+                                <div class="telemetry-item">
+                                    <span class="tel-label"><i class="fa-solid fa-barcode"></i> Vendor ID (VID)</span>
+                                    <span class="tel-value font-mono" id="tel-vid">VIRTUAL</span>
+                                </div>
+                                <div class="telemetry-item">
+                                    <span class="tel-label"><i class="fa-solid fa-tag"></i> Product ID (PID)</span>
+                                    <span class="tel-value font-mono" id="tel-pid">DEMO</span>
+                                </div>
+                                <div class="telemetry-item">
+                                    <span class="tel-label"><i class="fa-solid fa-plug"></i> Connection</span>
+                                    <span class="tel-value" id="tel-connection">Connected (Virtual)</span>
+                                </div>
+                                <div class="telemetry-item">
+                                    <span class="tel-label"><i class="fa-solid fa-file-code"></i> Driver / SDK</span>
+                                    <span class="tel-value" id="tel-sdk">Virtual Ready</span>
+                                </div>
+                                <div class="telemetry-item">
+                                    <span class="tel-label"><i class="fa-solid fa-shield-halved"></i> Biometric Class</span>
+                                    <span class="tel-value" id="tel-class">Biometric Sensor</span>
+                                </div>
+                            </div>
+
+                            <!-- Integration / Missing Driver Alert Notice -->
+                            <div class="scanner-notice-box hidden" id="scanner-notice-box">
+                                <div class="notice-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                <div class="notice-content">
+                                    <strong id="notice-title">Driver / SDK Required</strong>
+                                    <p id="notice-desc">Hardware detected, but vendor SDK DLL is not installed.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Scan Trigger Action Section -->
+                        <div class="scanner-action-zone">
+                            <div class="scanner-action-btn-group">
+                                <button type="button" class="btn btn-gradient btn-scan-trigger" id="trigger-scan-btn">
+                                    <i class="fa-solid fa-play"></i>
+                                    <span id="trigger-scan-btn-text">Start Scan</span>
+                                </button>
+                                <button type="button" class="btn btn-outline-danger btn-scan-cancel hidden" id="cancel-scan-btn" title="Cancel ongoing biometric acquisition">
+                                    <i class="fa-solid fa-xmark"></i>
+                                    <span>Cancel Scan</span>
+                                </button>
+                            </div>
+                            <div class="scanner-live-status" id="scanner-live-status">
+                                <i class="fa-solid fa-circle-info" id="scanner-status-icon"></i>
+                                <span id="scanner-live-status-text">Ready to acquire. Click "Start Scan".</span>
+                            </div>
+                        </div>
+
+                        <!-- Captured Fingerprint Review Box (Displayed upon successful capture) -->
+                        <div class="scanner-capture-review hidden" id="scanner-capture-review">
+                            <div class="capture-review-header">
+                                <div class="review-title-wrap">
+                                    <i class="fa-solid fa-circle-check" style="color: #2E7D32;"></i>
+                                    <h4>Fingerprint Acquired Successfully</h4>
+                                </div>
+                                <span class="capture-quality-badge" id="capture-quality-badge">Quality: 92%</span>
+                            </div>
+                            <div class="capture-review-body">
+                                <div class="capture-preview-canvas">
+                                    <img id="scanner-review-img" src="" alt="Captured Fingerprint Preview">
+                                    <div class="capture-dim-badge" id="capture-dim-badge">512 × 512 px</div>
+                                </div>
+                                <div class="capture-meta-details">
+                                    <div class="capture-meta-row">
+                                        <span class="meta-label"><i class="fa-solid fa-microchip"></i> Source Scanner:</span>
+                                        <span class="meta-val" id="capture-source-val">Demo / Simulated Scanner</span>
+                                    </div>
+                                    <div class="capture-meta-row">
+                                        <span class="meta-label"><i class="fa-solid fa-expand"></i> Resolution:</span>
+                                        <span class="meta-val">512 × 512 Normalized Grayscale</span>
+                                    </div>
+                                    <div class="capture-meta-row">
+                                        <span class="meta-label"><i class="fa-solid fa-shield-halved"></i> Ridge Clarity:</span>
+                                        <span class="meta-val font-mono" id="capture-clarity-val">High (92%)</span>
+                                    </div>
+                                    <div class="capture-meta-row">
+                                        <span class="meta-label"><i class="fa-solid fa-stopwatch"></i> Capture Time:</span>
+                                        <span class="meta-val font-mono" id="capture-time-val">350 ms</span>
+                                    </div>
+                                    <p class="capture-review-hint">
+                                        Review the acquired impression above. Click <strong>"Use This Fingerprint"</strong> to send it into the AI prediction pipeline, or <strong>"Retake Scan"</strong> to discard.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="capture-review-actions">
+                                <button type="button" class="btn btn-gradient btn-use-fingerprint" id="use-fingerprint-btn">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Use This Fingerprint</span>
+                                </button>
+                                <button type="button" class="btn btn-outline btn-retake-scan" id="retake-scan-btn">
+                                    <i class="fa-solid fa-rotate-left"></i>
+                                    <span>Retake Scan</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Collapsible USB Peripherals Inspector -->
+                        <div class="usb-inspector-accordion">
+                            <button type="button" class="usb-inspector-toggle" id="usb-inspector-toggle">
+                                <span><i class="fa-brands fa-usb"></i> Hardware Inspector: Detected USB Peripherals (<span id="usb-total-count">0</span>)</span>
+                                <i class="fa-solid fa-chevron-down toggle-icon" id="usb-inspector-icon"></i>
+                            </button>
+                            <div class="usb-inspector-content hidden" id="usb-inspector-content">
+                                <p class="usb-inspector-note">
+                                    <i class="fa-solid fa-triangle-exclamation"></i> Note: Non-biometric peripherals (cameras, bluetooth, input devices) are detected on the USB bus but cannot be used as fingerprint readers.
+                                </p>
+                                <div class="usb-device-list" id="usb-device-list">
+                                    <!-- Populated dynamically via /api/scanners/list -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dropzone -->
+                    <div class="dropzone-container" id="dropzone">
+                        <input type="file" id="file-input" accept="image/*" hidden>
+                        <div class="dropzone-inner" id="dropzone-inner">
+                            <div class="upload-icon-wrapper">
+                                <i class="fa-solid fa-cloud-arrow-up"></i>
+                            </div>
+                            <h3>Drag & Drop Fingerprint Image</h3>
+                            <p>Supports BMP, JPG, PNG formats</p>
+                            <button class="btn btn-primary" onclick="document.getElementById('file-input').click()">
+                                <i class="fa-solid fa-folder-open"></i> Browse File
+                            </button>
+                        </div>
+
+                        <!-- Preview Area -->
+                        <div class="preview-area hidden" id="preview-area">
+                            <div class="preview-canvas-wrapper">
+                                <img id="preview-img" src="" alt="Fingerprint Preview">
+                                <div class="scanner-laser hidden" id="scanner-laser"></div>
+                            </div>
+                            <div class="preview-controls">
+                                <span class="img-name" id="img-name-display">fingerprint.bmp</span>
+                                <button class="btn btn-icon btn-outline-danger" id="clear-btn" title="Clear Image">
+                                    <i class="fa-solid fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Filter Controls -->
+                    <div class="image-filters">
+                        <label class="filter-label"><i class="fa-solid fa-sliders"></i> Visual Filters:</label>
+                        <div class="filter-btns">
+                            <button class="filter-btn active" data-filter="normal">Normal</button>
+                            <button class="filter-btn" data-filter="contrast">High Contrast</button>
+                            <button class="filter-btn" data-filter="grayscale">Ridge Grayscale</button>
+                            <button class="filter-btn" data-filter="invert">Inverted Ridge</button>
+                        </div>
+                    </div>
+
+                    <!-- Samples Picker -->
+                    <div class="samples-section">
+                        <div class="samples-header">
+                            <span><i class="fa-solid fa-images"></i> Try Quick Sample Images:</span>
+                            <span class="sample-count" id="sample-count">Loading...</span>
+                        </div>
+                        <div class="samples-grid" id="samples-grid">
+                            <!-- Sample items populated dynamically -->
+                        </div>
+                    </div>
+
+                    <!-- Model Selection -->
+                    <div class="image-filters" style="margin-top: 15px;">
+                        <label class="filter-label"><i class="fa-solid fa-brain"></i> Prediction Engine Architecture:</label>
+                        <div class="filter-btns" id="model-select-group">
+                            <button class="filter-btn model-btn active" data-model="vgg16_hybrid"><i class="fa-solid fa-atom"></i> Hybrid VGG16 + Ridge Priors (DL+ML+Bayes)</button>
+                            <button class="filter-btn model-btn" data-model="hybrid_svm"><i class="fa-solid fa-bolt"></i> Hybrid ResNet-SVM</button>
+                            <button class="filter-btn model-btn" data-model="resnet"><i class="fa-solid fa-network-wired"></i> ResNet-34 (CNN)</button>
+                            <button class="filter-btn model-btn" data-model="svm"><i class="fa-solid fa-chart-diagram"></i> SVM Classifier (HOG)</button>
+                            <button class="filter-btn model-btn compare-pill" data-model="compare_all"><i class="fa-solid fa-code-compare"></i> Compare All Models</button>
+                        </div>
+                    </div>
+
+                    <div class="action-bar">
+                        <div class="action-buttons-row">
+                            <button class="btn btn-gradient btn-flex" id="predict-btn" disabled>
+                                <i class="fa-solid fa-wand-magic-sparkles"></i> Run Analysis
+                            </button>
+                            <button class="btn btn-outline-compare btn-flex" id="compare-btn" disabled>
+                                <i class="fa-solid fa-code-compare"></i> Compare All 4 Models
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Predictions & Results -->
+                <div class="card glass shadow-lg result-card">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-microscope icon-blood"></i> Diagnostic Results</h2>
+                        <p class="subtitle" id="result-subtitle">Deep Neural Network Blood Group Identification</p>
+                    </div>
+
+                    <!-- Idle State -->
+                    <div class="result-placeholder" id="result-placeholder">
+                        <div class="placeholder-icon">
+                            <i class="fa-solid fa-vial-circle-check"></i>
+                        </div>
+                        <h3>Awaiting Fingerprint Scan</h3>
+                        <p>Upload a fingerprint image and click <strong>"Run Analysis"</strong> or <strong>"Compare All 4 Models"</strong> to predict the donor's blood type.</p>
+                    </div>
+
+                    <!-- Rejection / Error State -->
+                    <div class="result-error hidden" id="result-error" style="padding: 24px 20px; text-align: center; border-radius: 14px; background: rgba(220, 38, 38, 0.06); border: 1.5px solid #DC2626; margin: 15px 0;">
+                        <div style="font-size: 2.2rem; color: #DC2626; margin-bottom: 12px;">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                        </div>
+                        <h3 style="color: #991B1B; font-size: 1.15rem; font-weight: 700; margin-bottom: 8px;">Fingerprint Classification Rejected</h3>
+                        <p id="result-error-msg" style="color: #7F1D1D; font-size: 0.95rem; font-weight: 600; line-height: 1.5; margin-bottom: 12px;">Unable to classify this fingerprint. Please provide a clear fingerprint image.</p>
+                        <p style="color: #64748B; font-size: 0.82rem; line-height: 1.4;">The uploaded image does not meet minimum biometric quality criteria (insufficient ridge-valley contrast, excessive motion blur, or non-biometric noise).</p>
+                    </div>
+
+                    <!-- Loading State -->
+                    <div class="result-loading hidden" id="result-loading">
+                        <div class="scanner-ring">
+                            <div class="ring-core"></div>
+                        </div>
+                        <p class="loading-text" id="loading-status-text">Extracting Ridge Patterns & Deep Neural Features...</p>
+                    </div>
+
+                    <!-- Display Results -->
+                    <div class="result-display hidden" id="result-display">
+                        <!-- Cross-Model Comparison Section (Appears when comparing or for multi-model insights) -->
+                        <div class="comparison-section glass-inner hidden" id="comparison-section">
+                            <div class="comparison-header">
+                                <div>
+                                    <h3><i class="fa-solid fa-code-compare icon-crimson"></i> Cross-Model Prediction Comparison</h3>
+                                    <p class="subtitle" style="font-size: 0.83rem; margin-top: 3px; color: #4A5568;">Side-by-side diagnostic evaluation across all architectures for this fingerprint</p>
+                                </div>
+                                <div class="consensus-badge" id="consensus-badge">
+                                    <div class="consensus-title"><i class="fa-solid fa-check-double"></i> Model Agreement</div>
+                                    <div class="consensus-val" id="consensus-val">3/4 Models Agree</div>
+                                </div>
+                            </div>
+                            <div class="model-comparison-grid" id="model-comparison-grid">
+                                <!-- Populated dynamically -->
+                            </div>
+                        </div>
+
+                        <!-- Primary Predicted Group Card -->
+                        <div class="blood-group-badge-card" id="badge-card">
+                            <div class="blood-symbol-wrapper">
+                                <span class="blood-group-text" id="predicted-group">O-</span>
+                                <span class="blood-drop-icon"><i class="fa-solid fa-droplet"></i></span>
+                            </div>
+                            <div class="confidence-container">
+                                <div class="confidence-label">Prediction Confidence (Top Model: VGG16-Hybrid)</div>
+                                <div class="confidence-score" id="confidence-score">98.5%</div>
+                                <div class="confidence-bar-bg">
+                                    <div class="confidence-bar-fill" id="confidence-bar-fill" style="width: 98.5%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3D Blood Group Result Cards (Supported Model Classes) -->
+                        <div class="blood-group-cards-section">
+                            <h3><i class="fa-solid fa-cubes-stacked icon-crimson"></i> Supported Blood Group Classification Matrix</h3>
+                            <div class="blood-group-cards-grid" id="blood-group-cards-grid">
+                                <!-- Card A+ -->
+                                <div class="bg-result-card bg-card-a" data-class="A+" id="bg-card-A+">
+                                    <div class="bg-card-header">
+                                        <span class="bg-card-badge">A+</span>
+                                        <svg class="cell-svg-icon" viewBox="0 0 100 100">
+                                            <circle cx="50" cy="50" r="38" fill="#E07A5F" opacity="0.85"/>
+                                            <ellipse cx="50" cy="50" rx="18" ry="12" fill="#D36447" opacity="0.9"/>
+                                        </svg>
+                                    </div>
+                                    <div class="bg-card-body">
+                                        <h4>Type A Positive</h4>
+                                        <div class="bg-card-antigens">A Antigen &bull; Rh(D) Positive</div>
+                                    </div>
+                                    <div class="bg-card-footer">
+                                        <span style="color: #64748b;">Model Prob:</span>
+                                        <span class="bg-card-prob" id="card-prob-A+">0.0%</span>
+                                    </div>
+                                </div>
+
+                                <!-- Card B+ -->
+                                <div class="bg-result-card bg-card-b" data-class="B+" id="bg-card-B+">
+                                    <div class="bg-card-header">
+                                        <span class="bg-card-badge">B+</span>
+                                        <svg class="cell-svg-icon" viewBox="0 0 100 100">
+                                            <circle cx="50" cy="50" r="38" fill="#3B82F6" opacity="0.85"/>
+                                            <ellipse cx="50" cy="50" rx="18" ry="12" fill="#2563EB" opacity="0.9"/>
+                                        </svg>
+                                    </div>
+                                    <div class="bg-card-body">
+                                        <h4>Type B Positive</h4>
+                                        <div class="bg-card-antigens">B Antigen &bull; Rh(D) Positive</div>
+                                    </div>
+                                    <div class="bg-card-footer">
+                                        <span style="color: #64748b;">Model Prob:</span>
+                                        <span class="bg-card-prob" id="card-prob-B+">0.0%</span>
+                                    </div>
+                                </div>
+
+                                <!-- Card O+ -->
+                                <div class="bg-result-card bg-card-o" data-class="O+" id="bg-card-O+">
+                                    <div class="bg-card-header">
+                                        <span class="bg-card-badge">O+</span>
+                                        <svg class="cell-svg-icon" viewBox="0 0 100 100">
+                                            <circle cx="50" cy="50" r="38" fill="#294936" opacity="0.85"/>
+                                            <ellipse cx="50" cy="50" rx="18" ry="12" fill="#1b3224" opacity="0.9"/>
+                                        </svg>
+                                    </div>
+                                    <div class="bg-card-body">
+                                        <h4>Type O Positive</h4>
+                                        <div class="bg-card-antigens">No A/B &bull; Rh(D) Positive</div>
+                                    </div>
+                                    <div class="bg-card-footer">
+                                        <span style="color: #64748b;">Model Prob:</span>
+                                        <span class="bg-card-prob" id="card-prob-O+">0.0%</span>
+                                    </div>
+                                </div>
+
+                                <!-- Card AB+ -->
+                                <div class="bg-result-card bg-card-ab" data-class="AB+" id="bg-card-AB+">
+                                    <div class="bg-card-header">
+                                        <span class="bg-card-badge">AB+</span>
+                                        <svg class="cell-svg-icon" viewBox="0 0 100 100">
+                                            <circle cx="50" cy="50" r="38" fill="#8E7DBE" opacity="0.85"/>
+                                            <ellipse cx="50" cy="50" rx="18" ry="12" fill="#7562A8" opacity="0.9"/>
+                                        </svg>
+                                    </div>
+                                    <div class="bg-card-body">
+                                        <h4>Type AB Positive</h4>
+                                        <div class="bg-card-antigens">A & B Antigens &bull; Universal Recipient</div>
+                                    </div>
+                                    <div class="bg-card-footer">
+                                        <span style="color: #64748b;">Model Prob:</span>
+                                        <span class="bg-card-prob" id="card-prob-AB+">0.0%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Rh-Negative Classes Chips -->
+                            <div class="rh-neg-chips-wrap">
+                                <span style="font-size: 0.76rem; font-weight: 700; color: #4A5568; margin-right: 4px;">Rh-Negative Matrix:</span>
+                                <span class="rh-neg-chip" data-class="A-" id="chip-A-">A- <strong id="chip-prob-A-">0.0%</strong></span>
+                                <span class="rh-neg-chip" data-class="B-" id="chip-B-">B- <strong id="chip-prob-B-">0.0%</strong></span>
+                                <span class="rh-neg-chip" data-class="O-" id="chip-O-">O- <strong id="chip-prob-O-">0.0%</strong></span>
+                                <span class="rh-neg-chip" data-class="AB-" id="chip-AB-">AB- <strong id="chip-prob-AB-">0.0%</strong></span>
+                            </div>
+                        </div>
+
+                        <!-- User Correction Notice Badge -->
+                        <div id="user-correction-tag" class="hidden" style="margin: 10px 0; text-align: center;">
+                            <span style="display: inline-flex; align-items: center; gap: 6px; background: #D6E4D7; color: #294936; border: 1.5px solid #888888; font-size: 0.85rem; padding: 5px 14px; border-radius: 20px; font-weight: 600;">
+                                <i class="fa-solid fa-user-check"></i> from user correction
+                            </span>
+                        </div>
+
+                        <!-- Feedback & Active Correction Section -->
+                        <div class="medical-info-card glass-inner feedback-card" id="feedback-card" style="margin-bottom: 15px; border-left: 4px solid #294936;">
+                            <div id="feedback-prompt-zone" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                                <div>
+                                    <h3 style="margin-bottom: 2px;"><i class="fa-solid fa-circle-question icon-crimson"></i> Was this correct?</h3>
+                                    <p style="color: #4A5568; font-size: 0.84rem; margin: 0;">Validate prediction ground-truth for active learning</p>
+                                </div>
+                                <div class="feedback-btn-group" style="display: flex; gap: 8px;">
+                                    <button type="button" class="btn btn-sm btn-outline-success" id="feedback-yes-btn">
+                                        <i class="fa-solid fa-check"></i> Yes
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-danger" id="feedback-no-btn">
+                                        <i class="fa-solid fa-xmark"></i> No
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Correction dropdown when user clicks No -->
+                            <div class="hidden" id="feedback-correction-zone" style="margin-top: 15px; padding-top: 12px; border-top: 1.5px solid #888888;">
+                                <label for="correct-blood-group-select" style="font-size: 0.88rem; color: #222222; display: block; margin-bottom: 8px;">
+                                    <i class="fa-solid fa-droplet icon-crimson"></i> Select actual ground-truth blood group:
+                                </label>
+                                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                    <select id="correct-blood-group-select" class="form-select" style="background: #FFFFFF; color: #222222; border: 1.5px solid #888888; padding: 8px 12px; border-radius: 8px; font-family: inherit;">
+                                        <option value="" disabled selected>-- Select Correct Group --</option>
+                                        <option value="A+">A+</option>
+                                        <option value="A-">A-</option>
+                                        <option value="AB+">AB+</option>
+                                        <option value="AB-">AB-</option>
+                                        <option value="B+">B+</option>
+                                        <option value="B-">B-</option>
+                                        <option value="O+">O+</option>
+                                        <option value="O-">O-</option>
+                                    </select>
+                                    <button type="button" class="btn btn-primary btn-sm" id="feedback-submit-btn">
+                                        <i class="fa-solid fa-paper-plane"></i> Submit Correction
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="hidden" id="feedback-response-msg" style="margin-top: 12px; font-size: 0.88rem; padding: 8px 12px; border-radius: 6px;"></div>
+                        </div>
+
+                        <!-- Class Probabilities Breakdown -->
+                        <div class="probability-section">
+                            <h3><i class="fa-solid fa-chart-simple"></i> Class Probability Distribution</h3>
+                            <div class="prob-grid" id="prob-grid">
+                                <!-- Populated dynamically -->
+                            </div>
+                        </div>
+
+                        <!-- Learned Biometric Pattern & Rigidity Rationale -->
+                        <div class="medical-info-card glass-inner" style="margin-bottom: 15px; border-left: 4px solid var(--primary-heading);">
+                            <h3><i class="fa-solid fa-fingerprint icon-crimson"></i> Learned Biometric Pattern & Rigidity</h3>
+                            <p id="pattern-rationale-text" style="color: #222222; font-size: 0.92rem; line-height: 1.5; margin-top: 6px; font-style: italic;">
+                                Ridge density, spacing, orientation, texture, minutiae and global pattern characteristics learned from dataset samples.
+                            </p>
+                        </div>
+
+                        <!-- Extracted Biometric Features Card -->
+                        <div class="medical-info-card glass-inner" style="margin-bottom: 15px;">
+                            <h3><i class="fa-solid fa-sliders icon-crimson"></i> Extracted Ridge & Morphological Biometrics</h3>
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <span class="info-title">Image Dimensions:</span>
+                                    <span class="info-val" id="bio-dim-val">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-title">Mean Ridge Spacing:</span>
+                                    <span class="info-val" id="bio-spacing-val">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-title">Ridge Edge Density:</span>
+                                    <span class="info-val" id="bio-density-val">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-title">Dominant Orientation:</span>
+                                    <span class="info-val" id="bio-orientation-val">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-title">Orientation Coherence:</span>
+                                    <span class="info-val" id="bio-coherence-val">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-title">Minutiae Density:</span>
+                                    <span class="info-val" id="bio-minutiae-val">-</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blood Group Transfusion & Medical Compatibilities -->
+                        <div class="medical-info-card glass-inner">
+                            <h3><i class="fa-solid fa-heart-pulse icon-crimson"></i> Transfusion Compatibility</h3>
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <span class="info-title">Can Donate To:</span>
+                                    <span class="info-val" id="donate-to-val">Loading...</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-title">Can Receive From:</span>
+                                    <span class="info-val" id="receive-from-val">Loading...</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-title">Rhesus (Rh) Factor:</span>
+                                    <span class="info-val" id="rh-factor-val">Loading...</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-title">Population Rarity:</span>
+                                    <span class="info-val" id="rarity-val">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FINGERPRINT RELIABILITY & EXPLAINABILITY LAB -->
+            <section class="explainability-lab-section card glass reveal-on-scroll" id="explainability-lab-section" style="margin-top: 2.5rem;">
+                <div class="lab-header">
+                    <div class="section-tag"><i class="fa-solid fa-microscope"></i> Scientific Interpretability &amp; Validation</div>
+                    <h2>Fingerprint Reliability &amp; Explainability Lab</h2>
+                    <p class="subtitle">Quantitative image quality assessment, authentic preprocessing pipeline inspection, VGG16 Grad-CAM deep feature attribution, Shannon entropy uncertainty analysis, and audited test benchmarks.</p>
+                </div>
+
+                <!-- Lab Sub-Navigation Tabs -->
+                <div class="lab-tabs-nav" role="tablist">
+                    <button class="lab-tab-btn active" data-lab-target="lab-panel-preprocess" id="tab-btn-preprocess" role="tab" aria-selected="true">
+                        <i class="fa-solid fa-images"></i> Original vs. Preprocessed
+                    </button>
+                    <button class="lab-tab-btn" data-lab-target="lab-panel-quality" id="tab-btn-quality" role="tab" aria-selected="false">
+                        <i class="fa-solid fa-shield-virus"></i> Quality &amp; Blur Analysis
+                    </button>
+                    <button class="lab-tab-btn" data-lab-target="lab-panel-gradcam" id="tab-btn-gradcam" role="tab" aria-selected="false">
+                        <i class="fa-solid fa-bullseye"></i> Grad-CAM Feature Attribution
+                    </button>
+                    <button class="lab-tab-btn" data-lab-target="lab-panel-uncertainty" id="tab-btn-uncertainty" role="tab" aria-selected="false">
+                        <i class="fa-solid fa-chart-pie"></i> Uncertainty &amp; Entropy
+                    </button>
+                    <button class="lab-tab-btn" data-lab-target="lab-panel-evaluation" id="tab-btn-evaluation" role="tab" aria-selected="false">
+                        <i class="fa-solid fa-square-poll-vertical"></i> Held-Out Test Evaluation
+                    </button>
+                    <button class="lab-tab-btn" data-lab-target="lab-panel-pipeline" id="tab-btn-pipeline" role="tab" aria-selected="false">
+                        <i class="fa-solid fa-diagram-project"></i> 5-Stage Architecture
+                    </button>
+                </div>
+
+                <!-- PANEL A: Original vs. Preprocessed Fingerprint -->
+                <div class="lab-panel active" id="lab-panel-preprocess" role="tabpanel">
+                    <div class="lab-panel-header">
+                        <h3><i class="fa-solid fa-arrows-split-up-and-left icon-crimson"></i> Authentic Preprocessing Pipeline Inspection</h3>
+                        <p>Direct comparison of the raw input impression against each verified mathematical transformation in the pipeline.</p>
+                    </div>
+
+                    <div class="preprocess-stages-grid" id="preprocess-stages-grid">
+                        <!-- Stage 1: Raw Input -->
+                        <div class="stage-view-card">
+                            <div class="stage-card-badge">Step 1</div>
+                            <div class="stage-img-wrap">
+                                <img id="lab-img-raw" src="" alt="Raw Fingerprint Input" class="lab-preview-img hidden">
+                                <div class="img-empty-placeholder" id="raw-placeholder"><i class="fa-solid fa-fingerprint"></i><span>Upload Image</span></div>
+                            </div>
+                            <div class="stage-card-info">
+                                <h4>1. Raw Uploaded Image</h4>
+                                <span class="stage-dim-badge" id="raw-dim-badge">Unprocessed</span>
+                                <p>Original uncompressed sensor impression with native pixel dimensions and color space.</p>
+                            </div>
+                        </div>
+
+                        <!-- Stage 2: Grayscale -->
+                        <div class="stage-view-card">
+                            <div class="stage-card-badge">Step 2</div>
+                            <div class="stage-img-wrap">
+                                <img id="lab-img-gray" src="" alt="Grayscale Image" class="lab-preview-img hidden">
+                                <div class="img-empty-placeholder" id="gray-placeholder"><i class="fa-solid fa-circle-half-stroke"></i><span>Awaiting Input</span></div>
+                            </div>
+                            <div class="stage-card-info">
+                                <h4>2. Grayscale Conversion</h4>
+                                <span class="stage-dim-badge" id="gray-dim-badge">8-bit Monochromatic</span>
+                                <p>Luminance extraction eliminating sensor chromatic variation and ambient light distortions.</p>
+                            </div>
+                        </div>
+
+                        <!-- Stage 3: CLAHE Ridge Enhancement -->
+                        <div class="stage-view-card">
+                            <div class="stage-card-badge">Step 3</div>
+                            <div class="stage-img-wrap">
+                                <img id="lab-img-clahe" src="" alt="CLAHE Enhanced Image" class="lab-preview-img hidden">
+                                <div class="img-empty-placeholder" id="clahe-placeholder"><i class="fa-solid fa-wand-magic-sparkles"></i><span>Awaiting Input</span></div>
+                            </div>
+                            <div class="stage-card-info">
+                                <h4>3. CLAHE Ridge Enhancement</h4>
+                                <span class="stage-dim-badge" id="clahe-dim-badge">Clip Limit: 2.5 (8×8 Grid)</span>
+                                <p>Contrast-Limited Adaptive Histogram Equalization amplifies ridge-valley contrast without noise amplification.</p>
+                            </div>
+                        </div>
+
+                        <!-- Stage 4: Standardized Model Tensor -->
+                        <div class="stage-view-card">
+                            <div class="stage-card-badge">Step 4</div>
+                            <div class="stage-img-wrap">
+                                <img id="lab-img-tensor" src="" alt="Model Input Tensor" class="lab-preview-img hidden">
+                                <div class="img-empty-placeholder" id="tensor-placeholder"><i class="fa-solid fa-microchip"></i><span>Awaiting Input</span></div>
+                            </div>
+                            <div class="stage-card-info">
+                                <h4>4. Model Input Tensor</h4>
+                                <span class="stage-dim-badge" id="tensor-dim-badge">224 × 224 × 3 px</span>
+                                <p>Bicubic spatial interpolation, 3-channel broadcast, and ImageNet mean zero-centering.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Comparison View Toggle -->
+                    <div class="interactive-compare-wrap card-inner" style="margin-top: 1.5rem;">
+                        <div class="compare-controls">
+                            <span style="font-weight: 700; color: var(--primary-heading);"><i class="fa-solid fa-sliders"></i> Quick View Toggle:</span>
+                            <button class="btn btn-sm btn-outline active" id="btn-toggle-raw">Raw Input</button>
+                            <button class="btn btn-sm btn-outline" id="btn-toggle-clahe">CLAHE Enhanced</button>
+                            <button class="btn btn-sm btn-outline" id="btn-toggle-tensor">224×224 Tensor</button>
+                        </div>
+                        <div class="toggle-view-container">
+                            <img id="toggle-comparison-img" src="" alt="Comparison Preview" class="toggle-display-img hidden">
+                            <div class="toggle-empty-msg" id="toggle-empty-msg"><i class="fa-solid fa-image"></i> Upload or select a fingerprint above to inspect interactive visual preprocessing comparisons.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PANEL B: Fingerprint Quality Analysis -->
+                <div class="lab-panel" id="lab-panel-quality" role="tabpanel">
+                    <div class="lab-panel-header">
+                        <h3><i class="fa-solid fa-shield-virus icon-crimson"></i> Quantitative Biometric Quality Assessment</h3>
+                        <p>Heuristic spatial frequency, gradient covariance, and dynamic range measurements calculated directly on pixel data.</p>
+                    </div>
+
+                    <!-- Quality Metrics Stat Grid -->
+                    <div class="quality-stats-grid">
+                        <div class="stat-card quality-metric-box">
+                            <div class="stat-icon"><i class="fa-solid fa-maximize"></i></div>
+                            <div class="stat-number" id="qual-dim-val">-</div>
+                            <div class="stat-label">Image Resolution</div>
+                            <span class="stat-subtext" id="qual-aspect-val">Aspect: -</span>
+                        </div>
+
+                        <div class="stat-card quality-metric-box">
+                            <div class="stat-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+                            <div class="stat-number" id="qual-sharpness-val">-</div>
+                            <div class="stat-label">Laplacian Blur Variance</div>
+                            <span class="stat-subtext" id="qual-sharpness-rating">Threshold: &ge; 80.0</span>
+                        </div>
+
+                        <div class="stat-card quality-metric-box">
+                            <div class="stat-icon"><i class="fa-solid fa-circle-half-stroke"></i></div>
+                            <div class="stat-number" id="qual-contrast-val">-</div>
+                            <div class="stat-label">Pixel Contrast (&sigma;)</div>
+                            <span class="stat-subtext" id="qual-michelson-val">Michelson: -</span>
+                        </div>
+
+                        <div class="stat-card quality-metric-box">
+                            <div class="stat-icon"><i class="fa-solid fa-water"></i></div>
+                            <div class="stat-number" id="qual-coherence-val">-</div>
+                            <div class="stat-label">Ridge Orientation Coherence</div>
+                            <span class="stat-subtext" id="qual-coherence-rating">Gradient Tensor Eigen-ratio</span>
+                        </div>
+                    </div>
+
+                    <!-- Quality Diagnostic Warnings & Audit -->
+                    <div class="quality-audit-container card-inner" style="margin-top: 1.5rem;">
+                        <h4><i class="fa-solid fa-list-check"></i> Quality Verification &amp; Operational Warnings</h4>
+                        <div id="quality-warnings-list" class="quality-warnings-list">
+                            <div class="quality-info-item item-neutral">
+                                <i class="fa-solid fa-info-circle"></i>
+                                <div>
+                                    <strong>Awaiting Upload</strong>
+                                    <p>Upload a fingerprint above to calculate spatial edge sharpness, dynamic range, and ridge coherence.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quality-limitations-box">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            <span><strong>Scientific Limitation Notice:</strong> Quantitative image-processing heuristics evaluate pixel contrast and edge gradients. They do not constitute physiological validation of dermatoglyphic viability or guarantee clinical accuracy.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PANEL C: Model Explainability Visualization (Grad-CAM) -->
+                <div class="lab-panel" id="lab-panel-gradcam" role="tabpanel">
+                    <div class="lab-panel-header">
+                        <h3><i class="fa-solid fa-bullseye icon-crimson"></i> Deep Feature Attribution (Grad-CAM on VGG16)</h3>
+                        <p>Visualises gradient activations in the final convolutional block (<code>block5_conv3</code>) targeting the predicted blood group class.</p>
+                    </div>
+
+                    <div class="gradcam-display-grid">
+                        <!-- Left: Preprocessed Input -->
+                        <div class="gradcam-view-card">
+                            <div class="cam-card-header">
+                                <h4>Preprocessed Input Impression</h4>
+                                <span class="cam-sub">224 × 224 Standardized Tensor</span>
+                            </div>
+                            <div class="cam-img-wrap">
+                                <img id="cam-input-img" src="" alt="Preprocessed Fingerprint" class="cam-img hidden">
+                                <div class="cam-empty-placeholder" id="cam-input-placeholder"><i class="fa-solid fa-fingerprint"></i><span>Upload Image to Compute CAM</span></div>
+                            </div>
+                        </div>
+
+                        <!-- Right: Grad-CAM Overlay -->
+                        <div class="gradcam-view-card">
+                            <div class="cam-card-header">
+                                <h4>Grad-CAM Activation Heatmap Overlay</h4>
+                                <span class="cam-sub" id="cam-target-label">Target: VGG16 block5_conv3 (512 filters)</span>
+                            </div>
+                            <div class="cam-img-wrap">
+                                <img id="cam-overlay-img" src="" alt="Grad-CAM Overlay" class="cam-img hidden">
+                                <div class="cam-empty-placeholder" id="cam-overlay-placeholder"><i class="fa-solid fa-fire-flame-curved"></i><span>Heatmap Generates with Prediction</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Focal Region & Architectural Narrative -->
+                    <div class="gradcam-narrative-card card-inner" style="margin-top: 1.5rem;">
+                        <div class="narrative-meta-row">
+                            <span class="meta-item"><i class="fa-solid fa-microscope"></i> Method: <strong>Grad-CAM (Selvaraju et al.)</strong></span>
+                            <span class="meta-item"><i class="fa-solid fa-crosshairs"></i> Attended Region: <strong id="cam-focal-zone">-</strong></span>
+                            <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Peak Coordinates: <strong id="cam-peak-coords">-</strong></span>
+                        </div>
+                        <p class="narrative-body" id="cam-narrative-body">
+                            Grad-CAM reveals which spatial regions in the fingerprint impression elicited the strongest positive gradients in VGG16's deep 512-dimensional feature space. High thermal intensity (crimson/yellow) marks regions whose ridge curvature and minutiae contributed most heavily to the predicted classification.
+                        </p>
+                        <div class="cam-disclaimer-box">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <span><strong>Non-Diagnostic Interpretability Disclaimer:</strong> Grad-CAM highlights statistical correlations within the neural network's receptive field. Highlighted regions reflect learned image-level patterns and do NOT provide biological evidence of red cell antigens.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PANEL D: Prediction Confidence and Uncertainty -->
+                <div class="lab-panel" id="lab-panel-uncertainty" role="tabpanel">
+                    <div class="lab-panel-header">
+                        <h3><i class="fa-solid fa-chart-pie icon-crimson"></i> Prediction Confidence &amp; Shannon Entropy Analysis</h3>
+                        <p>Quantifies classification decision boundaries, probability margins, and distribution uncertainty across all 8 ABO/Rh classes.</p>
+                    </div>
+
+                    <div class="uncertainty-dashboard-grid">
+                        <!-- Left: Uncertainty Metrics -->
+                        <div class="uncertainty-stat-card card-inner">
+                            <h4>Uncertainty Diagnostics</h4>
+                            <div class="uncertainty-tier-badge" id="uncertainty-tier-badge">
+                                <i class="fa-solid fa-circle-check"></i> <span id="uncertainty-tier-text">Awaiting Inference</span>
+                            </div>
+
+                            <div class="metric-stat" style="margin-top: 15px;">
+                                <div class="stat-header">
+                                    <span>Top Class Probability Margin (&Delta;)</span>
+                                    <strong id="unc-margin-val">-</strong>
+                                </div>
+                                <div class="stat-bar">
+                                    <div class="stat-fill" id="unc-margin-bar" style="width: 0%"></div>
+                                </div>
+                                <span style="font-size: 0.75rem; color: #64748b;">Distance between #1 and #2 ranked class (Threshold: &ge; 15%)</span>
+                            </div>
+
+                            <div class="metric-stat" style="margin-top: 15px;">
+                                <div class="stat-header">
+                                    <span>Normalized Shannon Entropy (H)</span>
+                                    <strong id="unc-entropy-val">-</strong>
+                                </div>
+                                <div class="stat-bar">
+                                    <div class="stat-fill" id="unc-entropy-bar" style="width: 0%; background: #3B82F6;"></div>
+                                </div>
+                                <span style="font-size: 0.75rem; color: #64748b;">Entropy bounds [0.0 = deterministic, 1.0 = maximal confusion]</span>
+                            </div>
+
+                            <div class="unc-alert-box hidden" id="unc-alert-box" style="margin-top: 15px;">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                <span id="unc-alert-text">Warning: High classification ambiguity detected.</span>
+                            </div>
+                        </div>
+
+                        <!-- Right: Ranked Calibrated Class Distribution -->
+                        <div class="uncertainty-dist-card card-inner">
+                            <h4>Bayesian Calibrated Class Distribution</h4>
+                            <p style="font-size: 0.8rem; color: #64748b; margin-top: -4px;">Adjusted against real-world ABO/Rh epidemiological prevalence</p>
+                            <div class="ranked-classes-list" id="ranked-classes-list">
+                                <p style="padding: 15px 0; color: #64748b; font-size: 0.88rem;">Run prediction above to compute class-wise uncertainty ranking.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PANEL E: Model Evaluation and Comparison (Held-Out Test Manifest) -->
+                <div class="lab-panel" id="lab-panel-evaluation" role="tabpanel">
+                    <div class="lab-panel-header">
+                        <h3><i class="fa-solid fa-square-poll-vertical icon-crimson"></i> Audited Held-Out Test Manifest Benchmarks</h3>
+                        <p>Authentic experimental results evaluated on the independent test manifest (<strong>N = 862 samples</strong>) with zero subject leakage and non-parametric bootstrap confidence intervals (B = 1,000).</p>
+                    </div>
+
+                    <!-- Multi-Model Architecture Comparison Table -->
+                    <div class="eval-table-wrap card-inner">
+                        <h4><i class="fa-solid fa-code-compare"></i> Multi-Architecture Test Evaluation Comparison</h4>
+                        <div class="table-responsive">
+                            <table class="benchmark-table" id="models-benchmark-table">
+                                <thead>
+                                    <tr>
+                                        <th>Model Architecture</th>
+                                        <th>Test Accuracy</th>
+                                        <th>95% Bootstrap CI</th>
+                                        <th>Macro F1</th>
+                                        <th>Weighted F1</th>
+                                        <th>Correct / Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="models-benchmark-tbody">
+                                    <tr><td colspan="6" style="text-align: center; padding: 20px;">Loading audited evaluation records...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Per-Class Performance Table -->
+                    <div class="eval-table-wrap card-inner" style="margin-top: 1.5rem;">
+                        <h4><i class="fa-solid fa-table-cells"></i> Per-Class Precision, Recall &amp; F1-Score (N = 862 Held-Out Samples)</h4>
+                        <div class="table-responsive">
+                            <table class="benchmark-table" id="class-report-table">
+                                <thead>
+                                    <tr>
+                                        <th>Blood Group</th>
+                                        <th>Precision</th>
+                                        <th>Recall</th>
+                                        <th>F1-Score</th>
+                                        <th>Test Support (N)</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="class-report-tbody">
+                                    <tr><td colspan="5" style="text-align: center; padding: 20px;">Loading classification report...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Real Confusion Matrix Graphic -->
+                    <div class="confusion-matrix-card card-inner" style="margin-top: 1.5rem;">
+                        <h4><i class="fa-solid fa-chart-column"></i> Primary Confusion Matrix (Held-Out Test Split N = 862)</h4>
+                        <div class="cm-img-wrap">
+                            <img src="/models-artifacts/confusion_matrix.png" alt="Test Set Confusion Matrix" class="cm-display-img" onerror="this.parentElement.innerHTML='<p style=\'padding:20px;color:#64748b;\'>Confusion matrix image generated during offline evaluation manifest audit.</p>'">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PANEL F: 5-Stage Architecture Breakdown -->
+                <div class="lab-panel" id="lab-panel-pipeline" role="tabpanel">
+                    <div class="lab-panel-header">
+                        <h3><i class="fa-solid fa-diagram-project icon-crimson"></i> Authentic 5-Stage System Architecture Breakdown</h3>
+                        <p>Comprehensive technical and mathematical explanation of each processing phase implemented in the system.</p>
+                    </div>
+
+                    <div class="pipeline-accordion" id="pipeline-accordion">
+                        <!-- Stage 1 -->
+                        <div class="accordion-item active">
+                            <button class="accordion-header" aria-expanded="true">
+                                <span class="acc-step">Stage 1</span>
+                                <span class="acc-title">Fingerprint Image Ingestion &amp; Integrity Verification</span>
+                                <i class="fa-solid fa-chevron-down acc-icon"></i>
+                            </button>
+                            <div class="accordion-body">
+                                <p>Ingests biometric impressions from optical, capacitive, or synthetic sources in standard formats (BMP, PNG, JPG). Optional authenticated AES-256-GCM encrypted payload decryption guarantees tamper-evident transport integrity before image buffer formulation.</p>
+                            </div>
+                        </div>
+
+                        <!-- Stage 2 -->
+                        <div class="accordion-item">
+                            <button class="accordion-header" aria-expanded="false">
+                                <span class="acc-step">Stage 2</span>
+                                <span class="acc-title">Image Preprocessing &amp; CLAHE Ridge Enhancement</span>
+                                <i class="fa-solid fa-chevron-down acc-icon"></i>
+                            </button>
+                            <div class="accordion-body">
+                                <p>Converts impressions to single-channel 8-bit luminance. Applies Contrast-Limited Adaptive Histogram Equalization (CLAHE, clip limit 2.5, 8×8 grid) to sharpen epidermal ridge contours without amplifying sensor grain noise. Resizes image via bicubic interpolation to 224 × 224 × 3 and subtracts ImageNet channel means.</p>
+                            </div>
+                        </div>
+
+                        <!-- Stage 3 -->
+                        <div class="accordion-item">
+                            <button class="accordion-header" aria-expanded="false">
+                                <span class="acc-step">Stage 3</span>
+                                <span class="acc-title">VGG16 Deep Feature Extraction &amp; Ridge Domain Priors</span>
+                                <i class="fa-solid fa-chevron-down acc-icon"></i>
+                            </button>
+                            <div class="accordion-body">
+                                <p>Feeds preprocessed tensors through fine-tuned VGG16 (Blocks 1-4 frozen, Block 5 fine-tuned at lr=1e-5). Global Average Pooling (GAP) extracts 512-dimensional continuous latent feature representations. In parallel, computes gradient orientation coherence, ridge density, and Henry pattern prior distribution (Loop, Whorl, Arch, Composite).</p>
+                            </div>
+                        </div>
+
+                        <!-- Stage 4 -->
+                        <div class="accordion-item">
+                            <button class="accordion-header" aria-expanded="false">
+                                <span class="acc-step">Stage 4</span>
+                                <span class="acc-title">PCA Dimensionality Reduction &amp; Bayesian Calibrated SVM</span>
+                                <i class="fa-solid fa-chevron-down acc-icon"></i>
+                            </button>
+                            <div class="accordion-body">
+                                <p>Concatenates the deep 512-D vector with ridge biometrics, applies standard scaling, and reduces dimensionality via PCA retaining 95% cumulative variance. Radial Basis Function (RBF) Support Vector Machine predicts raw decision scores, which are adjusted via Bayesian population calibration against real-world ABO/Rh prevalence ratios.</p>
+                            </div>
+                        </div>
+
+                        <!-- Stage 5 -->
+                        <div class="accordion-item">
+                            <button class="accordion-header" aria-expanded="false">
+                                <span class="acc-step">Stage 5</span>
+                                <span class="acc-title">Diagnostic Output &amp; Clinical Transfusion Matrix</span>
+                                <i class="fa-solid fa-chevron-down acc-icon"></i>
+                            </button>
+                            <div class="accordion-body">
+                                <p>Presents the final predicted ABO and Rh blood group accompanied by Bayesian posterior confidence percentages, Shannon entropy uncertainty index, and universal donor/recipient matching guidelines with mandatory non-clinical research disclaimers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- TAB 2: MODEL BENCHMARKS -->
+        <section id="benchmark-tab" class="tab-content">
+            <div class="benchmark-header">
+                <h2>Deep Learning CNN Architecture Evaluation</h2>
+                <p>Comparative analysis of ResNet-34, VGG16, AlexNet, and LeNet on fingerprint blood group classification</p>
+            </div>
+
+            <!-- Model Cards Grid -->
+            <div class="models-grid" id="models-grid">
+                <!-- Dynamic model cards -->
+            </div>
+
+            <!-- Epoch Progress & Metric Visualizers -->
+            <div class="benchmark-details-card card glass">
+                <div class="card-header">
+                    <h2><i class="fa-solid fa-chart-column"></i> Multi-Epoch Training Performance</h2>
+                </div>
+                <div class="perf-graphs-grid">
+                    <div class="graph-box">
+                        <h4>Validation Accuracy Across Epochs</h4>
+                        <img src="/performance_metrix/performance metrix.png" alt="Performance Metrics Chart" class="graph-img">
+                    </div>
+                    <div class="graph-box">
+                        <h4>Model Epoch Benchmark (15 Epochs)</h4>
+                        <img src="/performance_metrix/15 epochs.jpg" alt="15 Epochs Comparison" class="graph-img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3D SYSTEM ARCHITECTURE SECTION -->
+            <div class="architecture-section card glass reveal-on-scroll" id="architecture-section" style="margin-top: 2rem;">
+                <div class="section-heading-wrap">
+                    <div class="section-tag"><i class="fa-solid fa-cube"></i> System Architecture</div>
+                    <h2>3D Interactive Biometric AI Architecture</h2>
+                    <p class="subtitle">Detailed computational pipeline and mathematical stages powering non-invasive fingerprint classification</p>
+                </div>
+
+                <div class="arch-nodes-grid">
+                    <!-- Node 1 -->
+                    <div class="arch-node">
+                        <span class="arch-node-badge">Step 1</span>
+                        <div class="arch-node-icon"><i class="fa-solid fa-fingerprint"></i></div>
+                        <h4>Image Capture</h4>
+                        <p>Raw biometric sensor capture at 512×512 resolution with automatic 8-bit depth validation.</p>
+                        <div class="arch-node-tech">512×512 Image Matrix</div>
+                    </div>
+
+                    <!-- Node 2 -->
+                    <div class="arch-node">
+                        <span class="arch-node-badge">Step 2</span>
+                        <div class="arch-node-icon"><i class="fa-solid fa-wand-magic"></i></div>
+                        <h4>Grayscale & CLAHE</h4>
+                        <p>Adaptive histogram equalization with 2.0 clip limit across 8×8 grid tiles to normalize ridge illumination.</p>
+                        <div class="arch-node-tech">OpenCV CLAHE Equalization</div>
+                    </div>
+
+                    <!-- Node 3 -->
+                    <div class="arch-node">
+                        <span class="arch-node-badge">Step 3</span>
+                        <div class="arch-node-icon"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></div>
+                        <h4>Tensor Normalization</h4>
+                        <p>Bicubic interpolation downsampling to 224×224×3 RGB standardized via ImageNet channel zero-centering.</p>
+                        <div class="arch-node-tech">224×224 Standardized Tensor</div>
+                    </div>
+
+                    <!-- Node 4 -->
+                    <div class="arch-node">
+                        <span class="arch-node-badge">Step 4</span>
+                        <div class="arch-node-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h4>VGG16 Deep CNN</h4>
+                        <p>5 convolutional blocks with 3×3 receptive fields extracting low-level ridge minutiae to high-level whorls.</p>
+                        <div class="arch-node-tech">VGG16 Feature Pyramid</div>
+                    </div>
+
+                    <!-- Node 5 -->
+                    <div class="arch-node">
+                        <span class="arch-node-badge">Step 5</span>
+                        <div class="arch-node-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <h4>Ridge Priors (512-D)</h4>
+                        <p>Bottleneck representations mapped to 512-dimensional embeddings weighted by Bayesian ridge count distribution priors.</p>
+                        <div class="arch-node-tech">512-D Latent Embeddings</div>
+                    </div>
+
+                    <!-- Node 6 -->
+                    <div class="arch-node">
+                        <span class="arch-node-badge">Step 6</span>
+                        <div class="arch-node-icon"><i class="fa-solid fa-chart-diagram"></i></div>
+                        <h4>SVM Hyperplanes</h4>
+                        <p>One-vs-Rest Support Vector Machine utilizing Radial Basis Function (RBF) kernel with optimal gamma.</p>
+                        <div class="arch-node-tech">RBF Kernel SVM</div>
+                    </div>
+
+                    <!-- Node 7 -->
+                    <div class="arch-node">
+                        <span class="arch-node-badge">Step 7</span>
+                        <div class="arch-node-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                        <h4>Clinical Transfusion</h4>
+                        <p>Softmax-calibrated class probabilities, confidence score estimation, and universal donor/recipient matching.</p>
+                        <div class="arch-node-tech">ABO / Rh Compatibility</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 3: DATASET & INSIGHTS -->
+        <section id="dataset-tab" class="tab-content">
+            <div class="card glass dataset-card">
+                <div class="card-header">
+                    <h2><i class="fa-solid fa-database"></i> Dataset & Research Methodology</h2>
+                    <p>Fingerprint Biometric Dataset for Non-Invasive Blood Group Determination</p>
+                </div>
+                <div class="dataset-stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-images"></i></div>
+                        <div class="stat-number">6,000+</div>
+                        <div class="stat-label">Fingerprint Images</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-cubes"></i></div>
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">Blood Group Classes</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">CNN Architectures</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-trophy"></i></div>
+                        <div class="stat-number">98.4%</div>
+                        <div class="stat-label">Best Accuracy (ResNet)</div>
+                    </div>
+                </div>
+
+                <div class="methodology-section">
+                    <h3>Biometric Correlation & Features</h3>
+                    <p>
+                        Fingerprint ridge patterns (whorls, loops, arches) and dermatoglyphic minutiae features are formed during embryonic development. Research demonstrates significant statistical correlation between specific epidermal ridge counts and ABO/Rh blood antigen expressions.
+                    </p>
+                    <div class="class-distribution-list">
+                        <span class="class-chip chip-a-pos">A+ (A Positive)</span>
+                        <span class="class-chip chip-a-neg">A- (A Negative)</span>
+                        <span class="class-chip chip-b-pos">B+ (B Positive)</span>
+                        <span class="class-chip chip-b-neg">B- (B Negative)</span>
+                        <span class="class-chip chip-ab-pos">AB+ (AB Positive)</span>
+                        <span class="class-chip chip-ab-neg">AB- (AB Negative)</span>
+                        <span class="class-chip chip-o-pos">O+ (O Positive)</span>
+                        <span class="class-chip chip-o-neg">O- (O Negative)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Graphs -->
+    <div class="modal-overlay hidden" id="graph-modal">
+        <div class="modal-content glass shadow-2xl">
+            <div class="modal-header">
+                <h3 id="modal-title">Model Graphs</h3>
+                <button class="close-btn" id="close-modal-btn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Graph images -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Rakta Mitra &bull; Fingerprint-Based Blood Group Detection &bull; Powered by ResNet & Deep Learning</p>
+    </footer>
+
+    <!-- Three.js 3D Library & Custom Hero Script -->
+    <script src="/static/three.min.js"></script>
+    <script src="/static/three_hero.js" defer></script>
+    <!-- Custom JS -->
+    <script src="/static/main.js"></script>
+</body>
+</html>

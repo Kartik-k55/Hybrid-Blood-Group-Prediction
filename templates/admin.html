@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin & Active Retraining Portal - Rakta Mitra</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        .admin-container {
+            max-width: 1280px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .admin-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding: 20px;
+            border-radius: 14px;
+            background: #FFFFFF;
+            border: 1.5px solid #888888;
+        }
+        .disclaimer-banner {
+            background: #FFFFFF;
+            border: 1.5px solid #888888;
+            border-left: 5px solid #294936;
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            color: #222222;
+            font-size: 0.92rem;
+            line-height: 1.5;
+        }
+        .disclaimer-banner h4 {
+            color: #294936;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        .admin-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-bottom: 25px;
+        }
+        @media (max-width: 960px) {
+            .admin-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .table-responsive {
+            overflow-x: auto;
+        }
+        .admin-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            border: 1.5px solid #888888;
+        }
+        .admin-table th {
+            text-align: left;
+            padding: 12px 14px;
+            background: #E8F0E8;
+            color: #294936;
+            border-bottom: 2px solid #888888;
+            border-right: 1px solid #B8C4B8;
+            font-weight: 700;
+        }
+        .admin-table td {
+            padding: 12px 14px;
+            background: #FFFFFF;
+            color: #222222;
+            border-bottom: 1px solid #888888;
+            border-right: 1px solid #E8F0E8;
+            vertical-align: middle;
+        }
+        .admin-table tr:hover td {
+            background: #F7FAF7;
+        }
+        .thumb-preview {
+            width: 44px;
+            height: 44px;
+            border-radius: 6px;
+            object-fit: cover;
+            border: 1.5px solid #888888;
+            background: #FFFFFF;
+        }
+        .badge-pill {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            border: 1px solid #888888;
+        }
+        .badge-pending { background: #FFF8E7; color: #7A5200; border: 1px solid #888888; }
+        .badge-approved { background: #D6E4D7; color: #294936; border: 1px solid #888888; }
+        .badge-rejected { background: #FDF2F2; color: #8B0000; border: 1px solid #888888; }
+        .badge-active { background: #D6E4D7; color: #294936; border: 1px solid #888888; }
+        .badge-archived { background: #F0F0F0; color: #444444; border: 1px solid #888888; }
+        
+        .progress-bar-container {
+            width: 100%;
+            height: 12px;
+            background: #E8F0E8;
+            border: 1.5px solid #888888;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 15px 0;
+        }
+        .progress-bar-fill {
+            height: 100%;
+            width: 0%;
+            background: #294936;
+            transition: width 0.4s ease;
+        }
+        .isolation-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.82rem;
+            padding: 6px 12px;
+            background: #E8F0E8;
+            color: #294936;
+            border: 1.5px solid #888888;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-top: 8px;
+        }
+        .action-btns {
+            display: flex;
+            gap: 6px;
+        }
+    </style>
+</head>
+<body class="sage-theme">
+    <!-- Background Animated Blobs -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
+
+    <div class="admin-container">
+        <!-- Top Navbar -->
+        <header class="admin-header glass shadow-lg">
+            <div class="logo-container">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="brand-title">Rakta Mitra &bull; Admin & Retraining</span>
+                    <span class="brand-sub">Active Learning, Correction Audit & Model Version Control</span>
+                </div>
+            </div>
+            <div style="display: flex; gap: 12px; align-items: center;">
+                <a href="/" class="btn btn-outline-primary">
+                    <i class="fa-solid fa-arrow-left"></i> Return to Scanner
+                </a>
+                <span class="status-indicator online">
+                    <span class="pulse-dot"></span> AES-256 Vault Active
+                </span>
+            </div>
+        </header>
+
+        <!-- Mandatory Scientific & Clinical Disclaimer -->
+        <div class="disclaimer-banner">
+            <h4><i class="fa-solid fa-triangle-exclamation"></i> Mandatory Scientific & Clinical Disclaimer</h4>
+            <p>
+                <strong>Essential Clinical Reality:</strong> Machine learning models trained on fingerprint datasets may identify subtle image acquisition signatures, scanner artifacts, or dataset distribution features. 
+                <strong>There is no established, peer-reviewed biological mechanism connecting dermatoglyphic ridge formation (fetal weeks 10–24) to erythrocyte ABO carbohydrate antigens or Rh(D) protein expression.</strong>
+                Outputs from this system are statistical research estimates and <strong>must never be used for blood transfusions, emergency typing, or clinical diagnosis</strong>. Standard serological agglutination testing is mandatory.
+            </p>
+        </div>
+
+        <!-- Admin Grid -->
+        <div class="admin-grid">
+            <!-- Left Panel: Continuous Retraining -->
+            <div class="card glass shadow-lg">
+                <div class="card-header">
+                    <h2><i class="fa-solid fa-arrows-rotate icon-crimson"></i> Model Retraining Engine</h2>
+                    <p class="subtitle">Incorporate verified corrections into the active SVM pipeline</p>
+                </div>
+                <div style="padding: 20px;">
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 20px;">
+                        <div class="stat-card" style="padding: 12px;">
+                            <div class="stat-label">Base Training Set</div>
+                            <div class="stat-number" style="font-size: 1.4rem;">4,018</div>
+                            <div style="font-size: 0.72rem; color: #4A5568;">Pre-cached embeddings</div>
+                        </div>
+                        <div class="stat-card" style="padding: 12px;">
+                            <div class="stat-label">Validation Benchmark</div>
+                            <div class="stat-number" style="font-size: 1.4rem;">861</div>
+                            <div style="font-size: 0.72rem; color: #4A5568;">Untouched tuning split</div>
+                        </div>
+                        <div class="stat-card" style="padding: 12px;">
+                            <div class="stat-label">Approved Corrections</div>
+                            <div class="stat-number" id="approved-count" style="font-size: 1.4rem; color: #294936; font-weight: 800;">0</div>
+                            <div style="font-size: 0.72rem; color: #4A5568;">Ready to augment</div>
+                        </div>
+                    </div>
+
+                    <div class="isolation-tag">
+                        <i class="fa-solid fa-lock"></i> <strong>Zero-Leakage Protection:</strong> Test split (N=862) is strictly held out and NEVER loaded or merged during retraining.
+                    </div>
+
+                    <div style="margin-top: 25px;">
+                        <button class="btn btn-gradient" id="start-retrain-btn" style="width: 100%; padding: 14px; font-size: 1rem;">
+                            <i class="fa-solid fa-play"></i> Trigger Background Retraining
+                        </button>
+                    </div>
+
+                    <!-- Retraining Progress Box -->
+                    <div id="retrain-progress-box" class="glass-inner" style="margin-top: 20px; padding: 16px; border-radius: 10px; display: none;">
+                        <div style="display: flex; justify-content: space-between; font-size: 0.88rem;">
+                            <span id="retrain-step-text"><i class="fa-solid fa-spinner fa-spin"></i> Initializing...</span>
+                            <span id="retrain-pct-text">0%</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" id="retrain-progress-fill"></div>
+                        </div>
+                        <p id="retrain-msg" style="font-size: 0.84rem; color: #222222; margin: 0;"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel: Model Version History with Rollback -->
+            <div class="card glass shadow-lg">
+                <div class="card-header">
+                    <h2><i class="fa-solid fa-clock-rotate-left icon-crimson"></i> Model Version History</h2>
+                    <p class="subtitle">Instant Rollback to any past audited bundle</p>
+                </div>
+                <div style="padding: 15px 20px;">
+                    <div class="table-responsive">
+                        <table class="admin-table" id="versions-table">
+                            <thead>
+                                <tr>
+                                    <th>Version</th>
+                                    <th>Train Samples</th>
+                                    <th>Val Accuracy</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="versions-tbody">
+                                <tr><td colspan="5" style="text-align: center; color: #4A5568;">Loading model versions...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Section: Pending User Corrections Review -->
+        <div class="card glass shadow-lg" style="margin-bottom: 40px;">
+            <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <h2><i class="fa-solid fa-user-check icon-crimson"></i> User Corrections & Ground-Truth Review</h2>
+                    <p class="subtitle">Approve or reject submitted corrections before retraining integration</p>
+                </div>
+                <button class="btn btn-sm btn-outline-primary" id="refresh-corrections-btn">
+                    <i class="fa-solid fa-rotate-right"></i> Refresh
+                </button>
+            </div>
+            <div style="padding: 20px;">
+                <div class="table-responsive">
+                    <table class="admin-table" id="corrections-table">
+                        <thead>
+                            <tr>
+                                <th>Thumbnail</th>
+                                <th>ID / Date</th>
+                                <th>Predicted</th>
+                                <th>User Verified</th>
+                                <th>MD5 Signature</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="corrections-tbody">
+                            <tr><td colspan="7" style="text-align: center; color: #4A5568;">Loading corrections...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            loadCorrections();
+            loadVersions();
+            pollRetrainStatus();
+
+            document.getElementById('refresh-corrections-btn').addEventListener('click', loadCorrections);
+            document.getElementById('start-retrain-btn').addEventListener('click', startRetraining);
+
+            // 1. Load Corrections
+            function loadCorrections() {
+                fetch('/feedback/api/corrections')
+                    .then(res => res.json())
+                    .then(data => {
+                        const tbody = document.getElementById('corrections-tbody');
+                        const corrections = data.corrections || [];
+                        let approvedCount = 0;
+
+                        if (corrections.length === 0) {
+                            tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; color: #4A5568; padding: 25px;">No corrections submitted yet. Test by predicting an image and clicking "No" on the feedback prompt.</td></tr>';
+                            document.getElementById('approved-count').textContent = '0';
+                            return;
+                        }
+
+                        tbody.innerHTML = '';
+                        // Show most recent first
+                        [...corrections].reverse().forEach(corr => {
+                            if (corr.status === 'approved') approvedCount++;
+                            const tr = document.createElement('tr');
+                            
+                            const statusBadge = corr.status === 'approved' 
+                                ? '<span class="badge-pill badge-approved"><i class="fa-solid fa-check"></i> Approved</span>'
+                                : (corr.status === 'rejected'
+                                    ? '<span class="badge-pill badge-rejected"><i class="fa-solid fa-ban"></i> Rejected</span>'
+                                    : '<span class="badge-pill badge-pending"><i class="fa-solid fa-clock"></i> Pending</span>');
+
+                            const knownBadge = corr.is_known_dataset_image
+                                ? '<span style="font-size: 0.72rem; color: #294936; font-weight: 700; display: block;">Known Dataset Img</span>'
+                                : '<span style="font-size: 0.72rem; color: #4A5568; font-weight: 600; display: block;">External Sample</span>';
+
+                            let actionBtns = '';
+                            if (corr.status === 'pending') {
+                                actionBtns = `
+                                    <div class="action-btns">
+                                        <button class="btn btn-sm btn-outline-success approve-btn" data-id="${corr.id}" title="Approve & Enable Lookup">
+                                            <i class="fa-solid fa-check"></i> Approve
+                                        </button>
+                                        <button class="btn btn-sm btn-outline-danger reject-btn" data-id="${corr.id}" title="Reject">
+                                            <i class="fa-solid fa-xmark"></i> Reject
+                                        </button>
+                                    </div>
+                                `;
+                            } else {
+                                actionBtns = `<span style="font-size: 0.8rem; color: #666666;">Reviewed</span>`;
+                            }
+
+                            tr.innerHTML = `
+                                <td>
+                                    <img src="/feedback/thumbnail/${corr.id}" class="thumb-preview" alt="Biometric Thumb" onerror="this.src='/static/style.css'">
+                                </td>
+                                <td>
+                                    <strong style="color: #222222;">${corr.id}</strong>
+                                    <div style="font-size: 0.76rem; color: #4A5568;">${corr.datetime_str || ''}</div>
+                                </td>
+                                <td><span class="compare-group-badge" style="font-size: 0.85rem; padding: 2px 8px;">${corr.predicted_label}</span></td>
+                                <td><span class="compare-group-badge" style="font-size: 0.85rem; padding: 2px 8px; background: #D6E4D7; border: 1.5px solid #888888; color: #294936;">${corr.correct_label}</span></td>
+                                <td>
+                                    <code style="font-size: 0.75rem; color: #222222;">${corr.md5.substring(0, 12)}...</code>
+                                    ${knownBadge}
+                                </td>
+                                <td>${statusBadge}</td>
+                                <td>${actionBtns}</td>
+                            `;
+                            tbody.appendChild(tr);
+                        });
+
+                        document.getElementById('approved-count').textContent = approvedCount;
+
+                        // Attach button listeners
+                        document.querySelectorAll('.approve-btn').forEach(btn => {
+                            btn.addEventListener('click', () => handleApprove(btn.dataset.id));
+                        });
+                        document.querySelectorAll('.reject-btn').forEach(btn => {
+                            btn.addEventListener('click', () => handleReject(btn.dataset.id));
+                        });
+                    })
+                    .catch(err => console.error("Error loading corrections:", err));
+            }
+
+            function handleApprove(id) {
+                fetch(`/feedback/approve/${id}`, { method: 'POST' })
+                    .then(res => res.json())
+                    .then(res => {
+                        if (res.success) {
+                            loadCorrections();
+                        } else {
+                            alert('Error: ' + res.error);
+                        }
+                    });
+            }
+
+            function handleReject(id) {
+                fetch(`/feedback/reject/${id}`, { method: 'POST' })
+                    .then(res => res.json())
+                    .then(res => {
+                        if (res.success) {
+                            loadCorrections();
+                        } else {
+                            alert('Error: ' + res.error);
+                        }
+                    });
+            }
+
+            // 2. Load Model Versions
+            function loadVersions() {
+                fetch('/feedback/api/versions')
+                    .then(res => res.json())
+                    .then(data => {
+                        const tbody = document.getElementById('versions-tbody');
+                        const versions = data.versions || [];
+                        tbody.innerHTML = '';
+
+                        versions.forEach(v => {
+                            const tr = document.createElement('tr');
+                            const statusBadge = v.is_active 
+                                ? '<span class="badge-pill badge-active"><i class="fa-solid fa-circle-check"></i> Active</span>'
+                                : '<span class="badge-pill badge-archived">Archived</span>';
+
+                            const rollbackBtn = v.is_active
+                                ? '<button class="btn btn-sm btn-outline-primary" disabled style="opacity: 0.4;">Active</button>'
+                                : `<button class="btn btn-sm btn-outline-danger rollback-btn" data-version="${v.version_id}">
+                                     <i class="fa-solid fa-rotate-left"></i> Rollback
+                                   </button>`;
+
+                            tr.innerHTML = `
+                                <td>
+                                    <strong style="color: #222222;">${v.version_id}</strong>
+                                    <div style="font-size: 0.72rem; color: #4A5568;">${v.name}</div>
+                                </td>
+                                <td style="color: #222222;">${v.train_samples} samples</td>
+                                <td><strong style="color: #294936;">${v.val_accuracy}%</strong></td>
+                                <td>${statusBadge}</td>
+                                <td>${rollbackBtn}</td>
+                            `;
+                            tbody.appendChild(tr);
+                        });
+
+                        document.querySelectorAll('.rollback-btn').forEach(btn => {
+                            btn.addEventListener('click', () => handleRollback(btn.dataset.version));
+                        });
+                    });
+            }
+
+            function handleRollback(versionId) {
+                if (!confirm(`Are you sure you want to roll back the active model to version ${versionId}?`)) return;
+                fetch(`/feedback/rollback/${versionId}`, { method: 'POST' })
+                    .then(res => res.json())
+                    .then(res => {
+                        if (res.success) {
+                            alert(`Model rolled back successfully to ${versionId}!`);
+                            loadVersions();
+                        } else {
+                            alert('Rollback failed: ' + res.error);
+                        }
+                    });
+            }
+
+            // 3. Retraining Trigger & Status Polling
+            function startRetraining() {
+                const btn = document.getElementById('start-retrain-btn');
+                btn.disabled = true;
+                btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Triggering Retraining...';
+
+                fetch('/feedback/retrain', { method: 'POST' })
+                    .then(res => res.json())
+                    .then(res => {
+                        if (res.success) {
+                            pollRetrainStatus();
+                        } else {
+                            alert('Retrain request error: ' + (res.error || 'Unknown error'));
+                            btn.disabled = false;
+                            btn.innerHTML = '<i class="fa-solid fa-play"></i> Trigger Background Retraining';
+                        }
+                    });
+            }
+
+            let pollTimer = null;
+            function pollRetrainStatus() {
+                fetch('/feedback/status')
+                    .then(res => res.json())
+                    .then(status => {
+                        const pbox = document.getElementById('retrain-progress-box');
+                        const pfill = document.getElementById('retrain-progress-fill');
+                        const pstep = document.getElementById('retrain-step-text');
+                        const ppct = document.getElementById('retrain-pct-text');
+                        const pmsg = document.getElementById('retrain-msg');
+                        const btn = document.getElementById('start-retrain-btn');
+
+                        if (status.is_retraining) {
+                            pbox.style.display = 'block';
+                            pfill.style.width = `${status.progress}%`;
+                            ppct.textContent = `${status.progress}%`;
+                            pstep.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Step: ${status.step}`;
+                            pmsg.textContent = status.message;
+                            btn.disabled = true;
+                            btn.innerHTML = '<i class="fa-solid fa-arrows-rotate fa-spin"></i> Retraining in Progress...';
+
+                            if (!pollTimer) {
+                                pollTimer = setInterval(pollRetrainStatus, 1500);
+                            }
+                        } else {
+                            if (pollTimer) {
+                                clearInterval(pollTimer);
+                                pollTimer = null;
+                            }
+                            btn.disabled = false;
+                            btn.innerHTML = '<i class="fa-solid fa-play"></i> Trigger Background Retraining';
+
+                            if (status.step === 'completed') {
+                                pbox.style.display = 'block';
+                                pfill.style.width = '100%';
+                                ppct.textContent = '100%';
+                                pstep.innerHTML = '<i class="fa-solid fa-circle-check" style="color: #294936;"></i> Retraining Complete';
+                                pmsg.textContent = status.message;
+                                loadVersions();
+                            }
+                        }
+                    })
+                    .catch(err => console.error("Error polling status:", err));
+            }
+        });
+    </script>
+</body>
+</html>
